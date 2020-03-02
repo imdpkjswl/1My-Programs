@@ -1,0 +1,5 @@
+Question:
+
+Supposeyou are going to apply for admission in a college.If you got GPA 5 in SSc Exam
+,then you can apply for that college.Now give your GPA as input from the keyboard and 
+print "YES" if you can appply otherwise print "NO". 

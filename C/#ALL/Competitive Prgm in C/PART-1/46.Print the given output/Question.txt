@@ -1,0 +1,28 @@
+
+               print the given output using only loopL:
+
+                *****
+                 ***
+                  *
+                 ***
+                *****
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

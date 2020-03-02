@@ -1,0 +1,5 @@
+D:\#My Programs\C#\StringContainString\StringContainString\bin\Debug\StringContainString.exe.config
+D:\#My Programs\C#\StringContainString\StringContainString\bin\Debug\StringContainString.exe
+D:\#My Programs\C#\StringContainString\StringContainString\bin\Debug\StringContainString.pdb
+D:\#My Programs\C#\StringContainString\StringContainString\obj\Debug\StringContainString.exe
+D:\#My Programs\C#\StringContainString\StringContainString\obj\Debug\StringContainString.pdb

@@ -1,0 +1,3 @@
+Write a program which will print the summation of the given series-
+
+101+99+97+95+..........+5+3+1  =?????

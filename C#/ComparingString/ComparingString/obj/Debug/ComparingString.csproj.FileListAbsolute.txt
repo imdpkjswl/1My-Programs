@@ -1,0 +1,6 @@
+D:\#My Programs\C#\ComparingString\ComparingString\bin\Debug\ComparingString.exe.config
+D:\#My Programs\C#\ComparingString\ComparingString\bin\Debug\ComparingString.exe
+D:\#My Programs\C#\ComparingString\ComparingString\bin\Debug\ComparingString.pdb
+D:\#My Programs\C#\ComparingString\ComparingString\obj\Debug\ComparingString.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\ComparingString\ComparingString\obj\Debug\ComparingString.exe
+D:\#My Programs\C#\ComparingString\ComparingString\obj\Debug\ComparingString.pdb

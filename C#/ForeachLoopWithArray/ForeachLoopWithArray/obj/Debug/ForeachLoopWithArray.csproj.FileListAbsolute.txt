@@ -1,0 +1,6 @@
+D:\#My Programs\C#\ForeachLoopWithArray\ForeachLoopWithArray\bin\Debug\ForeachLoopWithArray.exe.config
+D:\#My Programs\C#\ForeachLoopWithArray\ForeachLoopWithArray\bin\Debug\ForeachLoopWithArray.exe
+D:\#My Programs\C#\ForeachLoopWithArray\ForeachLoopWithArray\bin\Debug\ForeachLoopWithArray.pdb
+D:\#My Programs\C#\ForeachLoopWithArray\ForeachLoopWithArray\obj\Debug\ForeachLoopWithArray.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\ForeachLoopWithArray\ForeachLoopWithArray\obj\Debug\ForeachLoopWithArray.exe
+D:\#My Programs\C#\ForeachLoopWithArray\ForeachLoopWithArray\obj\Debug\ForeachLoopWithArray.pdb

@@ -1,0 +1,2 @@
+D:\#My Programs\C#\GradeResultCheck\GradeResultCheck\bin\Debug\GradeResultCheck.exe.config
+D:\#My Programs\C#\GradeResultCheck\GradeResultCheck\obj\Debug\GradeResultCheck.csprojResolveAssemblyReference.cache

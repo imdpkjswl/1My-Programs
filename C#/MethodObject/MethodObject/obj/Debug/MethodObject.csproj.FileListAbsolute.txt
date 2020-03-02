@@ -1,0 +1,6 @@
+D:\#My Programs\C#\MethodObject\MethodObject\bin\Debug\MethodObject.exe.config
+D:\#My Programs\C#\MethodObject\MethodObject\bin\Debug\MethodObject.exe
+D:\#My Programs\C#\MethodObject\MethodObject\bin\Debug\MethodObject.pdb
+D:\#My Programs\C#\MethodObject\MethodObject\obj\Debug\MethodObject.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\MethodObject\MethodObject\obj\Debug\MethodObject.exe
+D:\#My Programs\C#\MethodObject\MethodObject\obj\Debug\MethodObject.pdb

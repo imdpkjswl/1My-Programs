@@ -1,0 +1,6 @@
+D:\#My Programs\C#\StructureDefinition\StructureDefinition\bin\Debug\StructureDefinition.exe.config
+D:\#My Programs\C#\StructureDefinition\StructureDefinition\bin\Debug\StructureDefinition.exe
+D:\#My Programs\C#\StructureDefinition\StructureDefinition\bin\Debug\StructureDefinition.pdb
+D:\#My Programs\C#\StructureDefinition\StructureDefinition\obj\Debug\StructureDefinition.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\StructureDefinition\StructureDefinition\obj\Debug\StructureDefinition.exe
+D:\#My Programs\C#\StructureDefinition\StructureDefinition\obj\Debug\StructureDefinition.pdb

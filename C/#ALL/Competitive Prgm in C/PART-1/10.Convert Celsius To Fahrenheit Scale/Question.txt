@@ -1,0 +1,4 @@
+Take temperature of Bangaluru city as input in Celsius scale from the user
+ using scanf() function and convert it to Fahreheit and print ot.
+
+[Formula: F=C(9/5)+32]

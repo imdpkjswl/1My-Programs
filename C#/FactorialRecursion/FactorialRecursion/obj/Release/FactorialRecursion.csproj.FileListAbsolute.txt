@@ -1,0 +1,5 @@
+D:\#My Programs\C#\FactorialRecursion\FactorialRecursion\bin\Release\FactorialRecursion.exe.config
+D:\#My Programs\C#\FactorialRecursion\FactorialRecursion\bin\Release\FactorialRecursion.exe
+D:\#My Programs\C#\FactorialRecursion\FactorialRecursion\bin\Release\FactorialRecursion.pdb
+D:\#My Programs\C#\FactorialRecursion\FactorialRecursion\obj\Release\FactorialRecursion.exe
+D:\#My Programs\C#\FactorialRecursion\FactorialRecursion\obj\Release\FactorialRecursion.pdb

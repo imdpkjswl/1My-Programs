@@ -1,0 +1,6 @@
+D:\#My Programs\C#\ClassMemberFunctionandEncapsulation\ClassMemberFunctionandEncapsulation\bin\Debug\ClassMemberFunctionandEncapsulation.exe.config
+D:\#My Programs\C#\ClassMemberFunctionandEncapsulation\ClassMemberFunctionandEncapsulation\bin\Debug\ClassMemberFunctionandEncapsulation.exe
+D:\#My Programs\C#\ClassMemberFunctionandEncapsulation\ClassMemberFunctionandEncapsulation\bin\Debug\ClassMemberFunctionandEncapsulation.pdb
+D:\#My Programs\C#\ClassMemberFunctionandEncapsulation\ClassMemberFunctionandEncapsulation\obj\Debug\ClassMemberFunctionandEncapsulation.exe
+D:\#My Programs\C#\ClassMemberFunctionandEncapsulation\ClassMemberFunctionandEncapsulation\obj\Debug\ClassMemberFunctionandEncapsulation.pdb
+D:\#My Programs\C#\ClassMemberFunctionandEncapsulation\ClassMemberFunctionandEncapsulation\obj\Debug\ClassMemberFunctionandEncapsulation.csprojResolveAssemblyReference.cache

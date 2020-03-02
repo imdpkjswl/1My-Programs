@@ -1,0 +1,5 @@
+D:\#My Programs\C#\ComparingString\ComparingString\bin\Release\ComparingString.exe.config
+D:\#My Programs\C#\ComparingString\ComparingString\bin\Release\ComparingString.exe
+D:\#My Programs\C#\ComparingString\ComparingString\bin\Release\ComparingString.pdb
+D:\#My Programs\C#\ComparingString\ComparingString\obj\Release\ComparingString.exe
+D:\#My Programs\C#\ComparingString\ComparingString\obj\Release\ComparingString.pdb

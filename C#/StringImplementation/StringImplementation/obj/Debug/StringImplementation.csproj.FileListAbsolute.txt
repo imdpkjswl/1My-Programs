@@ -1,0 +1,6 @@
+D:\#My Programs\C#\StringImplementation\StringImplementation\bin\Debug\StringImplementation.exe.config
+D:\#My Programs\C#\StringImplementation\StringImplementation\bin\Debug\StringImplementation.exe
+D:\#My Programs\C#\StringImplementation\StringImplementation\bin\Debug\StringImplementation.pdb
+D:\#My Programs\C#\StringImplementation\StringImplementation\obj\Debug\StringImplementation.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\StringImplementation\StringImplementation\obj\Debug\StringImplementation.exe
+D:\#My Programs\C#\StringImplementation\StringImplementation\obj\Debug\StringImplementation.pdb

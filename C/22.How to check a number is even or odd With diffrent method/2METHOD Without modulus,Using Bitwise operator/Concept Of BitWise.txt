@@ -1,0 +1,4 @@
+
+When we are converting any decimal number to binary,we always got the last 
+digit 1 in case of odd decimal number and digit 0 in case of even decimal number.
+This has come under Bitwise OPerator.

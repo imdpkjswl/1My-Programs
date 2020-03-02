@@ -1,0 +1,6 @@
+D:\#My Programs\C#\Destructor\Destructor\bin\Release\Destructor.exe.config
+D:\#My Programs\C#\Destructor\Destructor\bin\Release\Destructor.exe
+D:\#My Programs\C#\Destructor\Destructor\bin\Release\Destructor.pdb
+D:\#My Programs\C#\Destructor\Destructor\obj\Release\Destructor.exe
+D:\#My Programs\C#\Destructor\Destructor\obj\Release\Destructor.pdb
+D:\#My Programs\C#\Destructor\Destructor\obj\Release\Destructor.csprojResolveAssemblyReference.cache

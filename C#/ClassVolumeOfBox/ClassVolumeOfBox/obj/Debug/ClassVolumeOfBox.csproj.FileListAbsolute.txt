@@ -1,0 +1,6 @@
+D:\#My Programs\C#\ClassVolumeOfBox\ClassVolumeOfBox\bin\Debug\ClassVolumeOfBox.exe.config
+D:\#My Programs\C#\ClassVolumeOfBox\ClassVolumeOfBox\bin\Debug\ClassVolumeOfBox.exe
+D:\#My Programs\C#\ClassVolumeOfBox\ClassVolumeOfBox\bin\Debug\ClassVolumeOfBox.pdb
+D:\#My Programs\C#\ClassVolumeOfBox\ClassVolumeOfBox\obj\Debug\ClassVolumeOfBox.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\ClassVolumeOfBox\ClassVolumeOfBox\obj\Debug\ClassVolumeOfBox.exe
+D:\#My Programs\C#\ClassVolumeOfBox\ClassVolumeOfBox\obj\Debug\ClassVolumeOfBox.pdb

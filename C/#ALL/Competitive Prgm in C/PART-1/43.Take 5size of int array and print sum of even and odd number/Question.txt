@@ -1,0 +1,6 @@
+Take an array integer data type of size 5.scan the value from the user. 
+now print the output like the following one value in array:10 25 20 15 30 
+
+
+Sum of odd values: 40
+Sum of even values:60

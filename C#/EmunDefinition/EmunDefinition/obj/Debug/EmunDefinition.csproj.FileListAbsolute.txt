@@ -1,0 +1,6 @@
+D:\#My Programs\C#\EmunDefinition\EmunDefinition\bin\Debug\EmunDefinition.exe.config
+D:\#My Programs\C#\EmunDefinition\EmunDefinition\bin\Debug\EmunDefinition.exe
+D:\#My Programs\C#\EmunDefinition\EmunDefinition\bin\Debug\EmunDefinition.pdb
+D:\#My Programs\C#\EmunDefinition\EmunDefinition\obj\Debug\EmunDefinition.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\EmunDefinition\EmunDefinition\obj\Debug\EmunDefinition.exe
+D:\#My Programs\C#\EmunDefinition\EmunDefinition\obj\Debug\EmunDefinition.pdb

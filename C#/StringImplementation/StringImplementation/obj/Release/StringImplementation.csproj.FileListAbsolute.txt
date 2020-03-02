@@ -1,0 +1,5 @@
+D:\#My Programs\C#\StringImplementation\StringImplementation\bin\Release\StringImplementation.exe.config
+D:\#My Programs\C#\StringImplementation\StringImplementation\bin\Release\StringImplementation.exe
+D:\#My Programs\C#\StringImplementation\StringImplementation\bin\Release\StringImplementation.pdb
+D:\#My Programs\C#\StringImplementation\StringImplementation\obj\Release\StringImplementation.exe
+D:\#My Programs\C#\StringImplementation\StringImplementation\obj\Release\StringImplementation.pdb

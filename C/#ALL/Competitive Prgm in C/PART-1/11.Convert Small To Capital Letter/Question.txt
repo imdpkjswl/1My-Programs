@@ -1,0 +1,3 @@
+Take A Small Letter Alphabet as input from the user and print the
+Capital(upper case) letter version of that letter.[If user gives 
+input 'a' you should print 'A' as the results.

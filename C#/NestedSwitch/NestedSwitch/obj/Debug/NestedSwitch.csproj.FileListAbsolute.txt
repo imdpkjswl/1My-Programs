@@ -1,0 +1,6 @@
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\bin\Debug\NestedSwitch.exe.config
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\bin\Debug\NestedSwitch.exe
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\bin\Debug\NestedSwitch.pdb
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\obj\Debug\NestedSwitch.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\obj\Debug\NestedSwitch.exe
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\obj\Debug\NestedSwitch.pdb

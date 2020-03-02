@@ -1,0 +1,2 @@
+Find summation and average of all numbers which are completely divisible by 3,5,12 between
+10-500.[Like 60 is divisible by all of those].

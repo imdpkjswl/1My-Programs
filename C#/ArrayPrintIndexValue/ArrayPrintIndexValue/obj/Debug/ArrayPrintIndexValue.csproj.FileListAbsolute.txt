@@ -1,0 +1,6 @@
+D:\#My Programs\C#\ArrayPrintIndexValue\ArrayPrintIndexValue\bin\Debug\ArrayPrintIndexValue.exe.config
+D:\#My Programs\C#\ArrayPrintIndexValue\ArrayPrintIndexValue\obj\Debug\ArrayPrintIndexValue.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\ArrayPrintIndexValue\ArrayPrintIndexValue\bin\Debug\ArrayPrintIndexValue.exe
+D:\#My Programs\C#\ArrayPrintIndexValue\ArrayPrintIndexValue\bin\Debug\ArrayPrintIndexValue.pdb
+D:\#My Programs\C#\ArrayPrintIndexValue\ArrayPrintIndexValue\obj\Debug\ArrayPrintIndexValue.exe
+D:\#My Programs\C#\ArrayPrintIndexValue\ArrayPrintIndexValue\obj\Debug\ArrayPrintIndexValue.pdb

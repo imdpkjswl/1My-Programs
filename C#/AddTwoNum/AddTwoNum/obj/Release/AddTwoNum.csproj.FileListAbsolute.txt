@@ -1,0 +1,6 @@
+D:\#My Programs\C#\AddTwoNum\AddTwoNum\bin\Release\AddTwoNum.exe.config
+D:\#My Programs\C#\AddTwoNum\AddTwoNum\bin\Release\AddTwoNum.exe
+D:\#My Programs\C#\AddTwoNum\AddTwoNum\bin\Release\AddTwoNum.pdb
+D:\#My Programs\C#\AddTwoNum\AddTwoNum\obj\Release\AddTwoNum.exe
+D:\#My Programs\C#\AddTwoNum\AddTwoNum\obj\Release\AddTwoNum.pdb
+D:\#My Programs\C#\AddTwoNum\AddTwoNum\obj\Release\AddTwoNum.csprojResolveAssemblyReference.cache

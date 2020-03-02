@@ -1,0 +1,4 @@
+Devid got 65.00 on physics,83.50 on mathematics,85.75 on c programming
+and 67.50 on english.Now write a program to calculate the average of 
+his marks on 4 subjects and print it up to 2 digit after decimal point.
+[The result should look like XX.XX]

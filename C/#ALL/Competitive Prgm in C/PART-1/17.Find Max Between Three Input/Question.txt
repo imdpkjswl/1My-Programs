@@ -1,0 +1,3 @@
+Take the three integer number as input from the user using scanf() And write a program
+to find the maximum one.
+

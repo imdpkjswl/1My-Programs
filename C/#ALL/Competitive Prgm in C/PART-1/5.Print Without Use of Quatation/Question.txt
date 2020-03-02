@@ -1,0 +1,5 @@
+Que:
+
+Print "India" without quatation sign by using ascii values.
+
+[Given: a=97,d=100,i=105,I=73,n=110]

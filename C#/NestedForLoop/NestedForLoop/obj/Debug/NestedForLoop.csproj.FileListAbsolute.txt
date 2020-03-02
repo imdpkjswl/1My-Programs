@@ -1,0 +1,6 @@
+D:\#My Programs\C#\NestedForLoop\NestedForLoop\bin\Debug\NestedForLoop.exe.config
+D:\#My Programs\C#\NestedForLoop\NestedForLoop\bin\Debug\NestedForLoop.exe
+D:\#My Programs\C#\NestedForLoop\NestedForLoop\bin\Debug\NestedForLoop.pdb
+D:\#My Programs\C#\NestedForLoop\NestedForLoop\obj\Debug\NestedForLoop.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\NestedForLoop\NestedForLoop\obj\Debug\NestedForLoop.exe
+D:\#My Programs\C#\NestedForLoop\NestedForLoop\obj\Debug\NestedForLoop.pdb

@@ -1,0 +1,6 @@
+D:\#My Programs\C#\FirstDemo\FirstDemo\bin\Release\FirstDemo.exe.config
+D:\#My Programs\C#\FirstDemo\FirstDemo\bin\Release\FirstDemo.exe
+D:\#My Programs\C#\FirstDemo\FirstDemo\bin\Release\FirstDemo.pdb
+D:\#My Programs\C#\FirstDemo\FirstDemo\obj\Release\FirstDemo.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\FirstDemo\FirstDemo\obj\Release\FirstDemo.exe
+D:\#My Programs\C#\FirstDemo\FirstDemo\obj\Release\FirstDemo.pdb

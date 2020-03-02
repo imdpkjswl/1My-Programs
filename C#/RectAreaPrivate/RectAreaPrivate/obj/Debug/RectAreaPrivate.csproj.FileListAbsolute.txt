@@ -1,0 +1,6 @@
+D:\#My Programs\C#\RectAreaPrivate\RectAreaPrivate\bin\Debug\RectAreaPrivate.exe.config
+D:\#My Programs\C#\RectAreaPrivate\RectAreaPrivate\bin\Debug\RectAreaPrivate.exe
+D:\#My Programs\C#\RectAreaPrivate\RectAreaPrivate\bin\Debug\RectAreaPrivate.pdb
+D:\#My Programs\C#\RectAreaPrivate\RectAreaPrivate\obj\Debug\RectAreaPrivate.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\RectAreaPrivate\RectAreaPrivate\obj\Debug\RectAreaPrivate.exe
+D:\#My Programs\C#\RectAreaPrivate\RectAreaPrivate\obj\Debug\RectAreaPrivate.pdb

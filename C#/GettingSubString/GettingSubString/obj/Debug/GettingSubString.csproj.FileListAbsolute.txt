@@ -1,0 +1,5 @@
+D:\#My Programs\C#\GettingSubString\GettingSubString\bin\Debug\GettingSubString.exe.config
+D:\#My Programs\C#\GettingSubString\GettingSubString\bin\Debug\GettingSubString.exe
+D:\#My Programs\C#\GettingSubString\GettingSubString\bin\Debug\GettingSubString.pdb
+D:\#My Programs\C#\GettingSubString\GettingSubString\obj\Debug\GettingSubString.exe
+D:\#My Programs\C#\GettingSubString\GettingSubString\obj\Debug\GettingSubString.pdb

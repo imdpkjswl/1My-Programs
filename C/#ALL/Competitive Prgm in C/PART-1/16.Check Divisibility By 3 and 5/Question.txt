@@ -1,0 +1,3 @@
+Take an integer number as input from user and print "Yes" if the 
+number is divisible by 3 and 5.And print "No" if the number is not 
+divisile by 3 and 5.

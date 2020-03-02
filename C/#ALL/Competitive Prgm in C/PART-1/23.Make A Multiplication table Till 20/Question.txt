@@ -1,0 +1,10 @@
+Take an integer as input and print it's multiplication table up to 10.
+if user gives 5,your output should look like the following example-
+5*1=5
+5*2=10
+5*3=15
+.
+.
+.
+.
+5*10=50

@@ -1,0 +1,5 @@
+Take four integer variables a,b,c, and d.Scan the values of the variable from user 
+using scanf() function.Now print the output pf the following equation.
+
+
+(a*b) + (c*d)

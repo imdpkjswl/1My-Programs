@@ -1,0 +1,4 @@
+Write A Program which will take an integr n from the user and print all the numbers between 
+n to -32.Stop your program when user will give n=-1 as input.
+
+

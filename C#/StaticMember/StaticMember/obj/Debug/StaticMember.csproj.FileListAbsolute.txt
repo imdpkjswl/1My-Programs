@@ -1,0 +1,5 @@
+D:\#My Programs\C#\StaticMember\StaticMember\bin\Debug\StaticMember.exe.config
+D:\#My Programs\C#\StaticMember\StaticMember\bin\Debug\StaticMember.exe
+D:\#My Programs\C#\StaticMember\StaticMember\bin\Debug\StaticMember.pdb
+D:\#My Programs\C#\StaticMember\StaticMember\obj\Debug\StaticMember.exe
+D:\#My Programs\C#\StaticMember\StaticMember\obj\Debug\StaticMember.pdb

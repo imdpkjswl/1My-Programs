@@ -1,0 +1,7 @@
+Que:
+
+Take four double variable x,y,z and avg.Assign values to x,y and z
+as you want.Now calculate the average of x,y and z and assign it 
+to avg.Finally print the average value like-
+
+Average of x,y and z are : ...........

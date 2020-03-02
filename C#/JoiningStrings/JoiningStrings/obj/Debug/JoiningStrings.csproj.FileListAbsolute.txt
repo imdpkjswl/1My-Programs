@@ -1,0 +1,5 @@
+D:\#My Programs\C#\JoiningStrings\JoiningStrings\bin\Debug\JoiningStrings.exe.config
+D:\#My Programs\C#\JoiningStrings\JoiningStrings\bin\Debug\JoiningStrings.exe
+D:\#My Programs\C#\JoiningStrings\JoiningStrings\bin\Debug\JoiningStrings.pdb
+D:\#My Programs\C#\JoiningStrings\JoiningStrings\obj\Debug\JoiningStrings.exe
+D:\#My Programs\C#\JoiningStrings\JoiningStrings\obj\Debug\JoiningStrings.pdb

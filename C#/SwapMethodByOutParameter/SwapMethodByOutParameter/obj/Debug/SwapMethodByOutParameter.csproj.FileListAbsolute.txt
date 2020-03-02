@@ -1,0 +1,6 @@
+D:\#My Programs\C#\SwapMethodByOutParameter\SwapMethodByOutParameter\bin\Debug\SwapMethodByOutParameter.exe.config
+D:\#My Programs\C#\SwapMethodByOutParameter\SwapMethodByOutParameter\bin\Debug\SwapMethodByOutParameter.exe
+D:\#My Programs\C#\SwapMethodByOutParameter\SwapMethodByOutParameter\bin\Debug\SwapMethodByOutParameter.pdb
+D:\#My Programs\C#\SwapMethodByOutParameter\SwapMethodByOutParameter\obj\Debug\SwapMethodByOutParameter.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\SwapMethodByOutParameter\SwapMethodByOutParameter\obj\Debug\SwapMethodByOutParameter.exe
+D:\#My Programs\C#\SwapMethodByOutParameter\SwapMethodByOutParameter\obj\Debug\SwapMethodByOutParameter.pdb

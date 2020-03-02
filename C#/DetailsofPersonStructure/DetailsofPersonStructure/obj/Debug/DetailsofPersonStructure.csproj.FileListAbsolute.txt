@@ -1,0 +1,5 @@
+D:\#My Programs\C#\DetailsofPersonStructure\DetailsofPersonStructure\bin\Debug\DetailsofPersonStructure.exe.config
+D:\#My Programs\C#\DetailsofPersonStructure\DetailsofPersonStructure\bin\Debug\DetailsofPersonStructure.exe
+D:\#My Programs\C#\DetailsofPersonStructure\DetailsofPersonStructure\bin\Debug\DetailsofPersonStructure.pdb
+D:\#My Programs\C#\DetailsofPersonStructure\DetailsofPersonStructure\obj\Debug\DetailsofPersonStructure.exe
+D:\#My Programs\C#\DetailsofPersonStructure\DetailsofPersonStructure\obj\Debug\DetailsofPersonStructure.pdb

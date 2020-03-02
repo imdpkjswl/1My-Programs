@@ -1,0 +1,6 @@
+D:\#My Programs\C#\SwapMethodByPassingRef\SwapMethodByPassingRef\bin\Debug\SwapMethodByPassingRef.exe.config
+D:\#My Programs\C#\SwapMethodByPassingRef\SwapMethodByPassingRef\bin\Debug\SwapMethodByPassingRef.exe
+D:\#My Programs\C#\SwapMethodByPassingRef\SwapMethodByPassingRef\bin\Debug\SwapMethodByPassingRef.pdb
+D:\#My Programs\C#\SwapMethodByPassingRef\SwapMethodByPassingRef\obj\Debug\SwapMethodByPassingRef.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\SwapMethodByPassingRef\SwapMethodByPassingRef\obj\Debug\SwapMethodByPassingRef.exe
+D:\#My Programs\C#\SwapMethodByPassingRef\SwapMethodByPassingRef\obj\Debug\SwapMethodByPassingRef.pdb

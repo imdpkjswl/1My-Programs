@@ -1,0 +1,5 @@
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\bin\Release\NestedSwitch.exe.config
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\bin\Release\NestedSwitch.exe
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\bin\Release\NestedSwitch.pdb
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\obj\Release\NestedSwitch.exe
+D:\#My Programs\C#\NestedSwitch\NestedSwitch\obj\Release\NestedSwitch.pdb

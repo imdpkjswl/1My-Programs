@@ -1,0 +1,5 @@
+D:\#My Programs\C#\Constructor\Constructor\bin\Debug\Constructor.exe.config
+D:\#My Programs\C#\Constructor\Constructor\bin\Debug\Constructor.exe
+D:\#My Programs\C#\Constructor\Constructor\bin\Debug\Constructor.pdb
+D:\#My Programs\C#\Constructor\Constructor\obj\Debug\Constructor.exe
+D:\#My Programs\C#\Constructor\Constructor\obj\Debug\Constructor.pdb

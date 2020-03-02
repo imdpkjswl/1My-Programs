@@ -1,0 +1,6 @@
+D:\#My Programs\C#\RectAreaPublic\RectAreaPublic\bin\Debug\RectAreaPublic.exe.config
+D:\#My Programs\C#\RectAreaPublic\RectAreaPublic\bin\Debug\RectAreaPublic.exe
+D:\#My Programs\C#\RectAreaPublic\RectAreaPublic\bin\Debug\RectAreaPublic.pdb
+D:\#My Programs\C#\RectAreaPublic\RectAreaPublic\obj\Debug\RectAreaPublic.csprojResolveAssemblyReference.cache
+D:\#My Programs\C#\RectAreaPublic\RectAreaPublic\obj\Debug\RectAreaPublic.exe
+D:\#My Programs\C#\RectAreaPublic\RectAreaPublic\obj\Debug\RectAreaPublic.pdb

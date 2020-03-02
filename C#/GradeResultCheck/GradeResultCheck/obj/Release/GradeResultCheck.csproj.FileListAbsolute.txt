@@ -1,0 +1,5 @@
+D:\#My Programs\C#\GradeResultCheck\GradeResultCheck\bin\Release\GradeResultCheck.exe.config
+D:\#My Programs\C#\GradeResultCheck\GradeResultCheck\bin\Release\GradeResultCheck.exe
+D:\#My Programs\C#\GradeResultCheck\GradeResultCheck\bin\Release\GradeResultCheck.pdb
+D:\#My Programs\C#\GradeResultCheck\GradeResultCheck\obj\Release\GradeResultCheck.exe
+D:\#My Programs\C#\GradeResultCheck\GradeResultCheck\obj\Release\GradeResultCheck.pdb
