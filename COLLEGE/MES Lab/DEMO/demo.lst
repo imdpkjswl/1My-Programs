@@ -1,0 +1,51 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 area             demo, code, readonly
+    2 00000000                 entry
+    3 00000000         start
+    4 00000000 E3A00006        ldr              r0, = 0x00000006
+    5 00000004 E3A01002        ldr              r1, = 0x00000002
+    6 00000008 E0812000        add              r2,r1,r0
+    7 0000000C         
+    8 0000000C EAFFFFFE 
+                       stop    b                stop
+    9 00000010                 end
+Command Line: --debug --xref --apcs=interwork --depend=.\demo.d -o.\demo.o -IC:
+\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Philips --pred
+efine="__EVAL SETA 1" --list=.\demo.lst demo.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+demo 00000000
+
+Symbol: demo
+   Definitions
+      At line 1 in file demo.s
+   Uses
+      None
+Comment: demo unused
+start 00000000
+
+Symbol: start
+   Definitions
+      At line 3 in file demo.s
+   Uses
+      None
+Comment: start unused
+stop 0000000C
+
+Symbol: stop
+   Definitions
+      At line 8 in file demo.s
+   Uses
+      At line 8 in file demo.s
+Comment: stop used once
+3 symbols
+334 symbols in table

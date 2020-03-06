@@ -1,7 +1,6 @@
-#include<stdio.h>  // I/O
-#include<stdlib.h> // exit(0);
-#include<conio.h> // getch();
-#include<string.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
 
 
 
@@ -26,7 +25,7 @@ int insert_at_pos(int a[] ,int n,int item, int pos)
 
 }
 
-int delete_at_pos(int a[] ,int n,int item, int pos)
+int delete_at_pos(int a[] ,int n, int pos)
 {
     int i;
 
@@ -71,23 +70,20 @@ void print_array(int a[] , int n) // displaying an elements from an array.
 void main()
 {
     int choice,a[100],item,pos;
-    int n=0; // Taken to check whether an array is empty or not.
-
-
-    printf("*************** WELCOME ***************\n");
+    int n=0;
 
     for(;;)
     {
 
-        printf("1.Read array\n");
-        printf("2.Print array\n");
+        printf("1.Create array\n");
+        printf("2.Display array\n");
         printf("3.Insert array at pos\n");
         printf("4.Delete array at pos\n");
         printf("5.Exit\n");
 
         printf("ENTER YOUR CHOICE\n");
         scanf("%d",&choice);
-
+        system("cls");
         switch(choice)
         {
 
@@ -122,7 +118,7 @@ void main()
                     if (n == 0) // Check array is empty or not.
                         printf("Array is empty,First insert or read array\n");
                     else
-                    n=delete_at_pos(a,n,item,pos);
+                    n=delete_at_pos(a,n,pos);
 
                     break;
 
