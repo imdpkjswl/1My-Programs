@@ -69,6 +69,8 @@ class LinkedList {
                 }
                 t.setNext(n);
             }
+
+		size++;
         }
         
         
