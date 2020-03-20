@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
+
 class Node{
     private int data=0;
     private Node next=null;
     
+    //Setter
     void inData(int data){
         this.data = data;
     }
@@ -12,14 +14,14 @@ class Node{
         this.next = next;
     }
     
+    // Getter
     int getData(){
         return data;
     }
-    
+   
     Node getNext(){
         return next;
     }
-    
 }
 
 
