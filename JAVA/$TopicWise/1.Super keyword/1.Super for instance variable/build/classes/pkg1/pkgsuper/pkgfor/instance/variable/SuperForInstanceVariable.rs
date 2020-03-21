@@ -1,0 +1,3 @@
+SuperForInstanceVariable
+Animal
+Dog
