@@ -6,13 +6,15 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.security.PublicKey;
 import java.util.Random;
-
+// frame ->JPanel- ye ek class hai,jo panel facility provide karta
+// KeyListener - show the changes in code
+// ActionListener - perform action on clicking of key
 public class playGame extends JPanel implements KeyListener, ActionListener
 {
-    private int snakexlength[] = new int[750];
-    private int snakeylength[] = new int[750];
-    private int enemyxposition[]={25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,750,775,800,825,850};
-    private int enemyyposition[]={75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650};
+    private int[] snakexlength = new int[750];
+    private int[] snakeylength = new int[750];
+    private int[] enemyxposition ={25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650,675,700,725,750,775,800,825,850};
+    private int[] enemyyposition ={75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,450,475,500,525,550,575,600,625,650};
 
     private boolean left = false;
     private boolean right = false;
@@ -27,30 +29,31 @@ public class playGame extends JPanel implements KeyListener, ActionListener
     private ImageIcon snakeimage;
     private ImageIcon enemyicon;
 
-    private Random random = new Random();
+    private Random random = new Random(); // random position generate
 
-    private Timer timer;
+    private Timer timer; // snake ko move karne ke liye
 
-    private int delay =100;                                         //Used to change the speed of the snake
+    private int delay =100;  // 100ms                                        //Used to change the speed of the snake
     private int lengthofsnake=3;                                    //Default size of the snake
     private int moves=0;
     private int score=0;
-    private int xpos=random.nextInt(34);
-    private int ypos=random.nextInt(23);
+    private int xpos=random.nextInt(34); // 0 se 33 ,koi ek num select
+    private int ypos=random.nextInt(23); // 0 se 22 ke bich ,num select
 
     public playGame()
     {
-        addKeyListener(this);
+        addKeyListener(this); // defauly method hai,yahan this refer to current class.addKeyListener ko activate karta
         setFocusable(true);                             //Used to focus the components present inside the game play area i.e. snake arrays
-        setFocusTraversalKeysEnabled(false);            //Used for changing the focusabiltity of objects in the frame
-        timer = new Timer(delay, this);
+        setFocusTraversalKeysEnabled(false);//Focus on only one thing,        //Used for changing the focusabiltity of objects in the frame
+        timer = new Timer(delay, this); //this timer ko refer kar rha hai
         timer.start();
     }
 
-    public void paint(Graphics g)
+    public void paint(Graphics g) // g is object
     {
         if(moves==0)    //To check if the game has just started and set the default position of the snake
         {
+            // ye starting position hai snake ka
             snakexlength[2]=50;
             snakexlength[1]=75;
             snakexlength[0]=100;
@@ -68,7 +71,7 @@ public class playGame extends JPanel implements KeyListener, ActionListener
 
         //create title image
         titleImage=new ImageIcon("snaketitle.jpg");
-        titleImage.paintIcon(this,g,25,11);
+        titleImage.paintIcon(this,g,25,11); //
 
         //create gameplay border
         g.setColor(Color.white);
@@ -93,38 +96,38 @@ public class playGame extends JPanel implements KeyListener, ActionListener
         //DetectInitialFaceDirectionOfSnake
         for(int a=0;a<lengthofsnake;a++)
         {
-            if(a==0&right)
+            if(a==0&right)  // starting condition of snake ki snake ka head kaha hai.
             {
-                rightmouth = new ImageIcon("rightmouth.png");
+                rightmouth = new ImageIcon("rightmouth.png"); // displaying right mouth
                 rightmouth.paintIcon(this,g,snakexlength[a],snakeylength[a]);
             }
 
             if(a==0&left)
             {
-                leftmouth = new ImageIcon("leftmouth.png");
+                leftmouth = new ImageIcon("leftmouth.png"); // displaying left mouth
                 leftmouth.paintIcon(this,g,snakexlength[a],snakeylength[a]);
             }
 
             if(a==0&up)
             {
-                upmouth = new ImageIcon("upmouth.png");
+                upmouth = new ImageIcon("upmouth.png"); // displaying up mouth
                 upmouth.paintIcon(this,g,snakexlength[a],snakeylength[a]);
             }
 
             if(a==0&down)
             {
-                downmouth = new ImageIcon("rightmouth.png");
+                downmouth = new ImageIcon("downmouth.png"); // displaying down mouth
                 downmouth.paintIcon(this,g,snakexlength[a],snakeylength[a]);
             }
 
             if(a!=0)
             {
-                snakeimage = new ImageIcon("snakeimage.png");
+                snakeimage = new ImageIcon("snakeimage.png"); // displaying snake body
                 snakeimage.paintIcon(this,g,snakexlength[a],snakeylength[a]);
             }
         }
 
-        enemyicon = new ImageIcon("enemy.png");
+        enemyicon = new ImageIcon("enemy.png"); // displaying enemy body x and y position
         enemyicon.paintIcon(this,g,enemyxposition[xpos],enemyyposition[ypos]);
 
 

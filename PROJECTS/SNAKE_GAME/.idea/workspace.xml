@@ -6,7 +6,42 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99855d0a-6e15-4472-b91d-f76d9f175709" name="Default Changelist" comment="" />
+    <list default="true" id="99855d0a-6e15-4472-b91d-f76d9f175709" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/1.Second Largest &amp; Smallest Number In Array/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/1.Second Largest &amp; Smallest Number In Array/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/1.Second Largest &amp; Smallest Number In Array/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/1.Second Largest &amp; Smallest Number In Array/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/1.Second Largest &amp; Smallest Number In Array/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/1.Second Largest &amp; Smallest Number In Array/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/1.Second Largest &amp; Smallest Number In Array/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/1.Second Largest &amp; Smallest Number In Array/1.Second Largest &amp; Smallest Number In Array.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/2.Print series 2,22,222,2222/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/2.Print series 2,22,222,2222/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/2.Print series 2,22,222,2222/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/2.Print series 2,22,222,2222/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/2.Print series 2,22,222,2222/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/2.Print series 2,22,222,2222/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/2.Print series 2,22,222,2222/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/2.Print series 2,22,222,2222/2.Print series 2,22,222,2222.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/3.Finding missing elements in sequential array/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/3.Finding missing elements in sequential array/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/3.Finding missing elements in sequential array/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/3.Finding missing elements in sequential array/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/3.Finding missing elements in sequential array/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/3.Finding missing elements in sequential array/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/3.Finding missing elements in sequential array/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GROUP CODING(DJ &amp; AB)/3.Finding missing elements in sequential array/3.Finding missing elements in sequential array.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVA/@PROBLEMs/GPA Calculator for VTU/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVA/@PROBLEMs/GPA Calculator for VTU/.idea/GPA Calculator for VTU.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVA/@PROBLEMs/GPA Calculator for VTU/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVA/@PROBLEMs/GPA Calculator for VTU/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVA/@PROBLEMs/GPA Calculator for VTU/gpa calculator/gpa calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/#NEW2020/method_overloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVA/#NEW2020/method_overloading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snakeGame.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +54,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1ZQuQA7UryBDMQlPf3NKWMYsHaj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +66,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,26 +103,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1584783674362" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1584791779600">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1584904134520">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584791779600" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1584791779600">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584904134520" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1584904134520">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584791779600" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1584791779600">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584904134520" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1584904134520">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584791779600" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1584791779600">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584904134520" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1584904134520">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584791779600" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584904134520" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1584791656414">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1584791656414" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1584900652985">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1584900652985" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SNAKE$snakeGame.ic" NAME="snakeGame Coverage Results" MODIFIED="1584791531284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
