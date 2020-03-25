@@ -14,8 +14,22 @@ public class Main {
         for(i=0;i<n;i++)
             arr[i] = in.nextInt();
 
-        for(i=0;i<n;i++){
+        // Without using any sorting algorithm
+        j=0;
+        for(i=0;i<n;i++)
+            if(arr[i] == 0 )
+                sarr[j++] = arr[i];
 
-        }
+        for(i=0;i<n;i++)
+            if(arr[i] == 1 )
+                sarr[j++] = arr[i];
+
+        for(i=0;i<n;i++)
+            if(arr[i] == 2 )
+                sarr[j++] = arr[i];
+
+            for(i=0;i<n;i++){
+                System.out.print(sarr[i]+"  ");
+            }
     }
 }
