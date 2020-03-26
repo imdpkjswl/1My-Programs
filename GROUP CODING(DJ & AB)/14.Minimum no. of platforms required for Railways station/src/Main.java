@@ -91,5 +91,25 @@ public class Main {
         n = n+m;
         int count=0;
 
+        for(i=0;i<n;i++)
+            System.out.println(res[i]);
+
+     // Last sub Question rose:   1  0  1  1  1  0  0  0  1  1  0  0
+
+        temp = 0;
+        for(i=0; i<n; i++){
+
+            if(res[i] == 0 ){
+                count++;
+            }else{
+                count=0;
+            }
+
+            if(count > temp){
+                temp = count ;
+            }
+        }
+
+        System.out.println("Minimum platform required: "+temp);
     }
 }
