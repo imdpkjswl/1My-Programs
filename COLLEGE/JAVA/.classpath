@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="1.Stack Implementation/src"/>
+	<classpathentry kind="src" path="2.Demo Java/src"/>
+	<classpathentry kind="src" path="3.Object and Class(Single)/src"/>
+	<classpathentry kind="src" path="4.Multiple class/src"/>
+	<classpathentry kind="src" path="5.Nested Method/src"/>
+	<classpathentry kind="src" path="6.CommandLine Argument/src"/>
+	<classpathentry kind="src" path="7.SumOfArrayUsingCommandLine/src"/>
+	<classpathentry kind="src" path="8.For Each Loop/src"/>
+	<classpathentry kind="src" path="Exception Handling/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Exception Handling/out/production/Exception Handling"/>
+</classpath>
