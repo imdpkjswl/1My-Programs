@@ -36,8 +36,18 @@ public class Main {
         String []arr = new String[n];
 
         for(i=0;i<n;i++)
-            arr[i]= in.next();
+            arr[i] = in.next();
+                                        //arr[i]= in.next().charAt(0); This is used to take only one character
 
+
+
+        for(i = 0; i <n ; i++){// while counting characters if less than the length add one
+
+            char ch = arr[i].charAt(i);
+            int asc = (int) ch;
+
+            System.out.println(ch+ " = "+ asc); // print the character and it's value in ascii
+        }
 
 
     }
