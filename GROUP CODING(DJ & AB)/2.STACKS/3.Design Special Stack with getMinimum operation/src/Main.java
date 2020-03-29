@@ -2,49 +2,60 @@ import java.util.Scanner;
 
 
 class STACK {
-
     Scanner in = new Scanner(System.in);
-    int n=20;
-
+    int n=10;
     int []st = new int[n];
-    int item;
-    static int top = -1;
-    static int r =0;
+    int top = -1;
 
-    /* This method is working for small size of stack
-    void reverse(int size){
-        if((size/2) == 0)
+
+    // for special stack
+    int []m = new int[50];
+    int top1 = -1;
+
+    void getMin(){
+        if(isEmpty()){
+            System.out.println("Stack is Empty");
             return;
-
-        int temp1, temp2;
-        temp1 = st[r]; // start
-        temp2 = st[size]; // end
-
-        st[size] = temp1;
-        st[r] = temp2;
-
-        r++;
-        reverse(size-1);
-
+        }
+        System.out.println("Minimum element in actual stack is:  "+m[top1]);
     }
 
-    void stackReverse(){
-        int size = top;
-        reverse(size);
-    }
-*/
-
-    // By using another array,we are reversing stack recursively
-    int []temp = new int[50];
-    int size =0;
-    void stackReverse(){
-        if(top == -1)
+    public void push(int item) {
+        if(isFull()){
+            System.out.println("Stack is full");
             return;
-        temp[r++] = st[top];
-        pop();
-        stackReverse();
-        push(temp[size++]);
+        }
+        else {
+            st[++top] = item;
+
+            if(top == 0){
+                m[++top1] = item;
+                return;
+            }
+
+            if(m[top1] > st[top]){
+                m[++top1] = st[top];
+            }
+        }
+
     }
+
+    public void pop(){
+        if(isEmpty()){
+            System.out.println("Stack is Empty");
+            return;
+        }
+        else {
+            System.out.println(st[top]+" is deleted");
+            if(m[top1] == st[top]){
+                top1--;
+            }
+
+            top--;
+
+        }
+    }
+
 
     boolean isFull(){
         if(top == n-1)
@@ -60,26 +71,6 @@ class STACK {
             return false;
     }
 
-    public void push(int item) {
-        if(isFull()){
-            System.out.println("Stack is full");
-            return;
-        }
-        else {
-            st[++top] = item;
-        }
-    }
-
-
-    public void pop(){
-        if(isEmpty()){
-            System.out.println("Stack is Empty");
-            return;
-        }
-        else {
-            top--;
-        }
-    }
 
     public void display()
     {
@@ -112,7 +103,7 @@ public class Main {
         for(;;)
         {
 
-            System.out.println("1.Push\n2.Display\n3.Reverse\n4.Exit\nEnter your choice");
+            System.out.println("1.Push\n2.Pop\n3.Display\n4.Get minimum element\n5.Exit\nEnter your choice");
             ch = in.nextInt();
 
 
@@ -125,14 +116,18 @@ public class Main {
                     break;
 
                 case 2:
-                    obj.display();
+                    obj.pop();
                     break;
 
                 case 3:
-                    obj.stackReverse();
+                    obj.display();
                     break;
 
                 case 4:
+                    obj.getMin();
+                    break;
+
+                case 5:
                     System.exit(0);
                     break;
 
