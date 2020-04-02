@@ -1,0 +1,1 @@
+.\addarray.o: addArray.s

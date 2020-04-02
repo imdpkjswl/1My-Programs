@@ -1,0 +1,61 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 area             factorial, code, readonly
+    2 00000000                 entry
+    3 00000000         start
+    4 00000000 E3A00001        mov              r0, #1
+    5 00000004 E3A01003        mov              r1, #3
+    6 00000008         loop
+    7 00000008 E0000091        mul              r0, r1, r0
+    8 0000000C E2411001        sub              r1, #1
+    9 00000010 1AFFFFFC        bne              loop
+   10 00000014 EAFFFFFE 
+                       stop    b                stop
+   11 00000018                 end
+Command Line: --debug --xref --apcs=interwork --depend=.\factorial.d -o.\factor
+ial.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Phil
+ips --predefine="__EVAL SETA 1" --list=.\factorial.lst factorial.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+factorial 00000000
+
+Symbol: factorial
+   Definitions
+      At line 1 in file factorial.s
+   Uses
+      None
+Comment: factorial unused
+loop 00000008
+
+Symbol: loop
+   Definitions
+      At line 6 in file factorial.s
+   Uses
+      At line 9 in file factorial.s
+Comment: loop used once
+start 00000000
+
+Symbol: start
+   Definitions
+      At line 3 in file factorial.s
+   Uses
+      None
+Comment: start unused
+stop 00000014
+
+Symbol: stop
+   Definitions
+      At line 10 in file factorial.s
+   Uses
+      At line 10 in file factorial.s
+Comment: stop used once
+4 symbols
+335 symbols in table

@@ -1,0 +1,81 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 area             addArray, code, readonly
+    2 00000000                 entry
+    3 00000000         start
+    4 00000000 E3A00000        mov              r0, #0
+    5 00000004 E59F1028        ldr              r1, = table
+    6 00000008 E3A02006        mov              r2, #6
+    7 0000000C         loop
+    8 0000000C E0D130B2        ldrh             r3, [r1], #2
+    9 00000010 E0800003        add              r0,r0, r3
+   10 00000014 E2522001        subs             r2, r2, #1
+   11 00000018 1AFFFFFB        bne              loop
+   12 0000001C         
+   13 0000001C E59F1014        ldr              r1, = 0x40000080
+   14 00000020 E5810000        str              r0, [r1]
+   15 00000024 EAFFFFFE 
+                       stop    b                stop
+   16 00000028 11 11 22 
+              22 33 33 
+              44 44 55 
+              55 66 66 table   dcw              0x1111,0x2222,0x3333,0x4444,0x5
+555,0x6666
+   17 00000034                 end
+              00000000 
+              40000080 
+Command Line: --debug --xref --apcs=interwork --depend=.\addarray.d -o.\addarra
+y.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\Philip
+s --predefine="__EVAL SETA 1" --list=.\addarray.lst addArray.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+addArray 00000000
+
+Symbol: addArray
+   Definitions
+      At line 1 in file addArray.s
+   Uses
+      None
+Comment: addArray unused
+loop 0000000C
+
+Symbol: loop
+   Definitions
+      At line 7 in file addArray.s
+   Uses
+      At line 11 in file addArray.s
+Comment: loop used once
+start 00000000
+
+Symbol: start
+   Definitions
+      At line 3 in file addArray.s
+   Uses
+      None
+Comment: start unused
+stop 00000024
+
+Symbol: stop
+   Definitions
+      At line 15 in file addArray.s
+   Uses
+      At line 15 in file addArray.s
+Comment: stop used once
+table 00000028
+
+Symbol: table
+   Definitions
+      At line 16 in file addArray.s
+   Uses
+      At line 5 in file addArray.s
+Comment: table used once
+5 symbols
+338 symbols in table
