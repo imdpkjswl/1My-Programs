@@ -16,9 +16,9 @@ class person{
 }
 
 class personStack{
-    private person [] stack; // person type data.
-    private int top;
-    private int size;
+        private person [] stack; // person type data.
+        private int top;
+        private int size;
 
     personStack(){
         top = -1;
