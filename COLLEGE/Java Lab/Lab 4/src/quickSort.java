@@ -59,7 +59,7 @@ class quickSort
         return loc;
     }
 
-    static void SortQuick(int a[], int beg, int end)
+    static void SortQuick(int []a, int beg, int end)
     {
 
         int loc;
