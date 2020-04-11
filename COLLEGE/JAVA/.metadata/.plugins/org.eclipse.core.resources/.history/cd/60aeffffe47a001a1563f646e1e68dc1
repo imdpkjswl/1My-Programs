@@ -1,0 +1,7 @@
+import java.applet.*;
+import java.awt.*;
+
+public class myApplet extends Applet{
+
+	
+}

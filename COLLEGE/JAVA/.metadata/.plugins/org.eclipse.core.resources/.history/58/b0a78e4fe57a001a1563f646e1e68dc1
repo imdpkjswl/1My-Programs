@@ -1,0 +1,28 @@
+import java.applet.*;
+import java.awt.*; // abstract windows toolkit
+
+public class myApplet extends Applet{
+
+	String msg = "Applet demo";
+	public void init()
+	{
+		setBackground(Color.blue);
+		setForeground(Color.GREEN);
+	}
+	
+	public void start()
+	{
+		
+	}
+	
+	public void paint(Graphics g)
+	{
+		g.drawString(msg,50,100);
+		g.drawLine(50, 110, 150, 110);
+	}
+	
+	public void stop()
+	{
+		
+	}
+}

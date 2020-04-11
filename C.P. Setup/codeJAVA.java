@@ -1,18 +1,27 @@
-import java.io.*;
-import java.util.*;
+
+
+import javax.swing.*;
 
 class codeJAVA {
-	public static void main(String []args) throws Exception {
 
+	public static void main(String[] args) {
+		
+		JFrame jf = new JFrame("My Frame");
+		
+		JRadioButton jr1 = new JRadioButton("Male");
+		jr1.setBounds(50, 100, 70, 30);
+		jf.add(jr1);
+		
+		JRadioButton jr2 = new JRadioButton("Female");
+		jr2.setBounds(50,140,70,30);
+		jf.add(jr2);
+		
+		ButtonGroup bg = new ButtonGroup();
+		bg.add(jr1);
+		bg.add(jr2);
+		
+		
 
-		// pass the path to the file as a parameter 
-    	FileReader inputFile;
-
-        inputFile = new FileReader("input.txt"); 
-  
-    	int i; 
-    	while ((i=inputFile.read()) != -1)System.out.print((char) i); 
-
-		System.out.println("Hello World!!!");
 	}
+
 }
