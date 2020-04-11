@@ -14,7 +14,7 @@ public class Main {
         }
     }
 
-
+/*
     static int partition(int a[], int start, int end) {
 
         int left, right, temp, loc, flag;
@@ -54,6 +54,34 @@ public class Main {
         }
         return loc;
     }
+*/
+    static void swap(int []a,int i,int []b,int j){
+        int temp = a[i];
+        a[i] = b[j];
+        b[j] = temp;
+    }
+
+    static int partition(int []a, int lb, int ub){
+        int pivot, start, end;
+        pivot = a[lb];
+        start = lb;
+        end = ub;
+
+        while(start < end) {
+            while (a[start] <= pivot) {
+                start++;
+            }
+            while (a[end] > pivot) {
+                end--;
+            }
+            if (start < end) {
+                swap(a, start, a, end);
+            }
+        }
+        swap(a, lb, a, end);
+        return end;
+    }
+
 
     static void SortQuick(int []a, int start, int end) {
 
