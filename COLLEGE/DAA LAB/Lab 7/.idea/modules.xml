@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lab 6a.iml" filepath="$PROJECT_DIR$/Lab 6a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dijkstra algorithm shortest path.iml" filepath="$PROJECT_DIR$/Dijkstra algorithm shortest path.iml" />
     </modules>
   </component>
 </project>
