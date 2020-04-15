@@ -1,6 +1,4 @@
 #include<bits/stdc++.h>
-using namespace std;
-
 #define INPUT_OUTPUT { \
 	freopen("input.txt", "r", stdin); \
 	freopen("output.txt", "w", stdout);\
@@ -33,26 +31,27 @@ outputCopy
 0
 */
 
+#include<bits/stdc++.h>
+using namespace std;
 
 int main()
 {
+
 	INPUT_OUTPUT;
 
-	int n,a, b,count;
+	int n,a, b,count=0;
 	 cin>>n;
-
 
 	 for(int j=1;j<=n;j++) {
 	 	count=0;
 	 	cin>>a>>b;
 	 	while(1) {
 	 
-	 		if((a%b) == 0) {
+	 		if((a % b) == 0) {
 	 			cout<<count<<endl;
 	 			count = 0;
 	 			break;
 	 		}
-	 	
 	 		a++;
 	 		count++;
 	 	}

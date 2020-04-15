@@ -64,8 +64,8 @@ class binarySearchTree {
 
             /* use the larger one */
             if (dLeft > dRight)
-                return(dLeft + 1);
-            else return(dRight + 1);
+                return(dLeft+1 );
+            else return(dRight+1);
     }
 
 
@@ -93,10 +93,10 @@ public class depth{
                     System.out.println();
                     break;
 
-                case 3:
+                case 3: // Height = Level+1
                     if(root==null){ System.out.println("Tree is Empty"); break; }
-                    System.out.println("Height of tree:  "+tree.maxDepth(root));
-                    System.out.println("Level of tree:   "+(tree.maxDepth(root)+1));
+                    System.out.println("Max Height of tree:  "+(tree.maxDepth(root)-1));
+                    System.out.println("Max Level of tree:   "+(tree.maxDepth(root)));
                     break;
 
                 case 4:
