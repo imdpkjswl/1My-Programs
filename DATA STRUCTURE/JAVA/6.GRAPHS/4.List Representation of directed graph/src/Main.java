@@ -5,8 +5,7 @@ class Main
 {
     // A utility function to add an edge in an undirected graph
     static void addEdge(ArrayList<ArrayList<Integer> > graph, int u, int v) {
-        graph.get(u).add(v); // For directed graph
-        graph.get(v).add(u); // For undirected graph
+        graph.get(u).add(v); // For directed graph: Only inserting directed edges.,Here u is starting node and v is ending edge.
     }
 
 
@@ -26,20 +25,20 @@ class Main
     {
         // Creating a graph with 5 vertices
         int V = 5;
-        // ArrayList<ArrayList<Integer> > graph = new ArrayList<ArrayList<Integer>>(V); Normal definition.
         ArrayList<ArrayList<Integer> > graph = new ArrayList<>(V);
 
         for (int i = 0; i < V; i++)
             graph.add(new ArrayList<>());    // Allocating memory for list array.
 
         addEdge(graph,0,1);
-        addEdge(graph,0,2);
-        addEdge(graph,0,3);
+        addEdge(graph,1,3);
         addEdge(graph,1,4);
-        addEdge(graph,4,3);
-        addEdge(graph,3,2);
+        addEdge(graph,2,0);
+        addEdge(graph,2,1);
+        addEdge(graph,2,3);
+        addEdge(graph,3,0);
+        addEdge(graph,3,4);
 
-        System.out.println("The Adjacency List For Undirected Graph: ");
         printGraph(graph);
     }
 }
