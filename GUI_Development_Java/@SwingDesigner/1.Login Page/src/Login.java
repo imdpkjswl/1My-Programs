@@ -30,6 +30,7 @@ public class Login {
 				try {
 					Login window = new Login();
 					window.frame.setVisible(true);
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -50,7 +51,8 @@ public class Login {
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setLayout(null);
-		
+		frame.setSize(700,500);   // Setting windown size
+        frame.setLayout(null);
 		
 		
 		JLabel userName = new JLabel("User Name:");
