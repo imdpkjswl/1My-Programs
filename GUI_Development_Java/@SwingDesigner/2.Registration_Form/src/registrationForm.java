@@ -57,6 +57,7 @@ public class registrationForm {
 		frame.getContentPane().setFont(new Font("Arial Black", Font.PLAIN, 11));
 		frame.getContentPane().setForeground(Color.GRAY);
 		frame.setBounds(100, 100, 821, 601);
+		frame.setResizable(false); // Used to restrict window to resize. 
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
