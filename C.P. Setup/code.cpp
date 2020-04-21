@@ -1,9 +1,10 @@
-#include<bits/stdc++.h>
+/*
 #define INPUT_OUTPUT { \
 	freopen("input.txt", "r", stdin); \
 	freopen("output.txt", "w", stdout);\
 }
-/*  #ifndef ONLINE_JUDGE
+OR
+  #ifndef ONLINE_JUDGE
 	   freopen("input.txt", "r", stdin);
 	   freopen("output.txt", "w", stdout);
     #endif  */  
@@ -37,30 +38,23 @@ using namespace std;
 int main()
 {
 
-	INPUT_OUTPUT;
+//	INPUT_OUTPUT;
 
-	int n,a, b,count=0;
-	 cin>>n;
+	int n, a, b, count=0;
+	 cin >> n;
 
-	 for(int j=1;j<=n;j++) {
-	 	count=0;
-	 	cin>>a>>b;
-	 	while(1) {
-	 
+	 for(int j=1; j<=n; j++) {
+	 	count = 0;
+	 	cin >> a >> b;
+	 	while(true) {
 	 		if((a % b) == 0) {
-	 			cout<<count<<endl;
+	 			cout << count << endl;
 	 			count = 0;
 	 			break;
 	 		}
 	 		a++;
 	 		count++;
 	 	}
-	} 	
-	 
+	} 		 
 	return 0;
 }
-
-
-
-
-
