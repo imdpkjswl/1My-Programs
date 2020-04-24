@@ -1,0 +1,96 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+
+public class calc {
+	
+	Double fn;
+	String Operations;
+
+	private JFrame frame;
+	private JTextField ans;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					calc window = new calc();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public calc() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 757, 497);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JButton b9 = new JButton("9");
+		b9.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				ans = b9.getText();
+			}
+		});
+		b9.setBounds(43, 123, 89, 23);
+		frame.getContentPane().add(b9);
+		
+		JButton b8 = new JButton("8");
+		b8.setBounds(184, 123, 89, 23);
+		frame.getContentPane().add(b8);
+		
+		JButton b7 = new JButton("7");
+		b7.setBounds(332, 123, 89, 23);
+		frame.getContentPane().add(b7);
+		
+		JButton bplus = new JButton("+");
+		bplus.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				fn = Double.parseDouble(ans.getText());
+				
+				ans.setText("");
+				Operations = "+";
+			}
+		});
+		bplus.setBounds(591, 123, 89, 23);
+		frame.getContentPane().add(bplus);
+		
+		ans = new JTextField();
+		ans.setBounds(43, 34, 378, 31);
+		frame.getContentPane().add(ans);
+		ans.setColumns(10);
+		
+		JButton bminus = new JButton("-");
+		bminus.setBounds(591, 179, 89, 23);
+		frame.getContentPane().add(bminus);
+		
+		JButton bmul = new JButton("x");
+		bmul.setBounds(591, 234, 89, 23);
+		frame.getContentPane().add(bmul);
+		
+		JButton bdiv = new JButton("/");
+		bdiv.setBounds(591, 288, 89, 23);
+		frame.getContentPane().add(bdiv);
+	}
+}
