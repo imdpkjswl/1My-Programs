@@ -19,4 +19,8 @@ fun main(){
 
     val state:String = "The Parameter of circle :  "
     println(state+"  "+res); // println("$state  $res");
+
+    // Automatic data type allocation:
+    var temp = "This is auto detected data type..."
+    println(temp)
 }
