@@ -7,7 +7,8 @@ fun main(){
     val scan = Scanner(System.`in`)
 
     println("Enter a number: ")
-    val num1 = scan.nextFloat()
+    //val num1 = scan.nextFloat()   ::: Java style method using interOperation Facility
+    val num1 = Integer.valueOf(readLine()) // ::: Kotlin style method
     println("Enter another name: ")
     val num2 = scan.nextFloat()
 
