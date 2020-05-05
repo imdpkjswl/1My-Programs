@@ -19,8 +19,7 @@ class utility{
 		}
 		
 		arr[++top] =   item;
-		System.out.println(item + " is pushed");
-		 
+		System.out.println(item + " is pushed");	 
 	}
 	
 	public void pop(){
