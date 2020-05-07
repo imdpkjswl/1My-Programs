@@ -7,10 +7,10 @@ class Main {
         Scanner in  = new Scanner(System.in);
 
         System.out.println("Please enter first number(Nr):");
-        int Nr = in.nextInt();
+        float Nr = in.nextFloat();
 
         System.out.println("Please enter second number(Dr):");
-        int Dr = in.nextInt();
+        float Dr = in.nextFloat();
 
         try{
             new Main().doDivide(Nr,Dr);
@@ -19,7 +19,7 @@ class Main {
         }
     }
 
-    public void doDivide(int a,int b) throws Exception{
+    public void doDivide(float a, float b) {
         float res = a/b;
         System.out.println("Division results of "+a+"/"+b+" = " +res);
     }
