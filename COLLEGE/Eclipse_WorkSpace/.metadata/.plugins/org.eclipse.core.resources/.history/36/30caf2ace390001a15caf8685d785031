@@ -1,0 +1,84 @@
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JTextField;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JCheckBox;
+import javax.swing.JButton;
+import java.awt.Font;
+
+
+public class Form extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField tn;
+	private JTextField ta;
+	private JTextField tp;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Form frame = new Form();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Form() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 720, 513);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		tn = new JTextField();
+		tn.setFont(new Font("Tahoma", Font.BOLD, 16));
+		tn.setBounds(206, 35, 256, 31);
+		contentPane.add(tn);
+		tn.setColumns(10);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"CSE", "ISE", "ECE"}));
+		comboBox.setBounds(206, 97, 199, 31);
+		contentPane.add(comboBox);
+		
+		JCheckBox chckbxNewCheckBox = new JCheckBox("Male");
+		chckbxNewCheckBox.setBounds(206, 162, 97, 23);
+		contentPane.add(chckbxNewCheckBox);
+		
+		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("Female");
+		chckbxNewCheckBox_1.setBounds(324, 162, 97, 23);
+		contentPane.add(chckbxNewCheckBox_1);
+		
+		ta = new JTextField();
+		ta.setFont(new Font("Segoe UI Black", Font.BOLD, 16));
+		ta.setBounds(206, 235, 256, 50);
+		contentPane.add(ta);
+		ta.setColumns(10);
+		
+		tp = new JTextField();
+		tp.setBounds(206, 324, 122, 31);
+		contentPane.add(tp);
+		tp.setColumns(10);
+		
+		JButton btnNewButton = new JButton("Submit");
+		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 16));
+		btnNewButton.setBounds(479, 399, 106, 23);
+		contentPane.add(btnNewButton);
+	}
+}
