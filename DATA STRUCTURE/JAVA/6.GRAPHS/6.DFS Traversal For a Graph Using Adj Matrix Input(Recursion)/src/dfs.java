@@ -21,13 +21,13 @@ class dfs {
 
     static void dfsTraversal(int start)
     {
-        int j;
+        int i;
         System.out.print(start+"  ");
         visited[start]=1;
 
-        for(j=1; j<=n; j++)
-            if(visited[j]==0  && mat[start][j] == 1)
-                dfsTraversal(j);
+        for(i=1; i<=n; i++)
+            if(visited[i]==0  && mat[start][i] == 1)
+                dfsTraversal(i);
     }
 
     public static void main(String[] args){

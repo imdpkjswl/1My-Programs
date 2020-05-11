@@ -14,16 +14,16 @@ class bfs {
     }
 
     static void bfsTraversal(int start){
-        int i, cur;
+        int i, x;
         visited[start] = 1;
         que[++rear] = start;
         System.out.print("The BFS Traversal: \n"+start+"  ");
 
         while(front!=rear){
-            cur = que[++front]; // cur contain row of matrix
+            x = que[++front]; // cur contain row of matrix
 
             for(i=1;i<=n;i++){
-                if(mat[cur][i] == 1 && (visited[i] == 0)){
+                if(mat[x][i] == 1 && (visited[i] == 0)){
                     que[++rear] = i;
                     visited[i] = 1;
                     System.out.print(que[rear]+"  ");
