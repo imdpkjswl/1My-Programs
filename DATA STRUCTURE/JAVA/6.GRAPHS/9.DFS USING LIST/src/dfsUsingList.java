@@ -1,6 +1,6 @@
 import java.util.*;
 
-class bfsUsingList {
+class dfsUsingList {
     // A utility function to add an edge in an undirected graph
     static void addEdge(ArrayList<ArrayList<Integer>> graph, int u, int v) {
         graph.get(u).add(v); // For directed graph
@@ -22,7 +22,7 @@ class bfsUsingList {
     }
 
 
-    static void bfs(ArrayList<ArrayList<Integer>> graph, int start){
+    static void dfs(ArrayList<ArrayList<Integer>> graph, int start){
         int []q  = new int[20];
         boolean []visited = new boolean[20];
 
@@ -47,14 +47,13 @@ class bfsUsingList {
 
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         // Creating a graph with 'V' vertices
         System.out.println("Enter the number of vertices:");
         int V = in.nextInt();
-        // ArrayList<ArrayList<Integer> > graph = new ArrayList<ArrayList<Integer>>(V); Normal definition.
-        ArrayList<ArrayList<Integer> > graph = new ArrayList<>(V); // initialized only main list of V size
+
+        ArrayList<ArrayList<Integer>> graph = new ArrayList<>(V); // initialized only main list of V size
 
         for (int i = 0; i < V; i++)
             graph.add(new ArrayList<>());    // Allocating memory for sub-list array.
@@ -81,6 +80,6 @@ class bfsUsingList {
         System.out.println("Enter the starting vertex:");
         int start = in.nextInt();
         System.out.println("The BFS Traversal is:");
-        bfs(graph, start);
+        dfs(graph, start);
     }
 }
