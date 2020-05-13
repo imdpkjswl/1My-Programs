@@ -71,7 +71,7 @@ public class removeVertex {
         addEdge(4,3);
         display();
 
-        deleteVertex(0);
+        deleteVertex(4);
         display();
     }
 }
