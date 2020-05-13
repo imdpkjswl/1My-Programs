@@ -9,8 +9,7 @@ class dfsUsingList {
 
 
     // A utility function to print the adjacency list
-    static void printGraph(ArrayList<ArrayList<Integer> > graph)
-    {
+    static void printGraph(ArrayList<ArrayList<Integer> > graph) {
         for (int i = 0; i < graph.size(); i++) {  // Row of list
             System.out.print(i+":  ");
 
@@ -23,26 +22,27 @@ class dfsUsingList {
 
 
     static void dfs(ArrayList<ArrayList<Integer>> graph, int start){
-        int []q  = new int[20];
         boolean []visited = new boolean[20];
-
-
-        int x, r = -1, f = -1;
-        q[++r] = start;
+        Stack<Integer> st = new Stack<>();
+        st.push(start);
+        System.out.print(st.peek()+"  ");
         visited[start] = true;
+        int x;
 
+        while(!st.isEmpty()) {  // only for printing queue items
+            x = st.pop(); // row index of list
 
-        while(r != f) {  // only for printing queue items
-            for(int i = 0; i < graph.size(); i++) {
-                x = q[++f]; // row index of list
-                System.out.print(q[f]+"  ");
                 for (int j = 0; j < graph.get(x).size(); j++) { // x index sub-list size
-                    if(!visited[graph.get(x).get(j)]) {
-                        q[++r] = graph.get(x).get(j);  //  Assigning sub-list values into queue.
+                    if (!visited[graph.get(x).get(j)]) {
+                        st.push(graph.get(x).get(j));   //  Assigning sub-list values into stack.
                         visited[graph.get(x).get(j)] = true;// making list values to be visited.
+                        x =st.peek();
+                        System.out.print(x + "  ");
+                        j = -1;
+
                     }
                 }
-            }
+
         }
 
     }
@@ -57,7 +57,7 @@ class dfsUsingList {
 
         for (int i = 0; i < V; i++)
             graph.add(new ArrayList<>());    // Allocating memory for sub-list array.
-/*
+/**
         System.out.println("Enter the number of edges:");
         int e = in.nextInt();
         for(int i=1;i<=e;i++){
@@ -66,20 +66,23 @@ class dfsUsingList {
             System.out.println("Enter ending vertex:");
             int v = in.nextInt();
             addEdge(graph,u,v);
-        }   */
+        }
+*/
 
+
+        addEdge(graph,0,1);
         addEdge(graph,0,2);
-        addEdge(graph,0,3);
-        addEdge(graph,1,4);
-        addEdge(graph,4,3);
-        addEdge(graph,3,2);
+        addEdge(graph,1,3);
+        addEdge(graph,2,3);
+        addEdge(graph,2,4);
+        addEdge(graph,3,4);
 
         System.out.println("The Adjacency List For Undirected Graph: ");
         printGraph(graph);
 
         System.out.println("Enter the starting vertex:");
         int start = in.nextInt();
-        System.out.println("The BFS Traversal is:");
+        System.out.println("The DFS Traversal is:");
         dfs(graph, start);
     }
 }
