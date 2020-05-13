@@ -1,0 +1,2 @@
+//Collections.copy(revGraph,graph); // This method is used to copy any list to another list
+                //revGraph.get(i).add(graph.get(i).get(j));// Another method to copy a list into another list
