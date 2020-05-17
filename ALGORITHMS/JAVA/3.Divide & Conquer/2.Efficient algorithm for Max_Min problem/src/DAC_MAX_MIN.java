@@ -1,5 +1,3 @@
-// Code to demonstrate Divide and Conquer Algorithm
-// function to find the maximum no. in a given array.
 
 public class DAC_MAX_MIN {
 
@@ -10,7 +8,6 @@ public class DAC_MAX_MIN {
     static void findMinAndMax(int arr[], int low, int high)
     {
         // if array contains only one element
-
         if (low == high)            // common comparison
         {
             if (max < arr[low])     // comparison 1
@@ -23,7 +20,6 @@ public class DAC_MAX_MIN {
         }
 
         // if array contains only two elements
-
         if (high - low == 1)            // common comparison
         {
             if (arr[low] < arr[high])    // comparison 1
@@ -34,7 +30,7 @@ public class DAC_MAX_MIN {
                 if (max < arr[high])    // comparison 3
                     max = arr[high];
             }
-            else
+            else /** Main Logic started from here */
             {
                 if (min > arr[high])    // comparison 2
                     min = arr[high];
