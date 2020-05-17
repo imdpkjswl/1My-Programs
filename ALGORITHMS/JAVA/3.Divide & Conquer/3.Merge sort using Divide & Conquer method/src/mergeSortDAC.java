@@ -1,30 +1,29 @@
 import java.util.Scanner;
 
-
-class Main
-{
+class mergeSortDAC {
     static  Scanner in = new Scanner(System.in);
 
-    static void merge(int arr[], int low, int mid, int high)
-    {
+    static void merge(int arr[], int low, int mid, int high) {
 
-        int l = mid - low + 1;
-        int r = high - mid;
+        int left = mid - low + 1; // size of left array
+        int right = high - mid; // size of right array
 
-        int LeftArray[] = new int [l];
-        int  RightArray[] = new int [r];
+        int LeftArray[] = new int [left];
+        int  RightArray[] = new int [right];
 
-        for (int i=0; i<l; ++i)
+        // copying data from array into sub array
+        for (int i=0; i<left; ++i)
             LeftArray[i] = arr[low + i];
 
-        for (int j=0; j<r; ++j)
+        for (int j=0; j<right; ++j)
             RightArray[j] = arr[mid + 1+ j];
 
-
+        // Initial indexes of first and second subarrays
         int i = 0, j = 0;
+        // Initial index of merged subarry array
         int k = low;
 
-        while (i<l && j<r)
+        while (i<left && j<right)
         {
             if (LeftArray[i] <= RightArray[j])
             {
@@ -39,14 +38,16 @@ class Main
             k++;
         }
 
-        while (i<l)
+        /* Copy remaining elements of LeftArray[] if any */
+        while (i<left)
         {
             arr[k] = LeftArray[i];
             i++;
             k++;
         }
 
-        while (j<r)
+        /* Copy remaining elements of RightArray[] if any */
+        while (j<right)
         {
             arr[k] = RightArray[j];
             j++;
@@ -54,19 +55,18 @@ class Main
         }
     }
 
-    static void SortMerge(int arr[], int low, int high)
-    {
-        if (low<high)
-        {
+    static void SortMerge(int arr[], int low, int high) {
+        if (low<high) {
             int mid = (low+high)/2;
+            // Sort first and second halves
             SortMerge(arr, low, mid);
             SortMerge(arr , mid+1, high);
+            // Merge the sorted halves
             merge(arr, low, mid, high);
         }
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         int a[], n;
 
         System.out.println("Enter The Size Of The Array");
