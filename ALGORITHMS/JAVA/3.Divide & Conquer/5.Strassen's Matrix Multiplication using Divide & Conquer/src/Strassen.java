@@ -21,14 +21,14 @@ public class Strassen {
                 int[][] b22 =new int[n/2][n/2];
 
                 //dividing subMatrices a
-                divideAr(a,a11,0,0);
-                divideAr(a,a12,0,n/2);
-                divideAr(a,a21,n/2,0);
-                divideAr(a,a22,n/2,n/2);
-                divideAr(b,b11,0,0);
-                divideAr(b,b12,0,n/2);
-                divideAr(b,b21,n/2,0);
-                divideAr(b,b22,n/2,n/2);
+                divideArr(a,a11,0,0);
+                divideArr(a,a12,0,n/2);
+                divideArr(a,a21,n/2,0);
+                divideArr(a,a22,n/2,n/2);
+                divideArr(b,b11,0,0);
+                divideArr(b,b12,0,n/2);
+                divideArr(b,b21,n/2,0);
+                divideArr(b,b22,n/2,n/2);
 
                 // Performing addition & Subtraction
                 int[][] s1 =sub(b12,b22);
@@ -43,25 +43,25 @@ public class Strassen {
                 int[][] s10 =add(b11,b12);
 
                 // Recursive calls
-                int[][] p1 =multiply(a11,s1);
-                int[][] p2 =multiply(s2,b22);
-                int[][] p3 =multiply(s3,b11);
-                int[][] p4 =multiply(a22,s4);
-                int[][] p5 =multiply(s5,s6);
-                int[][] p6 =multiply(s7,s8);
-                int[][] p7 =multiply(s9,s10);
+                int[][] m1 =multiply(a11,s1);
+                int[][] m2 =multiply(s2,b22);
+                int[][] m3 =multiply(s3,b11);
+                int[][] m4 =multiply(a22,s4);
+                int[][] m5 =multiply(s5,s6);
+                int[][] m6 =multiply(s7,s8);
+                int[][] m7 =multiply(s9,s10);
 
-                // Calculating the required elemens of resultant matrix
-                int[][] c11 =sub(add(p5,p4),sub(p2,p6));
-                int[][] c12 =add(p1,p2);
-                int[][] c21 =add(p3,p4);
-                int[][] c22 =sub(add(p1,p5),add(p3,p7));
+                // Calculating the required elements of resultant matrix
+                int[][] c11 =sub(add(m5,m4),sub(m2,m6));
+                int[][] c12 =add(m1,m2);
+                int[][] c21 =add(m3,m4);
+                int[][] c22 =sub(add(m1,m5),add(m3,m7));
 
                 //combining values
-                combineAr(c11,ans,0,0);
-                combineAr(c12,ans,0,n/2);
-                combineAr(c21,ans,n/2,0);
-                combineAr(c22,ans,n/2,n/2);
+                combineArr(c11,ans,0,0);
+                combineArr(c12,ans,0,n/2);
+                combineArr(c21,ans,n/2,0);
+                combineArr(c22,ans,n/2,n/2);
 
             }
 
@@ -90,14 +90,14 @@ public class Strassen {
         }
 
         // Utility function for dividing the matrix into sub-matrices
-        public static void divideAr(int[][] x, int[][] y, int bi, int bj) {
+        public static void divideArr(int[][] x, int[][] y, int bi, int bj) {
             for(int i1=0,i2=bi;i1<y.length;i1++,i2++)
                 for(int j1=0,j2=bj;j1<y.length;j1++,j2++)
                     y[i1][j1]=x[i2][j2];
         }
 
         // Utility function for merging two sub-matrices
-        public static void combineAr(int[][] y, int[][] x, int bi, int bj) {
+        public static void combineArr(int[][] y, int[][] x, int bi, int bj) {
             for(int i1=0,i2=bi;i1<y.length;i1++,i2++)
                 for(int j1=0,j2=bj;j1<y.length;j1++,j2++)
                     x[i2][j2]=y[i1][j1];
@@ -113,7 +113,7 @@ public class Strassen {
             int[][] A =new int[n][n];
             int[][] B =new int[n][n];
 
-            System.out.println("Enetr 1 st matrix's "+n*n+" elements");
+            System.out.println("Enter 1 st matrix's "+n*n+" elements");
             for(int i=0;i<n;i++)
                 for(int j=0;j<n;j++)
                     A[i][j]=sc.nextInt();
