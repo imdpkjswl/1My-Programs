@@ -1,84 +1,64 @@
-import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Stack;
 
-// A Java program to print topological sorting of a DAG
+
 public class topologicalSortDAG {
-    // This class represents a directed graph using adjacency list representation
-        private int V;   // No. of vertices
 
-        // Adjacency List as ArrayList of ArrayList's
-        private ArrayList<ArrayList<Integer>> adj;
+    private int E, V;
+    private ArrayList<ArrayList<Integer>> al;
+    private boolean marked[];
+    private Stack<Integer> stack;
 
-        //Constructor
-        topologicalSortDAG(int v)  // Graph
-        {
-            V = v;
-            adj = new ArrayList<ArrayList<Integer>>(v);
-            for (int i=0; i<v; ++i)
-                adj.add(new ArrayList<Integer>());
+    topologicalSortDAG(int V) {
+        this.V = V;
+        al = new ArrayList<>();
+        marked = new boolean[V];
+        stack = new Stack<>();
+        for(int i=0;i<V;++i){
+            al.add(new ArrayList<>());
         }
+    }
 
-        // Function to add an edge into the graph
-        void addEdge(int v,int w)
-        {
-            adj.get(v).add(w);
-        }
 
-        // A recursive function used by topologicalSort
-        void topologicalSortUtil(int v, boolean visited[],Stack<Integer> stack)
-        {
-            // Mark the current node as visited.
-            visited[v] = true;
-            Integer i;
-
-            // Recur for all the vertices adjacent to this vertex
-            Iterator<Integer> it = adj.get(v).iterator();
-            while (it.hasNext())
-            {
-                i = it.next();
-                if (!visited[i])
-                    topologicalSortUtil(i, visited, stack);
+    public void dfs(int vertex) {
+        if(!marked[vertex]) {
+            marked[vertex] = true;
+            for(int v:al.get(vertex)) {
+                dfs(v);
             }
-
-            // Push current vertex to stack which stores result
-            stack.push(new Integer(v));
+            stack.push(vertex);
         }
+    }
 
-        // The function to do Topological Sort. It uses recursive topologicalSortUtil()
-        void topologicalSort()
-        {
-            Stack<Integer> stack = new Stack<Integer>();
+    public void addEdge(int from, int to){
+        al.get(from).add(to);
+    }
 
-            // Mark all the vertices as not visited
-            boolean visited[] = new boolean[V];
-            for (int i = 0; i < V; i++)
-                visited[i] = false;
+    public static void main(String[] args){
+        //7 vertices in example digraph
+        topologicalSortDAG ts = new topologicalSortDAG(5);
+        ts.addEdge(0, 1);
+        ts.addEdge(0, 2);
+        ts.addEdge(1, 2);
 
-            // Call the recursive helper function to store
-            // Topological Sort starting from all vertices one by one
-            for (int i = 0; i < V; i++)
-                if (visited[i] == false)
-                    topologicalSortUtil(i, visited, stack);
+        ts.addEdge(1, 3);
+        ts.addEdge(2, 3);
+        ts.addEdge(2, 4);
 
-            // Print contents of stack
-            while (stack.empty()==false)
-                System.out.print(stack.pop() + " ");
+        for(int i=0;i<ts.V;++i) ts.dfs(i);
+
+        System.out.println("Topological Order : ");
+        while(!ts.stack.isEmpty()){
+            System.out.print(ts.stack.pop()+" ");
         }
+    }
+}
 
-        // Driver method
-        public static void main(String args[])
-        {
-            // Create a graph given in the above diagram
-            topologicalSortDAG g = new topologicalSortDAG(5);
+/**
             g.addEdge(0, 1);
             g.addEdge(0, 2);
             g.addEdge(1, 2);
             g.addEdge(1, 3);
             g.addEdge(2, 3);
             g.addEdge(2, 4);
-
-            System.out.println("Following is a Topological " + "sort of the given graph");
-            g.topologicalSort();
-        }
-
-}
+ */
