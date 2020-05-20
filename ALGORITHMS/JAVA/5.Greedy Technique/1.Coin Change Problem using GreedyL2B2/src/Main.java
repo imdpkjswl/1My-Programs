@@ -2,6 +2,10 @@
  * !!!! Coins array must be sorted in Non-Increasing Order !!!!
  * Note: Greedy Algorithms does not guarantee Optimal Solution.
  *  If m != 0, Then Solution does not exist.
+
+ *  Complexity Analysis:
+ * Time Complexity: O(N*logN).
+ * Auxiliary Space: O(1) as no additional space is used.
  */
 
 public class Main {
