@@ -40,15 +40,15 @@ public class Main {
     {
         /* Example for solution does not exist  */
 //        int[] coins = {10,5,2};
-//        int i, m = 11;
+//        int  m = 11;
 
         /* Example for solution is an optimal solution */
         int[] coins = {25,10,5,1};
-        int i, m = 48;
+        int  m = 48;
 
         /* Example for will not guarantee optimal solution */
 //        int[] coins = {25,15,1};
-//        int i, m = 30;
+//        int  m = 30;
 
 
         //find the size of the coins array
@@ -59,7 +59,7 @@ public class Main {
         System.out.printf("Total Coins Needed = %d\n",MinCount);
 
         System.out.printf("Coins are:\t");
-        for(i = 0; i < MinCount; i++)
+        for(int i = 0; i < MinCount; i++)
             System.out.printf("%d ", ans[i]);
 
 
