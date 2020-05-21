@@ -83,7 +83,6 @@ public class fractionalKnapsackGreedyTechnique {
                     p[i] = in.nextFloat();
             System.out.println("Enter the capacity of knapsack:");
             m = in.nextInt();
-            rc = m;
 
             fractionSort();
             float result = greedyKnapsack();
