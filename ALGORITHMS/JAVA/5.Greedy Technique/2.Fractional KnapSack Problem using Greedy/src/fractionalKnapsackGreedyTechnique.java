@@ -39,26 +39,23 @@ public class fractionalKnapsackGreedyTechnique {
             }
         }
 
-//        System.out.println(Arrays.toString(pw));
-//        System.out.println(Arrays.toString(w));
-//        System.out.println(Arrays.toString(p));
     }
 
     static float greedyKnapsack(){
         float sum=0f;
 
         for(int i=0;i<n;i++)
-            x[i] = 0;
-        rc = m;
+            x[i] = 0;  // Initializing x[i] by zero
+        rc = m;         // assign m into rc
 
         for(int i=0;i<n;i++){
-            if(w[i] <= rc){
-                rc = rc - w[i];
-                x[i] = 1;
+            if(w[i] <= rc){   //checking w[i] is less than or equal to remaining weight
+                rc = rc - w[i]; // reduce rc by selected weight
+                x[i] = 1;     // fraction assigned
             }
             else{
-                x[i] = rc/w[i];
-                rc = rc - (w[i]*x[i]);
+                x[i] = rc/w[i];    // fraction assigned
+                rc = rc - (w[i]*x[i]);  // reduce rc by selected weight
             }
 
             if(rc == 0)
@@ -75,7 +72,7 @@ public class fractionalKnapsackGreedyTechnique {
     }
 
 
-// This program is not able to select multiple objects.Hence it will not work on large  value of capacity.
+
     public static void main(String args[]){
 
             System.out.println("Enter the weights:");
