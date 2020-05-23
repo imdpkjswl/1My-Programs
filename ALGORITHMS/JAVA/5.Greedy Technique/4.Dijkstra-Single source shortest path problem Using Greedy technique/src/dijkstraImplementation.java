@@ -8,7 +8,7 @@ public class dijkstraImplementation {
     static void dijkstra(int [][]G, int n, int u) {
         int [][]cost = new int[n][n];
         int []distance = new int[n];
-        int []pred = new int[n];
+        int []pred = new int[n];    // previously marked distance
 
         Boolean []visited = new Boolean[n];
         int count, minDistance, v = 0, i,j;
@@ -17,13 +17,13 @@ public class dijkstraImplementation {
         for(i=0;i < n;i++)
             for(j=0;j < n;j++)
                 if(G[i][j]==0)
-                    cost[i][j]= Infinity; // assign max value
+                    cost[i][j] = Infinity; // assign max value
                 else
-                    cost[i][j]=G[i][j];     // just copy
+                    cost[i][j] = G[i][j];     // just copy
 
         // Making visit node indexes to zero except src node
         for(i=0;i< n;i++) {
-            distance[i]=cost[u][i];
+            distance[i] = cost[u][i];
             pred[i] = u;
             visited[i] = false;   // First make all non-visited
         }
