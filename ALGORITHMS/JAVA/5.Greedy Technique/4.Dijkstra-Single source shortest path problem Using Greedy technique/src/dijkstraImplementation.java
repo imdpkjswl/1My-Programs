@@ -16,7 +16,7 @@ public class dijkstraImplementation {
         // Convert to cost matrix by making zero to Integer Max Value.
         for(i=0;i < n;i++)
             for(j=0;j < n;j++)
-                if(G[i][j]==0)
+                if(G[i][j] == 0)
                     cost[i][j] = Infinity; // assign max value
                 else
                     cost[i][j] = G[i][j];     // just copy
@@ -35,7 +35,7 @@ public class dijkstraImplementation {
         while(count < n-1) {
             minDistance = Infinity;
             for(i=0;i < n;i++)
-                if(distance[i] < minDistance && !visited[i])
+                if(distance[i] < minDistance && visited[i] == false) // if not visited, then this will work.
                 {
                     minDistance=distance[i];
                     v = i;
