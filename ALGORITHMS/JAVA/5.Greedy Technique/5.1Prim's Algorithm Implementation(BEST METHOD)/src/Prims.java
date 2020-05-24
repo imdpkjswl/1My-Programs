@@ -50,6 +50,10 @@ public class Prims {
 
                 visited [v] = 1;        // Marking destination vertex as visited
                 sum = sum + min;       // Adding up the cost with current selected edge cost
+                if(sum >= 999){   // anOTHER way to detect spannig tree or not.
+                    System.out.println("Spanning tree does not exist");
+                    System.exit(0);
+                }
                 count++;              // Incrementing counter
 
                 // Showing the current minimum edge to user
