@@ -1,2 +1,0 @@
-Dependencies for Project 'lab5', Target 'Target 1': (DO NOT MODIFY !)
-F (.\lab5.s)(0x5EB073E4)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\lab5.lst --xref -o .\lab5.o --depend .\lab5.d)
