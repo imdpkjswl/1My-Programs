@@ -59,7 +59,7 @@ public class PrimsAlgorithm
             if(min == Integer.MAX_VALUE)
                 break;
 
-            t[k][0]= u;  
+            t[k][0]= u;
             t[k][1]= v;
             t[k][2]= min;
             k++;
@@ -75,7 +75,7 @@ public class PrimsAlgorithm
 
             for(i=0;i<n-1;i++)
             {
-                System.out.println(t[i][0]+"\t"+t[i][1]+"\t\t"+t[i][2]);
+                System.out.println(t[i][0]+"\t\t"+t[i][1]+"\t\t\t"+t[i][2]);
             }
 
             System.out.println("The minimum cost of spanning tree is:  "+sum);
