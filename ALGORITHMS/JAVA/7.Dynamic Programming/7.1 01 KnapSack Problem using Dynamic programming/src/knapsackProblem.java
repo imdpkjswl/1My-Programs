@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/* A Naive recursive implementation of 0-1 Knapsack problem */
+/* A Naive recursive implementation of 0-1 Knapsack problem using recursion */
 class knapsackProblem {
 
 
