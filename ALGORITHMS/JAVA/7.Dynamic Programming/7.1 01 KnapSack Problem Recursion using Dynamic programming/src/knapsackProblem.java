@@ -5,7 +5,7 @@ class knapsackProblem {
 
 
     // Returns the maximum value that can be put in a knapsack of capacity W
-    static int knapSack(int n, int wt[], int p[], int m) {
+    static int knapSack(int n, int[] wt, int[] p, int m) {
         // Base Case 
         if (n == 0 || m == 0)
             return 0;
@@ -23,7 +23,7 @@ class knapsackProblem {
     }
 
     // Driver function
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
 
