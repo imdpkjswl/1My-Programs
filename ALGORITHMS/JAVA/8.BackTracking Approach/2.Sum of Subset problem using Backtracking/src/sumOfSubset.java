@@ -3,6 +3,7 @@ import java.util.*;
 // Padma Reddy Program
 public class sumOfSubset {
     static int count = 0, m;
+    static boolean flag = false;
     static int[] x = new int[10];
     static int[] w = new int[10];
 
@@ -10,6 +11,11 @@ public class sumOfSubset {
         x[k] = 1;
 
         if(weightSoFar + w[k] == m){
+            if(flag == false){
+                System.out.print("The solution is:");
+                flag = true;   // used to check soln found or not
+            }
+
             System.out.print("\nSubset solution = "+(++count)+"\n");
             for(int i=0;i<=k;i++){
                 if(x[i] == 1) System.out.print(w[i]+" ");
@@ -47,10 +53,11 @@ public class sumOfSubset {
             return;
         }
 
-        System.out.println("The solution is:");
-
 
         subset(0,0,sum);
+        if(flag == false){
+            System.out.println("No solution found");
+        }
 
     }
 }
