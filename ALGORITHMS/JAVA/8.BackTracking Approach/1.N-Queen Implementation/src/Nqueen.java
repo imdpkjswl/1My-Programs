@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// NQueen Padma Reddy Program
 public class Nqueen {
 
     static boolean place(int[] x, int k) {
