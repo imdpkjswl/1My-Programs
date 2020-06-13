@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Time complexity: O(n)
+ * Time complexity: O(nLogn) due to sorting.
  * Space complexity: O(n)
  */
 
@@ -24,6 +24,7 @@ public class Main {
 
 
         Arrays.sort(arr);
+
         int[] ans = new int[n];
         int p=0, q=n-1;
         for(int i=0;i<n;i++) {
