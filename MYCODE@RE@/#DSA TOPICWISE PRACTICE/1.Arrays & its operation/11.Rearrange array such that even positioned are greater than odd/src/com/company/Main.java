@@ -39,9 +39,20 @@ public class Main {
         }
 
 
-        // Print the all elements
+        // Print the all elements that is every even pos is greater or equal than every odd pos.
         System.out.println("\nThe rearranged array elements are:");
         for(int i=0;i<n;i++)
             System.out.print(ans[i]+"  ");
     }
 }
+
+/*
+Output:
+Enter the no. of elements:
+7
+Enter the elements:
+7 2 1 5 3 4 6
+
+The rearranged array elements are:
+1  7  2  6  3  5  4
+ */
