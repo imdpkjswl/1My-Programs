@@ -16,7 +16,7 @@ import java.util.Scanner;
  * Auxiliary space: O(1)
  */
 
-// Note: This program is not so efficient in some cases like: input: 2 7 9 5 4 7 3 , key = 5 it takes 3 swap But Really needs 2 swap.
+// Note: This program is not working in some cases like: input: 2 7 9 5 4 7 3 , key = 5 it takes 3 swap But Really needs 2 swap.
 public class Main {
 
     public static void main(String[] args) {
