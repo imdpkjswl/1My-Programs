@@ -32,10 +32,10 @@ public class Main {
 */
 
 /**
- * Brute Force Method
- * time complexity: O(n^2)  // Bubble sort
+ * time complexity: O(n^2)  // Bubble sort Approach
  * space complexity: O(1)
  */
+
 public class Main {
 
     public static void main(String[] args) {
@@ -68,3 +68,12 @@ public class Main {
 
     }
 }
+
+
+
+
+// SAME QUESTION CAN BE SOLVED USING BRUTE FORCE
+/** Brute Force Approach: Generating all possible arrangement
+ * time complexity: O(n!)
+ * space complexity: O(1)
+ */
