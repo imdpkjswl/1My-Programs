@@ -1,9 +1,11 @@
 package com.company;
 
+
+// Problem: Find max sum of each rows in which have to visited/selectElement only one time in each column.
 import java.util.*;
 /**
  * Time complexity: O(n^2)
- * Space complexity: O(1)
+ * Space complexity: O(n)
  */
 public class Main {
     public static void main(String [] args) {
@@ -53,7 +55,7 @@ public class Main {
 }
 
 /*
-Not Working in this case:
+
 Enter size of matrix(mxn):
 4 6
 Enter the matrix elements:
@@ -64,6 +66,5 @@ Enter the matrix elements:
 The maximum path sum is:  64 and path is:
 [20, 30, 10, 4, 0, 0]
 
-Note: max sum is 74.
 
  */
