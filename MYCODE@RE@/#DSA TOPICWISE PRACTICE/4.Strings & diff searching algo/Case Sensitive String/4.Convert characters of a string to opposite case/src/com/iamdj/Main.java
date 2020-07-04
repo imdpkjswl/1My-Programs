@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String str = "deePak JaiSwal";
+        String str = "deEPak jAiSwAL";
         char[] chr = str.toCharArray();
 
         for(int i=0;i<chr.length;i++) {
