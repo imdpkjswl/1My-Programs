@@ -18,11 +18,7 @@ class Main {
         // true if x and y have opposite signs
         boolean isOpposite = ((x ^ y) < 0);
 
-        if (isOpposite) {
-            System.out.println(x + " and " + y + " have opposite signs");
-        }
-        else {
-            System.out.println(x + " and " + y + " don't have opposite signs");
-        }
+        if (isOpposite) System.out.println(x + " and " + y + " have opposite signs");
+        else System.out.println(x + " and " + y + " don't have opposite signs");
     }
 }
