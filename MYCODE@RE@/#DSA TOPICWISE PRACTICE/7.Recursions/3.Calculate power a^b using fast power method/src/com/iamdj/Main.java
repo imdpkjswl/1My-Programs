@@ -1,7 +1,7 @@
 package com.iamdj;
 
 /**
- * Time Complexity: O(Log(n))
+ * Time Complexity: O(n) : Divide & Conquer technique
  */
 public class Main {
 
