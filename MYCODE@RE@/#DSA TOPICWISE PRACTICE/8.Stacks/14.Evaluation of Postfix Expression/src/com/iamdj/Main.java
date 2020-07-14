@@ -16,6 +16,8 @@ public class Main {
         for(int i=0;i<postfix.length;i++) {
             symbol = postfix[i];
 
+            //  If the scanned character is an operator, pop two
+            // elements from stack apply the operator
             if(symbol == '+' || symbol == '-' || symbol == '*' || symbol == '/' || symbol == '^'){
                 op2 = st.pop(); // always write op2 then op1.
                 op1 = st.pop();
@@ -41,7 +43,8 @@ public class Main {
                     st.push( Math.pow(op1,op2));
                     break;
 
-                    default :   st.push((double) (symbol -48));
+                // If the scanned character is an operand (number here), push it to the stack.
+                default :   st.push((double) (symbol -48));
 
             }
         }
