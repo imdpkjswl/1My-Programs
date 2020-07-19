@@ -78,7 +78,7 @@ class LinkedListImplementation {
      * @param first
      * @return loop or not
      */
-    static boolean detectLoop(Node first) {
+    boolean detectLoop(Node first) {
 
 
         while (first != null) {
@@ -93,6 +93,27 @@ class LinkedListImplementation {
         }
 
         return false; // Loop not found
+    }
+
+
+
+    // Using Hashing
+    int loopLength(Node first) {
+        int count =0;
+        HashSet<Node> s = new HashSet<>();
+
+        while (first != null) {
+            // If we have already has this node in hashmap it means their is a cycle
+            if (s.contains(first))
+                return count;   // Loop found
+
+            // If we are seeing the node for the first time, insert it in hash
+            s.add(first);
+            count++;
+
+            first = first.link;
+        }
+        return 0;
     }
 
 
@@ -125,5 +146,15 @@ public class Main {
             System.out.println("Loop found");
         else
             System.out.println("No Loop");
+
+
+        // Finding length of loop
+        int len = list.loopLength(first);
+        if (len == 0)
+            System.out.println("No Loop.Hence length of loop: "+len);
+        else
+            System.out.println("Length of loop:  "+len);
+
+
     }
 }
