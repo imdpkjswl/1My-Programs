@@ -8,6 +8,7 @@ import java.util.Scanner;
 class Node {
     int info;
     Node link;
+    boolean flag = false; // Used for Detecting Loop
 
     Node(int info){
         this.info = info;
@@ -45,11 +46,13 @@ class LinkedListImplementation {
     }
 
 
+/*
     /**
-     * BEST METHOD EVER!
+     * METHOD 1 Using Hashing (But it uses extra space) -
+     * Store address of each node in Set and compare for already existence before adding to Set.
      * @param first
      * @return loop or not
-     */
+
     static boolean detectLoop(Node first) {
 
         HashSet<Node> s = new HashSet<>();
@@ -57,7 +60,7 @@ class LinkedListImplementation {
         while (first != null) {
             // If we have already has this node in hashmap it means their is a cycle
             if (s.contains(first))
-                return true;
+                return true;   // Loop found
 
             // If we are seeing the node for the first time, insert it in hash
             s.add(first);
@@ -65,8 +68,33 @@ class LinkedListImplementation {
             first = first.link;
         }
 
-        return false;
+        return false; // Loop not found
     }
+*/
+
+    /**
+     * METHOD 2: Using Non-Hashing Technique (By modifying In Data Structure) -
+     * Store address of each node in Set and compare for already existence before adding to Set.
+     * @param first
+     * @return loop or not
+     */
+    static boolean detectLoop(Node first) {
+
+
+        while (first != null) {
+            // If flag has already true, it means their is a cycle
+            if (first.flag)
+                return true;   // Loop found
+
+            // If we are seeing the node for the first time, make flag as true(shows visited)
+            first.flag = true;
+
+            first = first.link;  // Iterate
+        }
+
+        return false; // Loop not found
+    }
+
 
 
 }
