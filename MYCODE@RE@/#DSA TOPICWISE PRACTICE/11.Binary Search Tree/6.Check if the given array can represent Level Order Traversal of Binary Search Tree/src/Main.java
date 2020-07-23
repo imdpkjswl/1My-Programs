@@ -39,28 +39,21 @@ class binarySearchTree {
         return root;
     }
 
-    void inOrder(Node root) {
-        if(root == null) return ;
-
-        inOrder(root.left);
-        System.out.print(root.data+"  ");
-        inOrder(root.right);
-    }
 
 
-    void levelOrder(Node root)
+    void levelOrder(Node root, int[] cmp)
     {
 
         Node cur;
         Node[] q = new Node[20];
-        int front =0, rear = -1;
+        int front =0, rear = -1, k=0;
 
         q[++rear] = root;
 
         while(front<=rear)
         {
             cur = q[front++];
-            System.out.print(cur.data+" ");
+            cmp[k++] = cur.data; // store items in cmp
 
             if(cur.left != null)
                 q[++rear] = cur.left;
@@ -83,18 +76,25 @@ public class Main {
         Node root = null;
         binarySearchTree bst = new binarySearchTree();
 
-        int[] arr = {7, 4, 12, 3, 6, 8, 1, 5, 10};
+        int[] arr = {11, 6, 13, 5, 12, 10}; // {7, 4, 12, 3, 6, 8, 1, 5, 10};
+        int[] cmp = new int[arr.length];
+
+        // Create BST using array elements
         for(int i=0;i<arr.length;i++) {
             root = bst.insert(root, arr[i]);
         }
 
+        // Store level order traversal element in array 'cmp'
+        bst.levelOrder(root,cmp);
 
-        System.out.println("InOrder Traversal:");
-        bst.inOrder(root);
-
-        System.out.println("\nLevel order\n");
-        bst.levelOrder(root);
-
+        // Compare both arrays to verify that they array elements can represent level order bst.
+        for (int i=0;i<arr.length;i++){
+            if (arr[i] != cmp[i]){
+                System.out.println("Given array cannot represent level order traversal");
+                return;
+            }
+        }
+        System.out.println("Given array can be represented level order traversal");
 
     }
 }
