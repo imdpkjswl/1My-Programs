@@ -59,3 +59,5 @@ class BinaryTree {
 
     }
 }
+
+GFG Program: https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/
