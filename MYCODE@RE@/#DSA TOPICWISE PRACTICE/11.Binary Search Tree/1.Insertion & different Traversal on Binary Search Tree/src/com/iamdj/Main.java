@@ -1,5 +1,7 @@
 package com.iamdj;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 class Node {
@@ -68,6 +70,33 @@ class binarySearchTree {
         postOrder(root.right);
         System.out.print(root.data+"  ");
     }
+
+    void levelOrder(Node root)
+    {
+        if(root == null)
+            return;
+
+        Node cur;
+        Queue<Node> q = new LinkedList<>();
+
+        q.add(root);
+
+        while(!q.isEmpty())
+        {
+            cur = q.poll();
+            System.out.print(cur.data+"  ");
+
+            if(cur.left != null)
+                q.add(cur.left);
+
+            if(cur.right != null)
+                q.add(cur.right);
+
+        }
+
+        System.out.println();
+    }
+
 }
 
 
@@ -90,6 +119,8 @@ public class Main {
         bst.preOrder(root);
         System.out.println("\n\npostOrder Traversal:");
         bst.postOrder(root);
+        System.out.println("\n\nlevelOrder Traversal:");
+        bst.levelOrder(root);
 
     }
 }
