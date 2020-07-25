@@ -1,4 +1,8 @@
-![hustlin_erd](Algorithm-Complexity.pdf)
+<object data="https://www.github.com/deepakjaiswal2018/1My-Programs/Algorithm-Complexity.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://www.github.com/deepakjaiswal2018/1My-Programs/Algorithm-Complexity.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://www.github.com/deepakjaiswal2018/1My-Programs/Algorithm-Complexity.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 # 1My Programs
  This repo contains my all programs and file till of my second year of Engineering.
