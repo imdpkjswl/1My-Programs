@@ -1,6 +1,6 @@
 <object data="https://github.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf">Download PDF</a>.</p>
+        <h3>This browser does not support PDFs. Please download the PDF to view algorithms complexity: <a href="https://github.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf">Download PDF</a>.</h3>
     </embed>
 </object>
 
