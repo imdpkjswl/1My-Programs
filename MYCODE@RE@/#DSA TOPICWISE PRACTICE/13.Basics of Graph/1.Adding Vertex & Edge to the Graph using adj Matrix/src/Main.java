@@ -49,18 +49,56 @@ class Main {
 
 
 
+
+    public static void deleteVertex(int x) {
+        // checking if the vertex is present
+        if (x > n) {
+            System.out.println("Vertex not present!");
+        }
+
+        else {
+
+            // removing the vertex
+            while (x < n) {
+                // shifting the bottom rows to left side
+                for (int i = 0; i < n; i++) {
+                    matrix[i][x] = matrix[i][x + 1];
+                }
+
+                // shifting the columns upwards
+                for (int i = 0; i < n; i++) {
+                    matrix[x][i] = matrix[x + 1][i];
+                }
+                x++;
+            }
+
+            // decreasing the number of vertices after making to zero.
+            n--;
+        }
+    }
+
+
+
+
+
     public static void main(String ...args) {
         n=4;  // initial size of matrix
 
+        // add edges
         addEdge(0,1);
         addEdge(0,2);
         addEdge(1,2);
         addEdge(2,3);
         display();
 
+        // add vertex
         addVertex();
         addEdge(4,1);
         addEdge(4,3);
+        display();
+
+        // delete vertex
+        deleteVertex(2);
         display();
     }
 }
