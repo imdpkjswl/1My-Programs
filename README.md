@@ -1,8 +1,10 @@
 <object data="https://github.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf">
-        <h4">This browser does not support PDFs. Please download the PDF to view algorithms complexity: <a href="https://github.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf">Download PDF</a>.</h4>
+        <">This browser does not support PDFs. Please download the PDF to view algorithms complexity: <a href="https://github.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+https://docs.google.com/viewer?url=https://raw.githubusercontent.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf
 
 # 1My Programs
  This repo contains my all programs and file till of my second year of Engineering.
