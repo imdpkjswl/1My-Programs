@@ -4,7 +4,6 @@
     </embed>
 </object>
 
-https://docs.google.com/viewer?url=https://github.com/deepakjaiswal2018/1My-Programs/blob/master/Algorithm-Complexity.pdf
 
 # 1My Programs
  This repo contains my all programs and file till of my second year of Engineering.
