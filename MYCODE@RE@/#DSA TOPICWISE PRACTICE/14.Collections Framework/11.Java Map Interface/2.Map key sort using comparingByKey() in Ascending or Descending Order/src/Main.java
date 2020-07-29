@@ -3,9 +3,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Main {
-    public static void main(String args[]){
+    public static void main(String[] args){
 
-        Map<Integer,String> map=new HashMap<Integer,String>();
+        Map<Integer,String> map = new HashMap<Integer,String>();
         map.put(101,"Deepak");
         map.put(100,"Vijay");
         map.put(102,"Rahul");
@@ -19,6 +19,8 @@ class Main {
                 .sorted(Map.Entry.comparingByKey())
                 //Performs an action for each element of this stream
                 .forEach(System.out::println);
+
+
 
 
         /** Descending Order */System.out.println("Descending order:");
