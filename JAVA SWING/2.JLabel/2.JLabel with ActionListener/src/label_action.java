@@ -1,18 +1,20 @@
 import javax.swing.*;  
 import java.awt.*;  
-import java.awt.event.*;  
+import java.awt.event.*; 
+import java.net.*;
 
 public class label_action {
 	public static void main(String[] args) {
     	
-    	JFrame frame = new JFrame("Find Your IP");
+    	JFrame frame = new JFrame("Find Any Url IP");
     	JLabel label = new JLabel();
-    	JTextField tf = new JTextField("www.google.com");
+    	JTextField tf = new JTextField("enter url");
     	JButton btn = new JButton("Find IP");
     	
-    	tf.setBounds(180,50,150,20);
-    	label.setBounds(180,70, 250,30);       
-        btn.setBounds(190,100,80,20);
+    	
+    	tf.setBounds(80,50,150,20);
+    	label.setBounds(80,70, 500,30);       
+        btn.setBounds(90,100,80,20);
         // Add to container
         frame.add(tf);
         frame.add(btn);
@@ -25,7 +27,7 @@ public class label_action {
  			         String host = tf.getText(); 
  			         String ip = java.net.InetAddress.getByName(host).getHostAddress();  
  			         label.setText("IP of "+host+" is: "+ip);  
- 			        
+ 			         
  			        } catch(Exception ex) { System.out.println(ex); }  
  			}
  		});
