@@ -9,7 +9,7 @@ public class menu {
         JMenu menu = new JMenu("Menu");  
         JMenu subMenu = new JMenu("Sub Menu");   
         JMenuBar menuBar = new JMenuBar(); // allocate menu at top
-        JMenu v = new JMenu("View");
+        JMenu v = new JMenu("View"); // create another menu
         
         // Create item box
         JMenuItem i1 = new JMenuItem("Item 1");  
@@ -29,6 +29,8 @@ public class menu {
         
         menu.add(subMenu); // add subMenu into main menu.  
         menuBar.add(menu);// add main menu to frame.   
+        
+        // Add another menu into menuBar
         menuBar.add(v);
         
         frame.setJMenuBar(menuBar); // add menuBar into frame.  
