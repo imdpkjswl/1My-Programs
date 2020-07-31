@@ -7,7 +7,7 @@ public class action_textarea {
 	
 	public static void main(String[] args) {
 	
-		    JFrame frame = new JFrame();  
+		    JFrame frame = new JFrame("Words Counter");  
 		    JLabel label1 = new JLabel();  
 		    label1.setBounds(50,25,100,30);  
 		    
