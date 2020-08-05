@@ -1,0 +1,330 @@
+1. For Login to database
+mysql -u root -p -h localhost
+
+
+2. To check database present in DB
+show databases;
+
+
+3.To create database
+create database databaseName;
+
+
+4.To drop database
+drop database databaseName;
+
+
+5.How to use any created database
+use databaseName;
+
+
+6.How to check current database
+select database();
+
+
+7.Data types in mysql: 
+varChar(size upto 255)
+int(size upto 11)
+date(format: yyyy-mm-dd)
+
+
+
+8.How to create table
+create table tableName
+(
+    column_name1 data_type,
+    column_name2 data_type
+  );
+
+
+
+9.How to see tables that we have created
+show tables;
+
+
+
+10.How to describe tables
+desc tableName;
+
+
+11.Show columns from table name
+show columns from tableName;
+
+
+12.how to delete table 
+drop table tableName;
+
+
+13.How to insert data into tables
+Method1 SYNTAX:
+insert into tableName(column1,column2,column3,....) values(value1,value2,value3,....);
+Method2 SYNTAX:
+insert into tableName
+values(value1,value2,value3,....);
+
+
+14.How to show table data
+select * from tableName;
+
+
+15.How to show warnings of tables
+show warnings;
+// For showing error
+show errors;
+
+
+
+16.Null vs Not Null in mysql
+Null: the value is not known.
+Not Null: Null does not mean zero.
+
+
+
+17.What is Not Null Data in Table, can be used during table creation.Useful when we by mistaken left any data to insert into table. 
+create table tableName
+(
+	column1 varChar(100) NOT NULL,
+	column2 int NOT NULL
+);
+
+
+
+18.What is default value in table
+create table tableName
+(
+	column1 varChar(100) DEFAULT VALUE,
+	column2 int DEFAULT VALUE
+);
+ 
+
+
+19.How to add an extra column into table 
+alter table tableName ADD columnName data_type;
+
+
+
+20.How to delete any extra column from table
+alter table tableName DROP COLUMN columnName;
+
+
+
+21.Primary key in table: Used to uniquelu idetifying each record in table.Noet: Key must not be null or not ununique.
+create table tableName
+(
+	colmun1 data_type not null,
+	column2 data_type,
+	column3 data_type,
+	PRIMARY KEY(columnNumber)
+); 
+
+
+
+22.Apply auto incremention in table using primary key
+create table student_auto
+(
+	stud_id INT NOT NULL AUTO_INCREMENT,
+	name varchar(100),
+	age INT,
+	PRIMARY KEY (stud_id)
+ );
+
+
+
+23.Insert in table using primary and auto_increment functionality
+insert into student_auto (name, age) values('deepak',20); // here no need to give id of student coz it'll be increment automatically.
+
+
+
+24.CRUD(Create Read Update Delete) OPERATION:
+a.Create one table: 
+create table studentcrud(
+id int not null auto_increment, fname varchar(55),
+lname varchar(55), age int , primary key(id) 
+); 
+
+b.Insert in table with multiple values:
+insert into student (fname,lname,age) values
+('deepak','jaiswal',20),
+('alan','jackson',22),
+('david','vander',20),
+('deepak','kris',21),
+('erik','vander',24),
+('vinay','kumar',25),
+('nick','josaph',12),
+('vin','jams',14),
+('brut','miller',16),
+('nickson','vander',18);
+
+c.Read table
+select * from studentcrud;
+
+d.Read with condition using WHERE CLAUSE/columnName 
+select * from studentcrud where clause age = 21;
+
+e.Read any particular things from table
+select fname, lname from studentcrud;
+
+f.Update statement
+update studentcrud SET age=21 where fname='deepak';   // set age 23 of deepak. 
+
+g.Delete statement
+// first select data that we want to delete.
+select * from studentcrud where fname='deepak';
+// Delete data
+delete from studentcrud where fname='deepak';
+
+
+
+
+25.MySQL SELECT DISTINCT Statement
+select distinct column1, column2,... FROM table_name;
+select DISTINCT fname FROM student;   
+
+
+
+26.MySQL ORDER BY keyword: TO display data in order
+select age from student order by age;
+
+// Display distinct order by
+select distinct age from student order by age;
+
+
+
+27.MySQL LIMIT keyword
+select distinct age from student order by age limit 3; // only show 3 student age details
+
+
+
+28.MySQL LIKE Operator:used to search data in table.
+select fname from student where fname LIKE %vi%;
+
+
+
+29.Aggregate functions:
+a.COUNT()
+select count(id) from student;
+
+b.MAX()
+select max(age) from student;
+
+c.MIN()
+select min(age) from student;
+
+d.AVG()
+select count(id) from student;
+
+e.SUM()
+select sum(age) from student;
+
+
+
+
+30.LOGICAL OPERATOR:
+a.NOT operator:
+select * from student where age != 25;
+
+b.Relational Operator:
+select * from student where age >= 25;
+select * from student where age < 25;
+select * from student where age > 25;
+select * from student where age between 20 and 25;
+select * from student where age not between 20 and 25;
+
+Bitwise Operator:
+select * from student where age <=20 && age >= 25;
+
+c.logical Operator:
+select * from student where fname='deepak' or fname='vinay';
+select * from student where fname='deepak' and fname='vinay';
+
+d.IN Operator: used to find details of two data:
+select * from student where fname IN  ('deepak','vinay');
+
+
+
+
+31.CONCAT FUNCTION:
+select concat('deepak','jaiswal');
+select concat('deepak',' ','jaiswal');
+//Concat with alias
+select concat('deepak','jaiswal') as fullname;
+select concat(fname,' ',lname) from student;
+
+
+
+32.REVERSE FUNCTION:
+select reverse('deepak');
+
+
+
+33.HOW TO MAKE PALINDROME:
+select concat('deepak', reverse('deepak')) as palindrom;
+
+
+34.Char Length:
+select char_length('deepak');
+
+
+35.Lower Case:
+select lower('DeePak');
+
+
+36.Upper Case:
+select upper('deepak');
+
+
+
+37.DATE TIME DATA TYPES:
+create table student_date(
+     name varchar(55),
+     dob date,
+     dot time,
+     bt datetime
+);
+
+insert into student_date values('deepak','2000-03-21', '04:30:00','2000-03-21 04:30:00');
+
+// INBUILT FUNCTIONS:CURDATE(),NOW(),CURTIME()
+insert into student_date values('deepak',curdate(),curtime(),now());
+
+
+
+38.FOREIGN KEY CONSTRAINT:Used to link two table together.
+create table customers(cid int not null auto_increment primary key,cname varchar(55),email varchar(30));
+
+create table orders (oid int not null auto_increment primary key,orderdate date,cid int,amount int,foreign key(cid) references customers(cid) );
+
+// Insert into customers
+insert into customers(cid, cname,email) values(1,'deepak','deepak@gmail.com'),(2,'jaiswal','jaiswal@gmail.com'),(3,'david','david@gmail.com'),(4,'john','john@gmail.com');
+
+// Insert into Orders
+insert into orders(oid, orderdate,cid,amount) values(1,'2020/08/04', 1, 100),(2,'2020/08/03', 85,2),(3,'2020/08/05', 75, 1),(4,'2020/08/01', 3, 55);
+
+
+// JOIN SQL:
+a.INNER JOIN:it selects records that have matching values in both tables(intersection).
+Normal method:
+select * from customers, orders where customers.cid = orders.cid;
+
+Inner Join Method:
+select * from customers join orders on customers.cid = orders.cid; 
+
+// Get some certain details:
+select cname,orderdate,amount from customers join orders on customers.cid = orders.cid; 
+
+//Handling ambiguous id: Column 'cid' in field list is ambiguous
+Before:
+select cname,orderdate,amount,cid from customers join orders on customers.cid = orders.cid;
+
+After:
+select cname,orderdate,amount,customers.cid from customers join orders on customers.cid = orders.cid;
+
+
+
+
+b.LEFT JOIN: Used to show intersection and left side data of table.
+select * from customers LEFT join orders on customers.cid = orders.cid;
+
+
+c.RIGHT JOIN: Used to show intersection and right side data of table.
+select * from customers RIGHT join orders on customers.cid = orders.cid;
