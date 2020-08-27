@@ -1,2 +1,2 @@
 Enter two number:
-sum is: 25
+sum is: 40
