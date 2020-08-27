@@ -1,1 +1,1 @@
-Learn C++ STL
+Yes, it's present: [10, 20]
