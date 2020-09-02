@@ -1,6 +1,6 @@
-# The Unix Workbench Assignment by Cheryl
+# The Unix Workbench Assignment
 
-The current date and time of this run: Thu Dec 28 14:26:46 UTC 2017
+The current date and time of this run: Thu Aug 31 13:38:23 UTC 2020
 
 Guessinggame.sh contains the following number of lines:
 32
