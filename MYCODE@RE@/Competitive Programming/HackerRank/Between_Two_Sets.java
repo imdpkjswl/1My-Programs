@@ -17,8 +17,8 @@ class Result {
      *  2. INTEGER_ARRAY b
      */
 
+    // 5/9 test cases failed
     public static int getTotalX(List<Integer> a, List<Integer> b) {
-        // Write your code here
         int last_a, first_b, count = 0;
 
         // We have to find answer between last_a and first_b.
@@ -53,10 +53,6 @@ class Result {
             else
                 flag = true;
         }
-
-
-
-        System.out.println(factor_a);
 
         return count;
 
