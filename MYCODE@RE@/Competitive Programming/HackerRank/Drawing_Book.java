@@ -23,6 +23,10 @@ public class Drawing_Book {
 	}
 
 
+	public static int solve2(int n, int p) {
+		return Math.min(p / 2 , n / 2 - p / 2); // do not use this (n-p)/2, ith shows 1/27 test failed.
+	}
+
 
 
 
@@ -65,9 +69,11 @@ public class Drawing_Book {
 
 		System.out.println(result);
 
-		// Real solution
+		// Real solution1
 		System.out.println(solve(n, p));
 
+		// Real solution2
+		System.out.println(solve2(n, p));
 	}
 
 }
