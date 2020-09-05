@@ -15,6 +15,7 @@ public class Counting_Valley {
 
         char[] chr = str.toCharArray(); // convert string to char array
 
+        // Idea is, whenever hiker reached at same level, we have to count as a valley.
         for (char steps : chr) { // pick one charcter one by one and decide altitude
             if (steps == 'D')
                 altitude--;
