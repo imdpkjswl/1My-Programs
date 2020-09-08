@@ -20,7 +20,7 @@ public class Cut_the_sticks {
     // Complete the cutTheSticks function below.
     static void cutTheSticks(int[] arr) {
 
-        Arrays.sort(arr); // sort array
+        // Arrays.sort(arr); // sort array(Optional)
         int count = Integer.MAX_VALUE;
 
         while (count != 0) {
