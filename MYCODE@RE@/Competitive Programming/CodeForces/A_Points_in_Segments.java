@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class A_Points_in_Segments {
-	private static Scanner in = new Scanner(System.in);
 
+	private static Scanner in = new Scanner(System.in);
 	public static void main(String[] args) {
 
 		int n;
