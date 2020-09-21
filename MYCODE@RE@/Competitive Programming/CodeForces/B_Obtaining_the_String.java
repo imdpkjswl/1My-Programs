@@ -19,9 +19,9 @@ public class B_Obtaining_the_String {
 		s[i + 1] = temp;
 	}
 
-	private static void minSwap(char[] s, char[] t) {
+	private static void swappedPosition(char[] s, char[] t) {
 		int n = s.length;
-		List<Integer> ans = new ArrayList<>();
+		List<Integer> ans = new ArrayList<>();  // used to store swap positions
 		for (int i = 0; i < n; ++i) {
 			if (s[i] == t[i]) continue;
 
@@ -62,7 +62,7 @@ public class B_Obtaining_the_String {
 		char[] sChar = s.toCharArray();
 		char[] tChar = t.toCharArray();
 
-		minSwap(sChar, tChar);
+		swappedPosition(sChar, tChar);
 
 	}
 }
