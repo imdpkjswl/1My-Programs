@@ -7,30 +7,23 @@ public class A_Serval_and_Bus {
 		int n = in.nextInt();
 		int t = in.nextInt();
 
-		int[] s = new int[n];
-		int[] d = new int[n];
+		int[] table = new int[1001000];
+		Arrays.fill(table, 0);
 
-		for(int i=0;i<n;i++){
-			s[i] = in.nextInt();
-			d[i] = in.nextInt();
-		}
+		for(int i=1;i<=n;i++) {
+			int a = in.nextInt();
+			int b = in.nextInt();
 
-		int count=1;
-		for(int i=1;i<n;i++){
-			if(s[0] == s[i]){
-				count++;
+			while(a <= 100000) {
+				table[a] = i;
+				a += b;
 			}
 		}
 
-		if(count == n){
-			System.out.println("1");
-			return;
-		}
-
-		for(int i=0;i<n;i++){
-			if(t <= s[i]){
-				System.out.println(i+1);
-				return;
+		for(int i = t; true ;i++) {
+			if(table[i] != 0){
+				System.out.println(table[i]);
+				System.exit(0);
 			}
 		}
 
