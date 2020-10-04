@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OCT20B.iml" filepath="$PROJECT_DIR$/OCT20B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CovidRun.iml" filepath="$PROJECT_DIR$/CovidRun.iml" />
     </modules>
   </component>
 </project>
