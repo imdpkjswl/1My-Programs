@@ -60,7 +60,7 @@ public class Strange_Counter{
 */
 
 
-
+// Full working program 
 import java.io.*;
 import java.util.*;
 import java.text.*; 
