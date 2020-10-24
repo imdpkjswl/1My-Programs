@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class A_Reorder {
 
+    /*
     private static String mySolution(int[] a,int n, int m){
         int Nr=0;
         int Dr=1;
@@ -24,6 +25,17 @@ public class A_Reorder {
         else
             return "NO";
     }
+*/
+    private static String realSolution(int[] a, int n, int m){
+        int sum =0;
+        for(int i=0;i<n;i++){
+            sum += a[i];
+        }
+        if(sum == m)
+            return "YES";
+        else
+            return "NO";
+    }
 
 
     public static void main(String[] args) {
@@ -36,14 +48,13 @@ public class A_Reorder {
             n = in.nextInt();
             m = in.nextInt();
 
-            int[] a = new int[n + 1];
+            int[] a = new int[n];
 
-            a[0] = 0; // ignore
-            for (int i = 1; i <= n; i++) {
+            for (int i = 0; i < n; i++) {
                 a[i] = in.nextInt();
             }
-            Arrays.sort(a); // need this in mySolution
-            String result = mySolution(a, n, m);
+//            Arrays.sort(a); // need this in mySolution
+            String result = realSolution(a, n, m);
             System.out.println(result);
         }
     }
