@@ -1,11 +1,7 @@
 /* package codechef; // don't place package name! */
 
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 /* Name of the class has to be "Main" only if the class is public. */
-
+/*
 class Ada_and_Dishes{
     private static boolean br1 = true, br2 = true;
     private static int requiredTime = 0;
@@ -107,6 +103,66 @@ class Ada_and_Dishes{
                 }
 
                 System.out.println(requiredTime);
+            }
+        }
+    }
+}
+*/
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Fully Working Real Solution */
+
+class Ada_and_Dishes{
+    private static void swap(int[] arr, int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    private static Scanner in = new Scanner(System.in);
+    public static void main (String[] args) throws java.lang.Exception {
+        int testCases =0;
+        if(in.hasNextInt()){
+            testCases = in.nextInt();
+        }
+
+        for(int t=0;t<testCases;t++) {
+                int n = in.nextInt();
+                int[] arr = new int[n];
+                for(int i=0;i<n;i++){
+                    arr[i] = in.nextInt();
+                }
+                Arrays.sort(arr);
+                // Two Pointer Technique
+                int p1 = 0, p2 = arr.length - 1;
+                while (p1 < p2) {  // Reverse array
+                    swap(arr, p1++, p2--);
+                }
+
+                int br1=0, br2=0;
+                for(int i=0;i<n;i++){
+                    if(br1 <= br2){
+                        br1 += arr[i]; // add when br1 is smaller
+                    }else if(br1 > br2){
+                        br2 += arr[i]; // add when br2 is smaller
+                    }
+                }
+
+            // Print the bigger one as result
+            if(br1 > br2){  
+                System.out.println(br1);
+            }else{
+                System.out.println(br2);
             }
         }
     }
