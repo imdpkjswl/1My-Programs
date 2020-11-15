@@ -1,3 +1,5 @@
+# Go to C:\xampp\mysql\bin and run cmd then follow queries:
+
 1. For Login to database
 mysql -u root -p -h localhost
 
