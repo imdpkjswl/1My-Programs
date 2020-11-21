@@ -57,7 +57,16 @@ public class BinaryTreeApp {
         System.out.println("LCA(4, 5) = " + tree.findLCA(4, 5).data);
         System.out.println("LCA(4, 6) = " + tree.findLCA(4, 6).data);
         System.out.println("LCA(3, 4) = " + tree.findLCA(3, 4).data);
-        System.out.println("LCA(2, 4) = " + tree.findLCA(2, 4).data);
+
+        // Check for availability of both node
+        System.out.print("LCA(11, 13) = ");
+        Node lca = tree.findLCA(11, 13);
+        if(lca == null){
+            System.out.println("Keys not found");
+        }else{
+            System.out.println(lca.data);
+        }
+
     }
 }
 
