@@ -38,6 +38,72 @@ class Positive_Prefixes {
 	}
 
 
+	// Solution is Correct But threw TLE Error - Got 10 Points
+	private static void solution1(int N, int K) {
+		int count = 0; // count positive numbers
+		int[] ans = new int[N];
+		boolean flag = false;
+		if ((N & 1) == 0)
+			flag = true; // even
+
+		// when N = even: make odd pos negative and even pos positive
+		// when N = odd: make odd pos positive and even pos negative
+		for (int i = 1; i <= N; i++) {
+			if (!flag) {
+				if (i % 2 != 0) {
+					ans[i - 1] = i;
+					count++;
+				} else
+					ans[i - 1] = -i;
+			} else {
+				if (i % 2 != 0)
+					ans[i - 1] = -i;
+				else {
+					ans[i - 1] = i;
+					count++;
+				}
+			}
+		}
+
+		int sum = 0;
+		for (int i = 0; i < N; i++) {
+			sum += ans[i];
+			if (sum > 0) {
+				if (count < K) {
+					int diff = K - count;
+					for (int j = N - 1; j >= 0; j--) {
+						int val = ans[j];
+						if (val < 0) {
+							ans[j] = -val;
+							count++;
+						}
+						if (count == K) {
+							break;
+						}
+					}
+				} else if (count > K) {
+					int diff = count - K;
+					for (int j = N - 1; j >= 0; j--) {
+						int val = ans[j];
+						if (val > 0) {
+							ans[j] = -val;
+							count--;
+						}
+						if (count == K) {
+							break;
+						}
+					}
+				}
+			}
+		}
+
+
+		for (int val : ans) {
+			System.out.print(val + " ");
+		}
+		System.out.println();
+
+	}
 
 	public static void main (String[] args) throws Exception {
 		Scanner in = new Scanner(System.in);
@@ -47,7 +113,8 @@ class Positive_Prefixes {
 			int N = 0; if (in.hasNextInt()) { N = in.nextInt(); }
 			int K = 0; if (in.hasNextInt()) { K = in.nextInt(); }
 
-			bruteForce(N, K);
+			//bruteForce(N, K);
+			solution1(N, K);
 		}
 
 	}
