@@ -1,0 +1,7 @@
+// Add the below code into new build section and save file as JAVARUNNER, then select system & Run java code on windows console.
+
+{
+"cmd": ["javac", "$file_name","&&","start","cmd","/k","java", "$file_base_name"],
+"path":"PATH_TO_JDK_BIN_FOLDER",
+"shell": true
+}
