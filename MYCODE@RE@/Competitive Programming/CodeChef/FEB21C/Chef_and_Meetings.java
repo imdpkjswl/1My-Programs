@@ -36,17 +36,17 @@ class Chef_and_Meetings {
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
         int T = 0;if (in.hasNextInt()) { T = in.nextInt(); }
-        for (int t = 1; t <= T; t++) {
+        in.nextLine();
+        while (T-- > 0) {
 
             String result = "";
+
             String meetingTime = in.nextLine();//"03:12 PM";
             //System.out.println(meetingTime);
-            int N = 0;
-            if (in.hasNextInt()) {
-                N = in.nextInt();
-            }
+            int N = in.nextInt();
+            in.nextLine();
             //System.out.println(N);
-            for (int j = 0; j < N; j++) {   // N friends avail at some time
+            while (N-- > 0) {   // N friends avail at some time
                 String times = in.nextLine();//"02:42 AM 04:12 AM";
                 String from = null;
                 String to;
