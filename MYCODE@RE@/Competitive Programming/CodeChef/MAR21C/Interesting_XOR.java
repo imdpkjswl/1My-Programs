@@ -2,6 +2,7 @@ import java.math.*;
 import java.util.*;
 import java.lang.*;
 
+/*
 // Getting TLE Error
 class Interesting_XOR {
 
@@ -32,4 +33,36 @@ class Interesting_XOR {
 
     }
 }
+*/
+
+
+// Here, Logic is correct BUT its showing wrong error.
+class Interesting_XOR {
+    public static void main(String[] args) throws Exception {
+        Scanner in = new Scanner(System.in);
+        int T = 0;if (in.hasNextInt()) {T = in.nextInt();}
+
+        for(int t=1;t<=T;t++){
+            long C = in.nextLong();
+
+            int d = 0;
+            d = (int) Math.log(C)+2; // no. of digits required to represent C in Binary
+            //System.out.println(d);
+            long first = ((int)Math.pow(2,d)-2)/2; // Got it first value
+            //System.out.println(first);
+
+            // Reversal of xor operation Using XOR Property
+            long second = C^first;
+            //System.out.println(second);
+
+            System.out.println(first*second);
+        }
+
+    }
+
+}
+
+
+
+
 
