@@ -41,16 +41,14 @@ class MakePalindrome {
 
 
 	public static void main(String[] args) {
-		long x = 1335;//15//3//142//95
+		long x = 95;//1335//15//3//142
 
-		while(true){
+		// Terminate when x will be palindrome
+		while(!isPalindrome(x)){
 			long r = getReverse(x);
 			x = x + r;
-			if(isPalindrome(x)){
-				System.out.println(x);
-				break;
-			}
 		}
+		System.out.println(x);
 
 	}
 }
