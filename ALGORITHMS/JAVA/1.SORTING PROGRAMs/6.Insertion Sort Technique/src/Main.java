@@ -5,17 +5,17 @@ public class Main {
     static int[] a ; static int n;
 
     public static void insertionSort() {
-        int key;
+        int cur;
 
         for(int i=1;i<n;i++){
-            key = a[i];
+            cur = a[i];
             int j = i-1;
 
-            while(j>=0 && a[j] > key){
+            while(a[j] > key && j>=0){
                 a[j+1] = a[j];
-                j = j-1;
+                j--;
             }
-            a[j+1] = key;
+            a[j+1] = cur;
         }
     }
 
