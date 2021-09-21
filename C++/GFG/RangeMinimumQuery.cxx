@@ -16,7 +16,6 @@ int main()
             min = a[i];
         }
     }
-
     cout<<min<<endl;
 
     return 0;
