@@ -17,13 +17,13 @@ class C : public B {
 
 int main(void) 
 {  
-     A e;
-     cout<<e.salary<<endl;
+     A emp1;
+     cout<<emp1.salary<<endl;
 
-     B e;
-     cout<<e.salary<<endl; 
+     B emp2;
+     cout<<emp2.salary<<endl; 
 
-     C e;
-     cout<<e.salary<<endl;   
+     C emp3;
+     cout<<emp3.salary<<endl;   
      return 0;  
 }  
