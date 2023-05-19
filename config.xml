@@ -1,0 +1,1593 @@
+<Config Name="ROOT">
+ <Dir Name="MIB_TABLE">
+  <Value Name="MIB_TXTFLD_PORT5" Value="0"/>
+  <Value Name="MIB_TXTFLD_PORT4" Value="0"/>
+  <Value Name="MIB_TXTFLD_PORT3" Value="0"/>
+  <Value Name="MIB_TXTFLD_PORT2" Value="0"/>
+  <Value Name="MIB_TXTFLD_PORT1" Value="0"/>
+  <Value Name="MIB_IP_WAN_PORT5" Value="0"/>
+  <Value Name="MIB_IP_WAN_PORT4" Value="0"/>
+  <Value Name="MIB_IP_WAN_PORT3" Value="0"/>
+  <Value Name="MIB_IP_WAN_PORT2" Value="0"/>
+  <Value Name="MIB_IP_WAN_PORT1" Value="0"/>
+  <Value Name="MIB_IP_WAN_DNS" Value="1"/>
+  <Value Name="UNI_FORWADING_MODE" Value="21845"/>
+  <Value Name="MIB_IP_WAN_CWMP" Value="1"/>
+  <Value Name="MIB_IP_WAN_HTTPS" Value="1"/>
+  <Value Name="MIB_IP_WAN_HTTP" Value="1"/>
+  <Value Name="MIB_IP_WAN_UPNP" Value="1"/>
+  <Value Name="MIB_IP_WAN_SNMP" Value="1"/>
+  <Value Name="MIB_IP_WAN_SSH" Value="1"/>
+  <Value Name="MIB_IP_WAN_TELNET" Value="1"/>
+  <Value Name="MIB_IP_WAN_TFTP" Value="1"/>
+  <Value Name="MIB_IP_WAN_FTP" Value="1"/>
+  <Value Name="DOT1P_VALUE_BYCF" Value="1"/>
+  <Value Name="DEVICE_NAME" Value="KTPL_GW"/>
+  <Value Name="RTK_DEVINFO_HWVER" Value=""/>
+  <Value Name="RTK_DEVINFO_SWVER" Value=""/>
+  <Value Name="RTK_DEVINFO_SPECVER" Value=""/>
+  <Value Name="RTK_DEVID_PRODUCTCLASS" Value=""/>
+  <Value Name="RTK_DEVID_OUI" Value=""/>
+  <Value Name="RTK_DEVID_MANUFACTURER" Value=""/>
+  <Value Name="IPV6_LAN_IP_ADDR" Value="66,65,38,30,3a,3a,31,00,00,00,00,01,7f,88,67,14,00,00,05,1d,00,00,00,00,00,00,00,00,00,00,00,04,00,00,01,11,00,00,00,00,00,ab,90,70,00,00,05,1d"/>
+  <Value Name="FIBER_MODE" Value="0"/>
+  <Value Name="NTP_EXT_ITF" Value="65535"/>
+  <Value Name="DHCP_PORT_FILTER" Value="0"/>
+  <Value Name="PON_CUSTOM_SDK" Value="0"/>
+  <Value Name="OMCI_LOGFILE_MASK" Value="0"/>
+  <Value Name="OMCI_TM_OPT" Value="2"/>
+  <Value Name="OMCC_VER" Value="161"/>
+  <Value Name="OMCI_SW_VER2" Value="4.4.H.00.02.05"/>
+  <Value Name="OMCI_SW_VER1" Value="4.4.H.00.02.05"/>
+  <Value Name="OMCI_OLT_MODE" Value="0"/>
+  <Value Name="VLAN_MANU_TAG_PRI" Value="255"/>
+  <Value Name="VLAN_MANU_TAG_VID" Value="65535"/>
+  <Value Name="VLAN_MANU_MODE" Value="0"/>
+  <Value Name="VLAN_CFG_TYPE" Value="0"/>
+  <Value Name="OMCI_VEIP_SLOT_ID" Value="255"/>
+  <Value Name="OMCI_FAKE_OK" Value="0"/>
+  <Value Name="OMCI_VENDOR_PRODUCT_CODE" Value="202"/>
+  <Value Name="OMCI_CUSTOM_ME" Value="524288"/>
+  <Value Name="OMCI_CUSTOM_MCAST" Value="0"/>
+  <Value Name="OMCI_CUSTOM_RDP" Value="0"/>
+  <Value Name="OMCI_CUSTOM_BDP" Value="0"/>
+  <Value Name="DUAL_MGMT_MODE" Value="1"/>
+  <Value Name="OMCI_PORT_TYPE" Value="1"/>
+  <Value Name="OMCI_LOGFILE" Value="0"/>
+  <Value Name="OMCI_DBGLVL" Value="0"/>
+  <Value Name="GPON_PLOAM_PASSWD" Value="1234567890"/>
+  <Value Name="LOID_PASSWD" Value=""/>
+  <Value Name="LOID" Value="user"/>
+  <Value Name="LAN_IPV6_PREFIX_LEN2" Value="0"/>
+  <Value Name="LAN_IPV6_PREFIX_LEN1" Value="0"/>
+  <Value Name="LAN_IPV6_ADDR2" Value=""/>
+  <Value Name="LAN_IPV6_ADDR1" Value=""/>
+  <Value Name="LAN_IPV6_MODE2" Value="1"/>
+  <Value Name="LAN_IPV6_MODE1" Value="0"/>
+  <Value Name="FWD_CPU_SVLAN_ID" Value="3000"/>
+  <Value Name="FWD_BIND_OTHER_VLAN_ID" Value="3006"/>
+  <Value Name="FWD_BIND_INTERNET_VLAN_ID" Value="3005"/>
+  <Value Name="FWD_PROTO_BLOCK_VLAN_ID" Value="3004"/>
+  <Value Name="FWD_CPU_VLAN_ID" Value="1"/>
+  <Value Name="UNTAG_WAN_VLAN_ID" Value="3001"/>
+  <Value Name="LAN_IP_VERSION2" Value="2"/>
+  <Value Name="LAN_IP_VERSION1" Value="2"/>
+  <Value Name="LAN_PORT_MASK2" Value="3"/>
+  <Value Name="LAN_PORT_MASK1" Value="3"/>
+  <Value Name="LAN_VLAN_ID2" Value="3002"/>
+  <Value Name="LAN_VLAN_ID1" Value="3002"/>
+  <Value Name="MAC_BASED_TAG_DECISION" Value="0"/>
+  <Value Name="V6_IPV6_ENABLE" Value="1"/>
+  <Value Name="V6_IPF_IN_ACTION" Value="0"/>
+  <Value Name="V6_IPF_OUT_ACTION" Value="1"/>
+  <Value Name="DNSV63" Value=""/>
+  <Value Name="DNSV62" Value=""/>
+  <Value Name="DNSV61" Value=""/>
+  <Value Name="DNSV6_MODE" Value="0"/>
+  <Value Name="MLD_PROXY_EXT_ITF" Value="255"/>
+  <Value Name="MLD_PROXY_DAEMON" Value="0"/>
+  <Value Name="DHCPV6S_CLIENT_DUID" Value="00:01:00:01:00:04:93:e0:00:00:00:00:a2:a2"/>
+  <Value Name="DHCPV6S_REBIND_TIME" Value="16000"/>
+  <Value Name="DHCPV6S_RENEW_TIME" Value="5000"/>
+  <Value Name="DHCPV6_MODE" Value="3"/>
+  <Value Name="DHCPV6R_UPPER_IFINDEX" Value="255"/>
+  <Value Name="DHCPV6S_PREFERRED_LIFETIME" Value="10000"/>
+  <Value Name="DHCPV6S_DEFAULT_LEASE" Value="20000"/>
+  <Value Name="DHCPV6S_RANGE_END" Value="3ffe:501:ffff:100::11"/>
+  <Value Name="DHCPV6S_RANGE_START" Value="3ffe:501:ffff:100::10"/>
+  <Value Name="DHCPV6S_PREFIX_LENGTH" Value="64"/>
+  <Value Name="V6_ULAPREFIX_PREFER_TIME" Value="604800"/>
+  <Value Name="V6_ULAPREFIX_VALID_TIME" Value="2592000"/>
+  <Value Name="V6_ULAPREFIX_LEN" Value="64"/>
+  <Value Name="V6_ULAPREFIX" Value="fc01::"/>
+  <Value Name="V6_ULAPrefixEnable" Value="0"/>
+  <Value Name="V6_RDNSS2" Value=""/>
+  <Value Name="V6_RDNSS1" Value=""/>
+  <Value Name="V6_PREFIX_ENABLE" Value="1"/>
+  <Value Name="V6_PREFIX_MODE" Value="0"/>
+  <Value Name="V6_AUTONOMOUS" Value="1"/>
+  <Value Name="V6_ONLINK" Value="1"/>
+  <Value Name="V6_OTHERCONFIGFLAG" Value="1"/>
+  <Value Name="V6_MANAGEDFLAG" Value="0"/>
+  <Value Name="V6_SENDADVERT" Value="1"/>
+  <Value Name="V6_PREFERREDLIFETIME" Value="604800"/>
+  <Value Name="V6_VALIDLIFETIME" Value="2592000"/>
+  <Value Name="V6_PREFIX_LEN" Value="64"/>
+  <Value Name="V6_PREFIX_IP" Value="3ffe:501:ffff:100::"/>
+  <Value Name="V6_ADVLINKMTU" Value="1492"/>
+  <Value Name="V6_ADVRETRANSTIMER" Value="0"/>
+  <Value Name="V6_ADVREACHABLETIME" Value="0"/>
+  <Value Name="V6_ADVDEFAULTLIFETIME" Value="1800"/>
+  <Value Name="V6_ADVCURHOPLIMIT" Value="64"/>
+  <Value Name="V6_MINRTRADVINTERVAL" Value="198"/>
+  <Value Name="V6_MAXRTRADVINTERVAL" Value="600"/>
+  <Value Name="WLAN_APSD_ENABLE" Value="0"/>
+  <Value Name="DHCP_SUBNET_MASK" Value="255.255.255.0"/>
+  <Value Name="MIB_IP_ALG_PPTP" Value="1"/>
+  <Value Name="MIB_IP_ALG_SIP" Value="1"/>
+  <Value Name="MIB_IP_ALG_RTSP" Value="1"/>
+  <Value Name="MIB_IP_ALG_H323" Value="1"/>
+  <Value Name="MIB_IP_ALG_FTP" Value="1"/>
+  <Value Name="WLAN_VAP3_ITF_GROUP" Value="0"/>
+  <Value Name="WLAN_VAP2_ITF_GROUP" Value="0"/>
+  <Value Name="WLAN_VAP1_ITF_GROUP" Value="0"/>
+  <Value Name="WLAN_VAP0_ITF_GROUP" Value="0"/>
+  <Value Name="LAN_DHCP_GATEWAY" Value="192.168.1.1"/>
+  <Value Name="WSC_VERSION" Value="1"/>
+  <Value Name="WSC_CONFIGBYEXTREG" Value="0"/>
+  <Value Name="WSC_SSID" Value=""/>
+  <Value Name="WSC_PSK" Value="pass@1947"/>
+  <Value Name="WSC_REGISTRAR_ENABLED" Value="0"/>
+  <Value Name="WSC_UPNP_ENABLED" Value="1"/>
+  <Value Name="WSC_MANUAL_ENABLED" Value="1"/>
+  <Value Name="WSC_ENC" Value="8"/>
+  <Value Name="WSC_AUTH" Value="32"/>
+  <Value Name="WSC_PIN" Value="12345670"/>
+  <Value Name="WSC_CONFIGURED" Value="1"/>
+  <Value Name="WSC_METHOD" Value="3"/>
+  <Value Name="WSC_DISABLE" Value="0"/>
+  <Value Name="MIB_WLAN_MAC_CTRL" Value="0"/>
+  <Value Name="MIB_ETH_MAC_CTRL" Value="0"/>
+  <Value Name="ADSLDBG" Value="0"/>
+  <Value Name="MAXLOGLEN" Value="16384"/>
+  <Value Name="SYSLOG" Value="0"/>
+  <Value Name="CWMP_ACL_ENABLE" Value="0"/>
+  <Value Name="CWMP_WAN_INTERFACE" Value="65535"/>
+  <Value Name="CWMP_PERSISTENT_DATA" Value=""/>
+  <Value Name="CWMP_CONREQ_PATH" Value="/tr069"/>
+  <Value Name="CWMP_CONREQ_PORT" Value="7547"/>
+  <Value Name="CWMP_ACS_DOWNLOADURL" Value=""/>
+  <Value Name="CWMP_ACS_KICKURL" Value=""/>
+  <Value Name="CWMP_SI_COMMANDKEY" Value=""/>
+  <Value Name="CWMP_PARAMETERKEY" Value=""/>
+  <Value Name="CWMP_FLAG2" Value="0"/>
+  <Value Name="CWMP_FLAG" Value="48"/>
+  <Value Name="CWMP_CERT_PASSWORD" Value="client"/>
+  <Value Name="CWMP_ACS_PARAMETERKEY" Value=""/>
+  <Value Name="CWMP_RB_COMMANDKEY" Value=""/>
+  <Value Name="CWMP_INFORM_USER_EVENTCODE" Value="0"/>
+  <Value Name="CWMP_INFORM_EVENTCODE" Value="1"/>
+  <Value Name="CWMP_DL_FAULTCODE" Value="0"/>
+  <Value Name="CWMP_DL_COMPLETETIME" Value="0"/>
+  <Value Name="CWMP_DL_STARTTIME" Value="0"/>
+  <Value Name="CWMP_DL_COMMANDKEY" Value=""/>
+  <Value Name="CWMP_WLAN_BASICENCRY" Value="0"/>
+  <Value Name="CWMP_LAN_ETHIFENABLE" Value="1"/>
+  <Value Name="CWMP_LAN_IPIFENABLE" Value="1"/>
+  <Value Name="CWMP_DHCP_SERVERCONF" Value="1"/>
+  <Value Name="CWMP_SERIALNUMBER" Value="00000001"/>
+  <Value Name="CWMP_LAN_CONFIGPASSWD" Value=""/>
+  <Value Name="CWMP_ACS_UPGRADESMANAGED" Value="1"/>
+  <Value Name="CWMP_CONREQ_PASSWORD" Value=""/>
+  <Value Name="CWMP_CONREQ_USERNAME" Value=""/>
+  <Value Name="CWMP_INFORM_TIME" Value="0"/>
+  <Value Name="CWMP_INFORM_INTERVAL" Value="300"/>
+  <Value Name="CWMP_INFORM_ENABLE" Value="1"/>
+  <Value Name="CWMP_ACS_PASSWORD" Value="password"/>
+  <Value Name="CWMP_ACS_USERNAME" Value="username"/>
+  <Value Name="CWMP_ACS_URL_OLD" Value="http://"/>
+  <Value Name="CWMP_ACS_URL" Value="http://"/>
+  <Value Name="CWMP_PROVISIONINGCODE" Value=""/>
+  <Value Name="ADSL_HIGH_INP" Value="0"/>
+  <Value Name="DIRECT_BRIDGE_MODE" Value="1"/>
+  <Value Name="ADSL_TONE" Value="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00"/>
+  <Value Name="SUSER_PASSWORD" Value="@Jaiswal123"/>
+  <Value Name="SUSER_NAME" Value="admin"/>
+  <Value Name="SYSLOG_DISPLAY_LEVEL" Value="0"/>
+  <Value Name="SYSLOG_LOG_LEVEL" Value="0"/>
+  <Value Name="WLAN_PHY_BAND_SELECT" Value="1"/>
+  <Value Name="REPEATER_SSID2" Value=""/>
+  <Value Name="REPEATER_ENABLED2" Value="0"/>
+  <Value Name="REPEATER_SSID1" Value=""/>
+  <Value Name="REPEATER_ENABLED1" Value="0"/>
+  <Value Name="WLAN_11NCOEXIST" Value="1"/>
+  <Value Name="WLAN_CHANNELWIDTH" Value="1"/>
+  <Value Name="WLAN_CONTROLBAND" Value="0"/>
+  <Value Name="WLAN_SHORTGI" Value="1"/>
+  <Value Name="WLAN_AGGREGATION" Value="3"/>
+  <Value Name="WLAN_PROTECTON" Value="1"/>
+  <Value Name="WIFI_REGDOMAIN_DEMO" Value="0"/>
+  <Value Name="WIFI_TEST" Value="0"/>
+  <Value Name="WLAN_BEACON_ADVERTISEMENT" Value="1"/>
+  <Value Name="WLAN_QoS" Value="1"/>
+  <Value Name="WLAN_FIX_RATE" Value="1"/>
+  <Value Name="WLAN_BAND" Value="11"/>
+  <Value Name="WLAN_BLOCK_MBSSID" Value="0"/>
+  <Value Name="WLAN_ITF_GROUP" Value="0"/>
+  <Value Name="WLAN_BLOCK_ETH2WIR" Value="0"/>
+  <Value Name="WLAN_BLOCK_RELAY" Value="0"/>
+  <Value Name="WLAN_MACAC_ENABLED" Value="0"/>
+  <Value Name="WLAN_SHA256" Value="0"/>
+  <Value Name="WLAN_DOTIEEE80211W" Value="1"/>
+  <Value Name="WPA2_CIPHER_SUITE" Value="2"/>
+  <Value Name="WLAN_PSK_FORMAT" Value="0"/>
+  <Value Name="WLAN_ENABLE_1X" Value="0"/>
+  <Value Name="ACCOUNT_RS_INTERVAL_TIME" Value="0"/>
+  <Value Name="ACCOUNT_RS_MAXRETRY" Value="0"/>
+  <Value Name="ACCOUNT_RS_UPDATE_DELAY" Value="0"/>
+  <Value Name="ACCOUNT_RS_UPDATE_ENABLED" Value="0"/>
+  <Value Name="ACCOUNT_RS_PASSWORD" Value=""/>
+  <Value Name="ACCOUNT_RS_PORT" Value="0"/>
+  <Value Name="ACCOUNT_RS_IP" Value="0.0.0.0"/>
+  <Value Name="ACCOUNT_RS_ENABLED" Value="0"/>
+  <Value Name="RS_INTERVAL_TIME" Value="5"/>
+  <Value Name="RS_MAXRETRY" Value="3"/>
+  <Value Name="RS_PASSWORD" Value=""/>
+  <Value Name="RS_PORT" Value="1812"/>
+  <Value Name="RS_IP" Value="0.0.0.0"/>
+  <Value Name="MAC_AUTH_ENABLED" Value="0"/>
+  <Value Name="WLAN_WPA_GROUP_REKEY_TIME" Value="86400"/>
+  <Value Name="WLAN_WPA_PSK" Value="pass@1947"/>
+  <Value Name="WLAN_WPA_CIPHER_SUITE" Value="2"/>
+  <Value Name="WLAN_WPA_AUTH" Value="2"/>
+  <Value Name="WLAN_SUPP_NONWPA" Value="0"/>
+  <Value Name="WLAN_ENABLE_SUPP_NONWPA" Value="0"/>
+  <Value Name="WLAN_ENCRYPT" Value="4"/>
+  <Value Name="NETWORK_TYPE" Value="0"/>
+  <Value Name="WLAN_MODE" Value="0"/>
+  <Value Name="DTIM_PERIOD" Value="1"/>
+  <Value Name="RATE_ADAPTIVE_ENABLED" Value="1"/>
+  <Value Name="INACTIVITY_TIME" Value="30000"/>
+  <Value Name="WLAN_RFPOWER_SCALE" Value="0"/>
+  <Value Name="WLAN_DISABLED" Value="0"/>
+  <Value Name="HIDDEN_SSID" Value="0"/>
+  <Value Name="AUTH_TYPE" Value="2"/>
+  <Value Name="RTS_THRESHOLD" Value="2347"/>
+  <Value Name="BASIC_RATES" Value="15"/>
+  <Value Name="PREAMBLE_TYPE" Value="0"/>
+  <Value Name="BEACON_INTERVAL" Value="100"/>
+  <Value Name="SUPPORTED_RATES" Value="4095"/>
+  <Value Name="FRAG_THRESHOLD" Value="2346"/>
+  <Value Name="WEP_KEY_TYPE" Value="0"/>
+  <Value Name="WEP_DEFAULT_KEY" Value="0"/>
+  <Value Name="WEP128_KEY4" Value="00000000000000000000000000"/>
+  <Value Name="WEP128_KEY3" Value="00000000000000000000000000"/>
+  <Value Name="WEP128_KEY2" Value="00000000000000000000000000"/>
+  <Value Name="WEP128_KEY1" Value="00000000000000000000000000"/>
+  <Value Name="WEP64_KEY4" Value="0000000000"/>
+  <Value Name="WEP64_KEY3" Value="0000000000"/>
+  <Value Name="WEP64_KEY2" Value="0000000000"/>
+  <Value Name="WEP64_KEY1" Value="0000000000"/>
+  <Value Name="WEP" Value="0"/>
+  <Value Name="CHANNEL" Value="0"/>
+  <Value Name="AUTO_CHANNEL" Value="1"/>
+  <Value Name="SSID" Value="LAN"/>
+  <Value Name="ENABLE_QOS" Value="0"/>
+  <Value Name="DOMAINBLK_CAPABILITY" Value="0"/>
+  <Value Name="UPNP_EXT_ITF" Value="255"/>
+  <Value Name="UPNP" Value="0"/>
+  <Value Name="NTP_SERVER_HOST2" Value="202.65.114.202"/>
+  <Value Name="NTP_SERVER_HOST1" Value="139.59.50.38"/>
+  <Value Name="NTP_SERVER_ID" Value="0"/>
+  <Value Name="DST_ENABLED" Value="1"/>
+  <Value Name="NTP_TIMEZONE_DB_INDEX" Value="232"/>
+  <Value Name="NTP_ENABLED" Value="0"/>
+  <Value Name="BOOT_FILENAME" Value=""/>
+  <Value Name="POSIX_TZ_STRING" Value=""/>
+  <Value Name="TFTP_SERVER_ADDR" Value="tftp://0.0.0.0"/>
+  <Value Name="MULTI_LINGUAL_STATE" Value="en"/>
+  <Value Name="MP_FIN" Value="1"/>
+  <Value Name="URL_CAPABILITY" Value="0"/>
+  <Value Name="ACL_CAPABILITY" Value="0"/>
+  <Value Name="SPC_IPTYPE" Value="0"/>
+  <Value Name="SPC_ENABLED" Value="0"/>
+  <Value Name="IGMP_PROXY_ITF" Value="65535"/>
+  <Value Name="IGMP_PROXY" Value="0"/>
+  <Value Name="QOS_MODE" Value="0"/>
+  <Value Name="TOTAL_BANDWIDTH_LIMIT" Value="0"/>
+  <Value Name="TOTAL_BANDWIDTH" Value="100000"/>
+  <Value Name="QOS_POLICY" Value="0"/>
+  <Value Name="QOS_UPRATE" Value="102400"/>
+  <Value Name="MP_MODE" Value="4"/>
+  <Value Name="BR_STP_ENABLED" Value="0"/>
+  <Value Name="BR_AGEING_TIME" Value="7200"/>
+  <Value Name="VC_AUTOSEARCH" Value="0"/>
+  <Value Name="SNMP_SYS_NAME" Value="Modem"/>
+  <Value Name="SNMP_SYS_DESCR" Value="System Description"/>
+  <Value Name="INIT_SCRIPT" Value="1"/>
+  <Value Name="INIT_LINE" Value="1"/>
+  <Value Name="DEVICE_TYPE" Value="2"/>
+  <Value Name="USER_PASSWORD" Value="user"/>
+  <Value Name="USER_NAME" Value="user"/>
+  <Value Name="DMZ_IP" Value="0.0.0.0"/>
+  <Value Name="DMZ_ENABLE" Value="0"/>
+  <Value Name="PORT_FW_ENABLE" Value="0"/>
+  <Value Name="MACF_IN_ACTION" Value="1"/>
+  <Value Name="MACF_OUT_ACTION" Value="1"/>
+  <Value Name="IPF_IN_ACTION" Value="0"/>
+  <Value Name="IPF_OUT_ACTION" Value="1"/>
+  <Value Name="RIP_VERSION" Value="1"/>
+  <Value Name="RIP_ENABLE" Value="0"/>
+  <Value Name="ADSL_OLR" Value="3"/>
+  <Value Name="ADSL_MODE" Value="83"/>
+  <Value Name="DHCP_MODE" Value="2"/>
+  <Value Name="DHCPS" Value="172.19.31.4"/>
+  <Value Name="DNS3" Value="0.0.0.0"/>
+  <Value Name="DNS2" Value="0.0.0.0"/>
+  <Value Name="DNS1" Value="0.0.0.0"/>
+  <Value Name="DNS_MODE" Value="0"/>
+  <Value Name="LAN_AUTOSEARCH" Value="0"/>
+  <Value Name="LAN_RIP" Value="0"/>
+  <Value Name="LAN_DHCP_DOMAIN" Value="bbrouter"/>
+  <Value Name="LAN_DHCP_LEASE" Value="86400"/>
+  <Value Name="DHCPS_DNS3" Value="0.0.0.0"/>
+  <Value Name="DHCPS_DNS2" Value="0.0.0.0"/>
+  <Value Name="DHCPS_DNS1" Value="0.0.0.0"/>
+  <Value Name="LAN_DHCP_DNS_OPT" Value="0"/>
+  <Value Name="LAN_DHCP_POOL_END" Value="192.168.1.254"/>
+  <Value Name="LAN_DHCP_POOL_START" Value="192.168.1.33"/>
+  <Value Name="LAN_DHCP_END" Value="100"/>
+  <Value Name="LAN_DHCP_START" Value="2"/>
+  <Value Name="LAN_DHCP_POOLUSE" Value="0"/>
+  <Value Name="LAN_DHCP" Value="0"/>
+  <Value Name="LAN_SUBNET2" Value="255.255.255.0"/>
+  <Value Name="LAN_IP_ADDR2" Value="192.168.100.1"/>
+  <Value Name="LAN_ENABLE_IP2" Value="0"/>
+  <Value Name="LAN_SUBNET" Value="255.255.255.0"/>
+  <Value Name="LAN_IP_ADDR" Value="192.168.1.1"/>
+  <Value Name="WAN_MODE" Value="7"/>
+ </Dir>
+ <Dir Name="EPON_LLID_TBL"> <!--index=0-->
+  <Value Name="macAddr" Value="c402:e103:321::"/>
+ </Dir>
+ <Dir Name="EPON_LLID_TBL"> <!--index=1-->
+  <Value Name="macAddr" Value="c402:e103:322::"/>
+ </Dir>
+ <Dir Name="EPON_LLID_TBL"> <!--index=2-->
+  <Value Name="macAddr" Value="c402:e103:323::"/>
+ </Dir>
+ <Dir Name="EPON_LLID_TBL"> <!--index=3-->
+  <Value Name="macAddr" Value="c402:e103:324::"/>
+ </Dir>
+ <Dir Name="EPON_LLID_TBL"> <!--index=4-->
+  <Value Name="macAddr" Value="c402:e103:325::"/>
+ </Dir>
+ <Dir Name="EPON_LLID_TBL"> <!--index=5-->
+  <Value Name="macAddr" Value="c402:e103:326::"/>
+ </Dir>
+ <Dir Name="EPON_LLID_TBL"> <!--index=6-->
+  <Value Name="macAddr" Value="c402:e103:327::"/>
+ </Dir>
+ <Dir Name="EPON_LLID_TBL"> <!--index=7-->
+  <Value Name="macAddr" Value="c402:e103:328::"/>
+ </Dir>
+ <Dir Name="IPV6_ROUTE_TBL">
+ </Dir>
+ <Dir Name="V6_IP_PORT_FILTER_TBL">
+ </Dir>
+ <Dir Name="DHCPV6S_DOMAIN_SEARCH_TBL">
+ </Dir>
+ <Dir Name="DHCPV6S_NAME_SERVER_TBL">
+ </Dir>
+ <Dir Name="WAN_3G_TBL"> <!--index=0-->
+  <Value Name="backup_timer" Value="60"/>
+  <Value Name="backup" Value="0"/>
+  <Value Name="password" Value=""/>
+  <Value Name="username" Value=""/>
+  <Value Name="dial" Value="*99#"/>
+  <Value Name="apn" Value="internet"/>
+  <Value Name="dgw" Value="1"/>
+  <Value Name="mtu" Value="1500"/>
+  <Value Name="idletime" Value="60"/>
+  <Value Name="pin" Value="65535"/>
+  <Value Name="napt" Value="1"/>
+  <Value Name="ctype" Value="0"/>
+  <Value Name="auth" Value="3"/>
+  <Value Name="enable" Value="0"/>
+ </Dir>
+ <Dir Name="DHCP_RESERVED_IPADDR_TBL">
+ </Dir>
+ <Dir Name="WLAN_QOS_STA_TBL"> <!--index=0-->
+  <Value Name="ack" Value="1"/>
+  <Value Name="aifsn" Value="2"/>
+  <Value Name="ecwmax" Value="3"/>
+  <Value Name="ecwmin" Value="2"/>
+  <Value Name="txop" Value="47"/>
+ </Dir>
+ <Dir Name="WLAN_QOS_STA_TBL"> <!--index=1-->
+  <Value Name="ack" Value="1"/>
+  <Value Name="aifsn" Value="2"/>
+  <Value Name="ecwmax" Value="4"/>
+  <Value Name="ecwmin" Value="3"/>
+  <Value Name="txop" Value="94"/>
+ </Dir>
+ <Dir Name="WLAN_QOS_STA_TBL"> <!--index=2-->
+  <Value Name="ack" Value="1"/>
+  <Value Name="aifsn" Value="3"/>
+  <Value Name="ecwmax" Value="10"/>
+  <Value Name="ecwmin" Value="4"/>
+  <Value Name="txop" Value="0"/>
+ </Dir>
+ <Dir Name="WLAN_QOS_STA_TBL"> <!--index=3-->
+  <Value Name="ack" Value="1"/>
+  <Value Name="aifsn" Value="7"/>
+  <Value Name="ecwmax" Value="10"/>
+  <Value Name="ecwmin" Value="4"/>
+  <Value Name="txop" Value="0"/>
+ </Dir>
+ <Dir Name="WLAN_QOS_AP_TBL"> <!--index=0-->
+  <Value Name="ack" Value="1"/>
+  <Value Name="aifsn" Value="1"/>
+  <Value Name="ecwmax" Value="3"/>
+  <Value Name="ecwmin" Value="2"/>
+  <Value Name="txop" Value="47"/>
+ </Dir>
+ <Dir Name="WLAN_QOS_AP_TBL"> <!--index=1-->
+  <Value Name="ack" Value="1"/>
+  <Value Name="aifsn" Value="1"/>
+  <Value Name="ecwmax" Value="4"/>
+  <Value Name="ecwmin" Value="3"/>
+  <Value Name="txop" Value="94"/>
+ </Dir>
+ <Dir Name="WLAN_QOS_AP_TBL"> <!--index=2-->
+  <Value Name="ack" Value="1"/>
+  <Value Name="aifsn" Value="3"/>
+  <Value Name="ecwmax" Value="6"/>
+  <Value Name="ecwmin" Value="4"/>
+  <Value Name="txop" Value="0"/>
+ </Dir>
+ <Dir Name="WLAN_QOS_AP_TBL"> <!--index=3-->
+  <Value Name="ack" Value="1"/>
+  <Value Name="aifsn" Value="7"/>
+  <Value Name="ecwmax" Value="10"/>
+  <Value Name="ecwmin" Value="4"/>
+  <Value Name="txop" Value="0"/>
+ </Dir>
+ <Dir Name="WLAN_MBSSIB_TBL"> <!--index=0-->
+  <Value Name="mc2u_disable" Value="0"/>
+  <Value Name="txbf_mu" Value="0"/>
+  <Value Name="txbf" Value="1"/>
+  <Value Name="sha256" Value="0"/>
+  <Value Name="dotIEEE80211W" Value="1"/>
+  <Value Name="wscPsk" Value="pass@1947"/>
+  <Value Name="wsc_enc" Value="8"/>
+  <Value Name="wsc_auth" Value="32"/>
+  <Value Name="wsc_upnp_enabled" Value="1"/>
+  <Value Name="wsc_configured" Value="1"/>
+  <Value Name="wsc_disabled" Value="0"/>
+  <Value Name="fixedTxRate" Value="1"/>
+  <Value Name="wlanBand" Value="11"/>
+  <Value Name="rateAdaptiveEnabled" Value="1"/>
+  <Value Name="wmmEnabled" Value="1"/>
+  <Value Name="wep128Key4" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key3" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key2" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key1" Value="00000000000000000000000000"/>
+  <Value Name="wep64Key4" Value="0000000000"/>
+  <Value Name="wep64Key3" Value="0000000000"/>
+  <Value Name="wep64Key2" Value="0000000000"/>
+  <Value Name="wep64Key1" Value="0000000000"/>
+  <Value Name="wepDefaultKey" Value="0"/>
+  <Value Name="wepKeyType" Value="0"/>
+  <Value Name="userIsolation" Value="0"/>
+  <Value Name="hidessid" Value="0"/>
+  <Value Name="bcnAdvtisement" Value="1"/>
+  <Value Name="wpa2UnicastCipher" Value="2"/>
+  <Value Name="unicastCipher" Value="2"/>
+  <Value Name="cwmp_WLAN_BasicEncry" Value="0"/>
+  <Value Name="authType" Value="2"/>
+  <Value Name="wlanMode" Value="0"/>
+  <Value Name="ssid" Value="LAN"/>
+  <Value Name="wlanDisabled" Value="0"/>
+  <Value Name="rsPassword" Value=""/>
+  <Value Name="rsIpAddr" Value="0.0.0.0"/>
+  <Value Name="rsPort" Value="1812"/>
+  <Value Name="wpaGroupRekeyTime" Value="86400"/>
+  <Value Name="wpaPSK" Value="pass@1947"/>
+  <Value Name="wpaPSKFormat" Value="0"/>
+  <Value Name="wpaAuth" Value="2"/>
+  <Value Name="wep" Value="0"/>
+  <Value Name="enable1X" Value="0"/>
+  <Value Name="encrypt" Value="4"/>
+  <Value Name="idx" Value="0"/>
+ </Dir>
+ <Dir Name="WLAN_MBSSIB_TBL"> <!--index=1-->
+  <Value Name="mc2u_disable" Value="0"/>
+  <Value Name="txbf_mu" Value="0"/>
+  <Value Name="txbf" Value="1"/>
+  <Value Name="sha256" Value="0"/>
+  <Value Name="dotIEEE80211W" Value="1"/>
+  <Value Name="wscPsk" Value=""/>
+  <Value Name="wsc_enc" Value="1"/>
+  <Value Name="wsc_auth" Value="1"/>
+  <Value Name="wsc_upnp_enabled" Value="0"/>
+  <Value Name="wsc_configured" Value="0"/>
+  <Value Name="wsc_disabled" Value="1"/>
+  <Value Name="fixedTxRate" Value="1"/>
+  <Value Name="wlanBand" Value="11"/>
+  <Value Name="rateAdaptiveEnabled" Value="1"/>
+  <Value Name="wmmEnabled" Value="1"/>
+  <Value Name="wep128Key4" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key3" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key2" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key1" Value="00000000000000000000000000"/>
+  <Value Name="wep64Key4" Value="0000000000"/>
+  <Value Name="wep64Key3" Value="0000000000"/>
+  <Value Name="wep64Key2" Value="0000000000"/>
+  <Value Name="wep64Key1" Value="0000000000"/>
+  <Value Name="wepDefaultKey" Value="0"/>
+  <Value Name="wepKeyType" Value="0"/>
+  <Value Name="userIsolation" Value="0"/>
+  <Value Name="hidessid" Value="0"/>
+  <Value Name="bcnAdvtisement" Value="1"/>
+  <Value Name="wpa2UnicastCipher" Value="2"/>
+  <Value Name="unicastCipher" Value="1"/>
+  <Value Name="cwmp_WLAN_BasicEncry" Value="0"/>
+  <Value Name="authType" Value="2"/>
+  <Value Name="wlanMode" Value="0"/>
+  <Value Name="ssid" Value="KTPL-1111"/>
+  <Value Name="wlanDisabled" Value="1"/>
+  <Value Name="rsPassword" Value=""/>
+  <Value Name="rsIpAddr" Value="0.0.0.0"/>
+  <Value Name="rsPort" Value="1812"/>
+  <Value Name="wpaGroupRekeyTime" Value="86400"/>
+  <Value Name="wpaPSK" Value=""/>
+  <Value Name="wpaPSKFormat" Value="0"/>
+  <Value Name="wpaAuth" Value="2"/>
+  <Value Name="wep" Value="0"/>
+  <Value Name="enable1X" Value="0"/>
+  <Value Name="encrypt" Value="0"/>
+  <Value Name="idx" Value="1"/>
+ </Dir>
+ <Dir Name="WLAN_MBSSIB_TBL"> <!--index=2-->
+  <Value Name="mc2u_disable" Value="0"/>
+  <Value Name="txbf_mu" Value="0"/>
+  <Value Name="txbf" Value="1"/>
+  <Value Name="sha256" Value="0"/>
+  <Value Name="dotIEEE80211W" Value="1"/>
+  <Value Name="wscPsk" Value=""/>
+  <Value Name="wsc_enc" Value="1"/>
+  <Value Name="wsc_auth" Value="1"/>
+  <Value Name="wsc_upnp_enabled" Value="0"/>
+  <Value Name="wsc_configured" Value="0"/>
+  <Value Name="wsc_disabled" Value="1"/>
+  <Value Name="fixedTxRate" Value="1"/>
+  <Value Name="wlanBand" Value="11"/>
+  <Value Name="rateAdaptiveEnabled" Value="1"/>
+  <Value Name="wmmEnabled" Value="1"/>
+  <Value Name="wep128Key4" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key3" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key2" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key1" Value="00000000000000000000000000"/>
+  <Value Name="wep64Key4" Value="0000000000"/>
+  <Value Name="wep64Key3" Value="0000000000"/>
+  <Value Name="wep64Key2" Value="0000000000"/>
+  <Value Name="wep64Key1" Value="0000000000"/>
+  <Value Name="wepDefaultKey" Value="0"/>
+  <Value Name="wepKeyType" Value="0"/>
+  <Value Name="userIsolation" Value="0"/>
+  <Value Name="hidessid" Value="0"/>
+  <Value Name="bcnAdvtisement" Value="1"/>
+  <Value Name="wpa2UnicastCipher" Value="2"/>
+  <Value Name="unicastCipher" Value="1"/>
+  <Value Name="cwmp_WLAN_BasicEncry" Value="0"/>
+  <Value Name="authType" Value="2"/>
+  <Value Name="wlanMode" Value="0"/>
+  <Value Name="ssid" Value="KTPL-2222"/>
+  <Value Name="wlanDisabled" Value="1"/>
+  <Value Name="rsPassword" Value=""/>
+  <Value Name="rsIpAddr" Value="0.0.0.0"/>
+  <Value Name="rsPort" Value="1812"/>
+  <Value Name="wpaGroupRekeyTime" Value="86400"/>
+  <Value Name="wpaPSK" Value=""/>
+  <Value Name="wpaPSKFormat" Value="0"/>
+  <Value Name="wpaAuth" Value="2"/>
+  <Value Name="wep" Value="0"/>
+  <Value Name="enable1X" Value="0"/>
+  <Value Name="encrypt" Value="0"/>
+  <Value Name="idx" Value="2"/>
+ </Dir>
+ <Dir Name="WLAN_MBSSIB_TBL"> <!--index=3-->
+  <Value Name="mc2u_disable" Value="0"/>
+  <Value Name="txbf_mu" Value="0"/>
+  <Value Name="txbf" Value="1"/>
+  <Value Name="sha256" Value="0"/>
+  <Value Name="dotIEEE80211W" Value="1"/>
+  <Value Name="wscPsk" Value=""/>
+  <Value Name="wsc_enc" Value="1"/>
+  <Value Name="wsc_auth" Value="1"/>
+  <Value Name="wsc_upnp_enabled" Value="0"/>
+  <Value Name="wsc_configured" Value="0"/>
+  <Value Name="wsc_disabled" Value="1"/>
+  <Value Name="fixedTxRate" Value="1"/>
+  <Value Name="wlanBand" Value="11"/>
+  <Value Name="rateAdaptiveEnabled" Value="1"/>
+  <Value Name="wmmEnabled" Value="1"/>
+  <Value Name="wep128Key4" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key3" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key2" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key1" Value="00000000000000000000000000"/>
+  <Value Name="wep64Key4" Value="0000000000"/>
+  <Value Name="wep64Key3" Value="0000000000"/>
+  <Value Name="wep64Key2" Value="0000000000"/>
+  <Value Name="wep64Key1" Value="0000000000"/>
+  <Value Name="wepDefaultKey" Value="0"/>
+  <Value Name="wepKeyType" Value="0"/>
+  <Value Name="userIsolation" Value="0"/>
+  <Value Name="hidessid" Value="0"/>
+  <Value Name="bcnAdvtisement" Value="1"/>
+  <Value Name="wpa2UnicastCipher" Value="2"/>
+  <Value Name="unicastCipher" Value="1"/>
+  <Value Name="cwmp_WLAN_BasicEncry" Value="0"/>
+  <Value Name="authType" Value="2"/>
+  <Value Name="wlanMode" Value="0"/>
+  <Value Name="ssid" Value="KTPL-3333"/>
+  <Value Name="wlanDisabled" Value="1"/>
+  <Value Name="rsPassword" Value=""/>
+  <Value Name="rsIpAddr" Value="0.0.0.0"/>
+  <Value Name="rsPort" Value="1812"/>
+  <Value Name="wpaGroupRekeyTime" Value="86400"/>
+  <Value Name="wpaPSK" Value=""/>
+  <Value Name="wpaPSKFormat" Value="0"/>
+  <Value Name="wpaAuth" Value="2"/>
+  <Value Name="wep" Value="0"/>
+  <Value Name="enable1X" Value="0"/>
+  <Value Name="encrypt" Value="0"/>
+  <Value Name="idx" Value="3"/>
+ </Dir>
+ <Dir Name="WLAN_MBSSIB_TBL"> <!--index=4-->
+  <Value Name="mc2u_disable" Value="0"/>
+  <Value Name="txbf_mu" Value="0"/>
+  <Value Name="txbf" Value="1"/>
+  <Value Name="sha256" Value="0"/>
+  <Value Name="dotIEEE80211W" Value="1"/>
+  <Value Name="wscPsk" Value=""/>
+  <Value Name="wsc_enc" Value="1"/>
+  <Value Name="wsc_auth" Value="1"/>
+  <Value Name="wsc_upnp_enabled" Value="0"/>
+  <Value Name="wsc_configured" Value="0"/>
+  <Value Name="wsc_disabled" Value="1"/>
+  <Value Name="fixedTxRate" Value="1"/>
+  <Value Name="wlanBand" Value="11"/>
+  <Value Name="rateAdaptiveEnabled" Value="1"/>
+  <Value Name="wmmEnabled" Value="1"/>
+  <Value Name="wep128Key4" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key3" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key2" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key1" Value="00000000000000000000000000"/>
+  <Value Name="wep64Key4" Value="0000000000"/>
+  <Value Name="wep64Key3" Value="0000000000"/>
+  <Value Name="wep64Key2" Value="0000000000"/>
+  <Value Name="wep64Key1" Value="0000000000"/>
+  <Value Name="wepDefaultKey" Value="0"/>
+  <Value Name="wepKeyType" Value="0"/>
+  <Value Name="userIsolation" Value="0"/>
+  <Value Name="hidessid" Value="0"/>
+  <Value Name="bcnAdvtisement" Value="1"/>
+  <Value Name="wpa2UnicastCipher" Value="2"/>
+  <Value Name="unicastCipher" Value="1"/>
+  <Value Name="cwmp_WLAN_BasicEncry" Value="0"/>
+  <Value Name="authType" Value="2"/>
+  <Value Name="wlanMode" Value="0"/>
+  <Value Name="ssid" Value="KTPL-4444"/>
+  <Value Name="wlanDisabled" Value="1"/>
+  <Value Name="rsPassword" Value=""/>
+  <Value Name="rsIpAddr" Value="0.0.0.0"/>
+  <Value Name="rsPort" Value="1812"/>
+  <Value Name="wpaGroupRekeyTime" Value="86400"/>
+  <Value Name="wpaPSK" Value=""/>
+  <Value Name="wpaPSKFormat" Value="0"/>
+  <Value Name="wpaAuth" Value="2"/>
+  <Value Name="wep" Value="0"/>
+  <Value Name="enable1X" Value="0"/>
+  <Value Name="encrypt" Value="0"/>
+  <Value Name="idx" Value="4"/>
+ </Dir>
+ <Dir Name="WLAN_MBSSIB_TBL"> <!--index=5-->
+  <Value Name="mc2u_disable" Value="0"/>
+  <Value Name="txbf_mu" Value="0"/>
+  <Value Name="txbf" Value="1"/>
+  <Value Name="sha256" Value="0"/>
+  <Value Name="dotIEEE80211W" Value="1"/>
+  <Value Name="wscPsk" Value=""/>
+  <Value Name="wsc_enc" Value="1"/>
+  <Value Name="wsc_auth" Value="1"/>
+  <Value Name="wsc_upnp_enabled" Value="0"/>
+  <Value Name="wsc_configured" Value="0"/>
+  <Value Name="wsc_disabled" Value="1"/>
+  <Value Name="fixedTxRate" Value="1"/>
+  <Value Name="wlanBand" Value="11"/>
+  <Value Name="rateAdaptiveEnabled" Value="1"/>
+  <Value Name="wmmEnabled" Value="1"/>
+  <Value Name="wep128Key4" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key3" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key2" Value="00000000000000000000000000"/>
+  <Value Name="wep128Key1" Value="00000000000000000000000000"/>
+  <Value Name="wep64Key4" Value="0000000000"/>
+  <Value Name="wep64Key3" Value="0000000000"/>
+  <Value Name="wep64Key2" Value="0000000000"/>
+  <Value Name="wep64Key1" Value="0000000000"/>
+  <Value Name="wepDefaultKey" Value="0"/>
+  <Value Name="wepKeyType" Value="0"/>
+  <Value Name="userIsolation" Value="0"/>
+  <Value Name="hidessid" Value="0"/>
+  <Value Name="bcnAdvtisement" Value="1"/>
+  <Value Name="wpa2UnicastCipher" Value="2"/>
+  <Value Name="unicastCipher" Value="1"/>
+  <Value Name="cwmp_WLAN_BasicEncry" Value="0"/>
+  <Value Name="authType" Value="2"/>
+  <Value Name="wlanMode" Value="0"/>
+  <Value Name="ssid" Value=""/>
+  <Value Name="wlanDisabled" Value="1"/>
+  <Value Name="rsPassword" Value=""/>
+  <Value Name="rsIpAddr" Value="0.0.0.0"/>
+  <Value Name="rsPort" Value="1812"/>
+  <Value Name="wpaGroupRekeyTime" Value="86400"/>
+  <Value Name="wpaPSK" Value=""/>
+  <Value Name="wpaPSKFormat" Value="0"/>
+  <Value Name="wpaAuth" Value="2"/>
+  <Value Name="wep" Value="0"/>
+  <Value Name="enable1X" Value="0"/>
+  <Value Name="encrypt" Value="0"/>
+  <Value Name="idx" Value="5"/>
+ </Dir>
+ <Dir Name="RIP_TBL">
+ </Dir>
+ <Dir Name="PPPOE_SESSION_TBL"> <!--index=0-->
+  <Value Name="ACMacAddr" Value="003088133b37"/>
+  <Value Name="SessionID" Value="507"/>
+  <Value Name="InterfaceNo" Value="65536"/>
+ </Dir>
+ <Dir Name="OMCI_DM_MCAST_PORT_TBL">
+ </Dir>
+ <Dir Name="OMCI_DM_MCAST_PROFILE_TBL">
+ </Dir>
+ <Dir Name="OMCI_DM_MCAST_ACL_TBL">
+ </Dir>
+ <Dir Name="MIB_DDNS_TBL">
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=0-->
+  <Value Name="VCI" Value="35"/>
+  <Value Name="VPI" Value="0"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=1-->
+  <Value Name="VCI" Value="35"/>
+  <Value Name="VPI" Value="8"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=2-->
+  <Value Name="VCI" Value="43"/>
+  <Value Name="VPI" Value="0"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=3-->
+  <Value Name="VCI" Value="51"/>
+  <Value Name="VPI" Value="0"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=4-->
+  <Value Name="VCI" Value="59"/>
+  <Value Name="VPI" Value="0"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=5-->
+  <Value Name="VCI" Value="43"/>
+  <Value Name="VPI" Value="8"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=6-->
+  <Value Name="VCI" Value="51"/>
+  <Value Name="VPI" Value="8"/>
+ </Dir>
+ <Dir Name="AUTO_PVC_SEARCH_TBL"> <!--index=7-->
+  <Value Name="VCI" Value="59"/>
+  <Value Name="VPI" Value="8"/>
+ </Dir>
+ <Dir Name="MAC_BASE_DHCP_TBL">
+ </Dir>
+ <Dir Name="CWMP_PSK_TBL">
+ </Dir>
+ <Dir Name="DOMAIN_BLOCKING_TBL">
+ </Dir>
+ <Dir Name="KEYWD_FILTER_TBL">
+ </Dir>
+ <Dir Name="URL_FQDN_TBL">
+ </Dir>
+ <Dir Name="IP_QOS_QUEUE_TBL"> <!--index=0-->
+  <Value Name="QueueInstNum" Value="1"/>
+  <Value Name="desc" Value=""/>
+  <Value Name="enable" Value="0"/>
+  <Value Name="shaping_rate" Value="0"/>
+  <Value Name="weight" Value="40"/>
+  <Value Name="prior" Value="1"/>
+  <Value Name="outif" Value="65535"/>
+ </Dir>
+ <Dir Name="IP_QOS_QUEUE_TBL"> <!--index=1-->
+  <Value Name="QueueInstNum" Value="2"/>
+  <Value Name="desc" Value=""/>
+  <Value Name="enable" Value="0"/>
+  <Value Name="shaping_rate" Value="0"/>
+  <Value Name="weight" Value="30"/>
+  <Value Name="prior" Value="1"/>
+  <Value Name="outif" Value="65535"/>
+ </Dir>
+ <Dir Name="IP_QOS_QUEUE_TBL"> <!--index=2-->
+  <Value Name="QueueInstNum" Value="3"/>
+  <Value Name="desc" Value=""/>
+  <Value Name="enable" Value="0"/>
+  <Value Name="shaping_rate" Value="0"/>
+  <Value Name="weight" Value="20"/>
+  <Value Name="prior" Value="1"/>
+  <Value Name="outif" Value="65535"/>
+ </Dir>
+ <Dir Name="IP_QOS_QUEUE_TBL"> <!--index=3-->
+  <Value Name="QueueInstNum" Value="4"/>
+  <Value Name="desc" Value=""/>
+  <Value Name="enable" Value="0"/>
+  <Value Name="shaping_rate" Value="0"/>
+  <Value Name="weight" Value="10"/>
+  <Value Name="prior" Value="1"/>
+  <Value Name="outif" Value="65535"/>
+ </Dir>
+ <Dir Name="IP_QOS_TC_TBL">
+ </Dir>
+ <Dir Name="IP_QOS_TBL">
+ </Dir>
+ <Dir Name="SW_PORT_TBL"> <!--index=0-->
+  <Value Name="VID" Value="0"/>
+  <Value Name="VLAN on LAN InterfaceGroup" Value="0"/>
+  <Value Name="VLAN on LAN Enabled" Value="0"/>
+  <Value Name="LinkMode" Value="4"/>
+  <Value Name="PVID" Value="0"/>
+  <Value Name="InterfaceGroup" Value="0"/>
+  <Value Name="PVCInterface" Value="65535"/>
+ </Dir>
+ <Dir Name="SW_PORT_TBL"> <!--index=1-->
+  <Value Name="VID" Value="0"/>
+  <Value Name="VLAN on LAN InterfaceGroup" Value="0"/>
+  <Value Name="VLAN on LAN Enabled" Value="0"/>
+  <Value Name="LinkMode" Value="4"/>
+  <Value Name="PVID" Value="1"/>
+  <Value Name="InterfaceGroup" Value="0"/>
+  <Value Name="PVCInterface" Value="65535"/>
+ </Dir>
+ <Dir Name="SW_PORT_TBL"> <!--index=2-->
+  <Value Name="VID" Value="0"/>
+  <Value Name="VLAN on LAN InterfaceGroup" Value="0"/>
+  <Value Name="VLAN on LAN Enabled" Value="0"/>
+  <Value Name="LinkMode" Value="4"/>
+  <Value Name="PVID" Value="2"/>
+  <Value Name="InterfaceGroup" Value="0"/>
+  <Value Name="PVCInterface" Value="65535"/>
+ </Dir>
+ <Dir Name="WLAN_AC_TBL">
+ </Dir>
+ <Dir Name="MIB_CWMP_ACL_IP_TBL">
+ </Dir>
+ <Dir Name="ACL_IP_TBL">
+ </Dir>
+ <Dir Name="IP_ROUTE_TBL">
+ </Dir>
+ <Dir Name="PORT_FW_TBL">
+ </Dir>
+ <Dir Name="MAC_FILTER_TBL">
+ </Dir>
+ <Dir Name="IP_PORT_FILTER_TBL">
+ </Dir>
+ <Dir Name="ATM_VC_TBL"> <!--index=0-->
+  <Value Name="omci_if_id" Value="0"/>
+  <Value Name="omci_configured" Value="0"/>
+  <Value Name="dslite_aftr_hostname" Value=""/>
+  <Value Name="dslite_aftr_addr" Value=""/>
+  <Value Name="dslite_enable" Value="0"/>
+  <Value Name="RGWANIndex" Value="1"/>
+  <Value Name="MacAddr" Value="c402e1030327"/>
+  <Value Name="SixrdPrefixLen" Value="0"/>
+  <Value Name="SixrdPrefix" Value=""/>
+  <Value Name="SixrdIPv4MaskLen" Value="0"/>
+  <Value Name="SixrdBRv4IP" Value="0.0.0.0"/>
+  <Value Name="Ipv6Dns2" Value=""/>
+  <Value Name="Ipv6Dns1" Value=""/>
+  <Value Name="dnsv6Mode" Value="0"/>
+  <Value Name="RemoteIpv6EndPointAddr" Value=""/>
+  <Value Name="Ipv6DhcpRequest" Value="0"/>
+  <Value Name="Ipv6Dhcp" Value="0"/>
+  <Value Name="Ipv6AddrPrefixLen" Value="0"/>
+  <Value Name="RemoteIpv6Addr" Value=""/>
+  <Value Name="Ipv6Addr" Value=""/>
+  <Value Name="AddrMode" Value="0"/>
+  <Value Name="IpProtocol" Value="1"/>
+  <Value Name="applicationtype" Value="2"/>
+  <Value Name="WanName" Value=""/>
+  <Value Name="warnDisDelay" Value="0"/>
+  <Value Name="autoDisTime" Value="0"/>
+  <Value Name="ConPPPInstNum" Value="1"/>
+  <Value Name="ConIPInstNum" Value="0"/>
+  <Value Name="ConDevInstNum" Value="1"/>
+  <Value Name="connDisable" Value="0"/>
+  <Value Name="cpeIpIndex" Value="0"/>
+  <Value Name="cpePppIfIndex" Value="0"/>
+  <Value Name="mVid" Value="0"/>
+  <Value Name="itfGroupNum" Value="0"/>
+  <Value Name="itfGroup" Value="0"/>
+  <Value Name="vpass" Value="0"/>
+  <Value Name="vprio" Value="0"/>
+  <Value Name="vid" Value="154"/>
+  <Value Name="vlan" Value="1"/>
+  <Value Name="DNSV4IPAddr2" Value="0.0.0.0"/>
+  <Value Name="DNSV4IPAddr1" Value="0.0.0.0"/>
+  <Value Name="DNSMode" Value="0"/>
+  <Value Name="Ipunnum" Value="0"/>
+  <Value Name="SubnetMask" Value="0.0.0.0"/>
+  <Value Name="ChannelStatus" Value="1"/>
+  <Value Name="MTU" Value="1492"/>
+  <Value Name="DefaultGW" Value="1"/>
+  <Value Name="RemoteIPAddr" Value="0.0.0.0"/>
+  <Value Name="LocalIPAddr" Value="0.0.0.0"/>
+  <Value Name="RIP" Value="0"/>
+  <Value Name="ChannelAddrType" Value="0"/>
+  <Value Name="enableIGMP" Value="0"/>
+  <Value Name="enableIpQos" Value="0"/>
+  <Value Name="pppLcpEchoRetry" Value="0"/>
+  <Value Name="pppLcpEcho" Value="0"/>
+  <Value Name="pppIdleTime" Value="0"/>
+  <Value Name="pppConnectType" Value="0"/>
+  <Value Name="pppServiceName" Value="bsnl"/>
+  <Value Name="pppACName" Value=""/>
+  <Value Name="pppAuth" Value="0"/>
+  <Value Name="pppPasswd" Value="password"/>
+  <Value Name="pppUser" Value="556629716902_nid@ftth.bsnl.in"/>
+  <Value Name="BridgeType" Value="2"/>
+  <Value Name="ChannelMode" Value="2"/>
+  <Value Name="NAPT" Value="1"/>
+  <Value Name="Encap" Value="0"/>
+  <Value Name="CDVT" Value="0"/>
+  <Value Name="MBS" Value="0"/>
+  <Value Name="SCR" Value="0"/>
+  <Value Name="PCR" Value="0"/>
+  <Value Name="VCI" Value="0"/>
+  <Value Name="QoS" Value="0"/>
+  <Value Name="VPI" Value="0"/>
+  <Value Name="ifIndex" Value="65536"/>
+ </Dir>
+ <Dir Name="VoiceService"> <!--index=0-->
+  <Value Name="ENABLE_802_11P" Value="0"/>
+  <Value Name="MIN_ONHOOK_TIME" Value="0"/>
+  <Value Name="UAC_UAS" Value="0"/>
+  <Value Name="CAL_TERMINAL_TIME" Value="0"/>
+  <Value Name="PRIORITY_UNREGISTER" Value="0"/>
+  <Value Name="TERMINATOR_TYPE" Value="0"/>
+  <Value Name="BUSINESS_TYPE" Value="0"/>
+  <Value Name="CALL_WAITING_TYPE" Value="0"/>
+  <Value Name="DIGIT_TIMER_MODE" Value="0"/>
+  <Value Name="T_TIMER" Value="10"/>
+  <Value Name="MAX_START_TIME" Value="10"/>
+  <Value Name="COUNTRY_REGION_CODE" Value=""/>
+  <Value Name="TRANSPORT_PROTOCOL" Value="0"/>
+  <Value Name="SYNC_PHONE_TIME" Value="0"/>
+  <Value Name="DISPLAY_PREFIX_NUM" Value="0"/>
+  <Value Name="CODEC_PRIOR_CONTROL" Value="0"/>
+  <Value Name="UNREG_DIAL_TONE" Value="0"/>
+  <Value Name="REGISTER_WTIH_PORT" Value="0"/>
+  <Value Name="SUBS_TIME" Value="86400"/>
+  <Value Name="SUBS_TYPE" Value="0"/>
+  <Value Name="REG_EXPIRE_FACTOR" Value="0"/>
+  <Value Name="AUTH_METH_ID" Value="0"/>
+  <Value Name="MANDATORY_REGISTER" Value="0"/>
+  <Value Name="REGISTER_CYCLE" Value="0"/>
+  <Value Name="REGISTER_COUNT" Value="0"/>
+  <Value Name="H248_HEARTBEAT_COUNT" Value="0"/>
+  <Value Name="H248_HEARTBEAT_CYCLE" Value="0"/>
+  <Value Name="HEARTBEAT_MODE" Value="0"/>
+  <Value Name="RETRAMSMISSION_CYCLE" Value="4"/>
+  <Value Name="RETRAMSMISSION_TIME" Value="25"/>
+  <Value Name="RETRAN_COUNT" Value="0"/>
+  <Value Name="RETRAN_TIMER" Value="0"/>
+  <Value Name="PENDING_TIMER_INIT" Value="0"/>
+  <Value Name="LONG_TIMER" Value="0"/>
+  <Value Name="THREE_HANDSHAKE" Value="0"/>
+  <Value Name="MG_EPHEMERAL_TERMID_UNIFORM" Value="0"/>
+  <Value Name="HEARTBEAT_ENABLE" Value="0"/>
+  <Value Name="MG_RTP_PREFIX_STAR" Value="0"/>
+  <Value Name="MG_RTP_PREFIX_LEN" Value="0"/>
+  <Value Name="MG_PHYTERM_PREFIX_START" Value="0"/>
+  <Value Name="MG_PHYTERM_PREFIX_LEN" Value="0"/>
+  <Value Name="MG_PHYTERM_CONFIG_METHOD" Value="0"/>
+  <Value Name="MG_PHYTERM_ID" Value=""/>
+  <Value Name="MG_DEVICE_ID_TYPE" Value="0"/>
+  <Value Name="MG_ENCODING" Value="ABNF"/>
+  <Value Name="MG_TRANSPORT" Value="0"/>
+  <Value Name="MG_PORT" Value="2944"/>
+  <Value Name="MG_RTP_PREFIX" Value="RTP/"/>
+  <Value Name="MG_PREFIX" Value="A"/>
+  <Value Name="BAK_MGC_PORT" Value="2944"/>
+  <Value Name="BAK_MGC_IP" Value=""/>
+  <Value Name="BAK_MGC_NAME" Value=""/>
+  <Value Name="MGC_PORT" Value="2944"/>
+  <Value Name="MGC_IP" Value=""/>
+  <Value Name="MGC_NAME" Value="MGC"/>
+  <Value Name="MG_NAME" Value="MG"/>
+  <Value Name="CONFERENCE_URI" Value=""/>
+  <Value Name="MINI_SESSION_EXPIRE" Value="90"/>
+  <Value Name="MIN_DIAL_NUM" Value="1"/>
+  <Value Name="MAX_DIAL_NUM" Value="40"/>
+  <Value Name="NOANSWER_TIMER" Value="0"/>
+  <Value Name="BUSYTONE_TIMER" Value="40"/>
+  <Value Name="HANGINGTONE_TIMER" Value="60"/>
+  <Value Name="INTERDIGIT_LONG" Value="16"/>
+  <Value Name="X_CT_SERVERTYPE" Value="1"/>
+  <Value Name="VOIP_INTERFACE_2" Value=""/>
+  <Value Name="VOIP_INTERFACE" Value=""/>
+  <Value Name="SIP_DSCP" Value="24"/>
+  <Value Name="RTP_DSCP" Value="46"/>
+  <Value Name="DAA_RX_VOLUME" Value="7"/>
+  <Value Name="DAA_TX_VOLUME" Value="7"/>
+  <Value Name="BANDWIDTH_WANPORT_INGRES" Value="0"/>
+  <Value Name="BANDWIDTH_LANPORT3_INGRES" Value="0"/>
+  <Value Name="BANDWIDTH_LANPORT2_INGRES" Value="0"/>
+  <Value Name="BANDWIDTH_LANPORT1_INGRES" Value="0"/>
+  <Value Name="BANDWIDTH_LANPORT0_INGRES" Value="0"/>
+  <Value Name="BANDWIDTH_WANPORT_EGRES" Value="0"/>
+  <Value Name="BANDWIDTH_LANPORT3_EGRES" Value="0"/>
+  <Value Name="BANDWIDTH_LANPORT2_EGRES" Value="0"/>
+  <Value Name="BANDWIDTH_LANPORT1_EGRES" Value="0"/>
+  <Value Name="BANDWIDTH_LANPORT0_EGRES" Value="0"/>
+  <Value Name="HWNAT_ENABLE" Value="1"/>
+  <Value Name="VLAN_WIFI_VAP3_PRI" Value="3"/>
+  <Value Name="VLAN_WIFI_VAP3_TAG" Value="30"/>
+  <Value Name="VLAN_WIFI_VAP3_ENABLE" Value="0"/>
+  <Value Name="VLAN_WIFI_VAP2_PRI" Value="3"/>
+  <Value Name="VLAN_WIFI_VAP2_TAG" Value="30"/>
+  <Value Name="VLAN_WIFI_VAP2_ENABLE" Value="0"/>
+  <Value Name="VLAN_WIFI_VAP1_PRI" Value="3"/>
+  <Value Name="VLAN_WIFI_VAP1_TAG" Value="30"/>
+  <Value Name="VLAN_WIFI_VAP1_ENABLE" Value="0"/>
+  <Value Name="VLAN_WIFI_VAP0_PRI" Value="3"/>
+  <Value Name="VLAN_WIFI_VAP0_TAG" Value="30"/>
+  <Value Name="VLAN_WIFI_VAP0_ENABLE" Value="0"/>
+  <Value Name="VLAN_WIFI_PRI" Value="3"/>
+  <Value Name="VLAN_WIFI_TAG" Value="30"/>
+  <Value Name="VLAN_WIFI_ENABLE" Value="0"/>
+  <Value Name="VLAN_HOST_PRI" Value="7"/>
+  <Value Name="VLAN_HOST_TAG" Value="20"/>
+  <Value Name="VLAN_HOST_ENABLE" Value="0"/>
+  <Value Name="VLAN_BRIDGE_MULTICAST_TAG" Value="13"/>
+  <Value Name="VLAN_BRIDGE_MULTICAST_ENABLE" Value="0"/>
+  <Value Name="VLAN_BRIDGE_PORT" Value="0"/>
+  <Value Name="VLAN_BRIDGE_TAG" Value="12"/>
+  <Value Name="VLAN_BRIDGE_ENABLE" Value="0"/>
+  <Value Name="VLAN_TAG" Value="10"/>
+  <Value Name="VLAN_ENABLE" Value="0"/>
+  <Value Name="WAN_VLAN_CFI_VIDEO" Value="0"/>
+  <Value Name="WAN_VLAN_PRIORITY_VIDEO" Value="5"/>
+  <Value Name="WAN_VLAN_ID_VIDEO" Value="3"/>
+  <Value Name="WAN_VLAN_CFI_DATA" Value="0"/>
+  <Value Name="WAN_VLAN_PRIORITY_DATA" Value="0"/>
+  <Value Name="WAN_VLAN_ID_DATA" Value="2"/>
+  <Value Name="WAN_VLAN_CFI_VOICE" Value="0"/>
+  <Value Name="WAN_VLAN_PRIORITY_VOICE" Value="7"/>
+  <Value Name="WAN_VLAN_ID_VOICE" Value="1"/>
+  <Value Name="WAN_VLAN_ENABLE" Value="0"/>
+  <Value Name="FW_UPDATE_FW_VERSION" Value=""/>
+  <Value Name="FW_UPDATE_NEXT_TIME" Value="0"/>
+  <Value Name="FW_UPDATE_FILE_PREFIX" Value=""/>
+  <Value Name="FW_UPDATE_AUTO" Value="0"/>
+  <Value Name="FW_UPDATE_SCHEDULING_TIME" Value="0"/>
+  <Value Name="FW_UPDATE_SCHEDULING_DAY" Value="0"/>
+  <Value Name="FW_UPDATE_POWER_ON" Value="0"/>
+  <Value Name="FW_UPDATE_FILE_PATH" Value=""/>
+  <Value Name="FW_UPDATE_FTP_PASSWD" Value=""/>
+  <Value Name="FW_UPDATE_FTP_USER" Value=""/>
+  <Value Name="FW_UPDATE_FTP_ADDR" Value=""/>
+  <Value Name="FW_UPDATE_HTTP_PORT" Value="80"/>
+  <Value Name="FW_UPDATE_HTTP_ADDR" Value=""/>
+  <Value Name="FW_UPDATE_TFTP_ADDR" Value=""/>
+  <Value Name="FW_UPDATE_MODE" Value="0"/>
+  <Value Name="AUTO_CFG_EXPIRE" Value="0"/>
+  <Value Name="AUTO_CFG_FILE_PATH" Value=""/>
+  <Value Name="AUTO_CFG_FTP_PASSWD" Value=""/>
+  <Value Name="AUTO_CFG_FTP_USER" Value=""/>
+  <Value Name="AUTO_CFG_FTP_ADDR" Value=""/>
+  <Value Name="AUTO_CFG_TFTP_ADDR" Value=""/>
+  <Value Name="AUTO_CFG_HTTP_PORT" Value="80"/>
+  <Value Name="AUTO_CFG_HTTP_ADDR" Value=""/>
+  <Value Name="AUTO_CFG_MODE" Value="0"/>
+  <Value Name="AUTO_CFG_VER" Value="0"/>
+  <Value Name="PULSE_DET_PAUSE" Value="450"/>
+  <Value Name="PULSE_DIAL_DET" Value="1"/>
+  <Value Name="PULSE_GEN_INTERDIGIT_PAUSE" Value="700"/>
+  <Value Name="PULSE_GEN_MAKE_TIME" Value="40"/>
+  <Value Name="PULSE_GEN_PPS" Value="10"/>
+  <Value Name="PULSE_DIAL_GEN" Value="0"/>
+  <Value Name="AUTO_BYPASS_RELAY" Value="0"/>
+  <Value Name="TWO_STAGE_DIAL" Value="0"/>
+  <Value Name="ONE_STAGE_DIAL" Value="0"/>
+  <Value Name="CALLER_ID_DET_MODE" Value="4"/>
+  <Value Name="CALLER_ID_AUTO_DET_SELECT" Value="2"/>
+  <Value Name="OFF_HOOK_ALARM" Value="10"/>
+  <Value Name="AUTO_DIAL" Value="5"/>
+  <Value Name="FUNCKEY_TRANSFER" Value=".1"/>
+  <Value Name="FUNCKEY_PSTN" Value=".0"/>
+  <Value Name="RING_CAD_OFF" Value="4000"/> <!--index=0-->
+  <Value Name="RING_CAD_OFF" Value="4000"/> <!--index=1-->
+  <Value Name="RING_CAD_OFF" Value="4000"/> <!--index=2-->
+  <Value Name="RING_CAD_OFF" Value="4000"/> <!--index=3-->
+  <Value Name="RING_CAD_OFF" Value="4000"/> <!--index=4-->
+  <Value Name="RING_CAD_OFF" Value="4000"/> <!--index=5-->
+  <Value Name="RING_CAD_OFF" Value="4000"/> <!--index=6-->
+  <Value Name="RING_CAD_OFF" Value="4000"/> <!--index=7-->
+  <Value Name="RING_CAD_ON" Value="2000"/> <!--index=0-->
+  <Value Name="RING_CAD_ON" Value="2000"/> <!--index=1-->
+  <Value Name="RING_CAD_ON" Value="2000"/> <!--index=2-->
+  <Value Name="RING_CAD_ON" Value="2000"/> <!--index=3-->
+  <Value Name="RING_CAD_ON" Value="2000"/> <!--index=4-->
+  <Value Name="RING_CAD_ON" Value="2000"/> <!--index=5-->
+  <Value Name="RING_CAD_ON" Value="2000"/> <!--index=6-->
+  <Value Name="RING_CAD_ON" Value="2000"/> <!--index=7-->
+  <Value Name="RING_CADENCE_SEL" Value="0"/>
+  <Value Name="RING_CADENCE_USE" Value="0"/> <!--index=0-->
+  <Value Name="RING_CADENCE_USE" Value="0"/> <!--index=1-->
+  <Value Name="RING_CADENCE_USE" Value="0"/> <!--index=2-->
+  <Value Name="RING_CADENCE_USE" Value="0"/> <!--index=3-->
+  <Value Name="RING_PHONE_NUM" Value="0"/> <!--index=0-->
+  <Value Name="RING_PHONE_NUM" Value="0"/> <!--index=1-->
+  <Value Name="RING_PHONE_NUM" Value="0"/> <!--index=2-->
+  <Value Name="RING_PHONE_NUM" Value="0"/> <!--index=3-->
+  <Value Name="RING_GROUP" Value="0"/>
+  <Value Name="RING_CAD" Value="8"/>
+  <Value Name="D2OFFLOW" Value="31"/>
+  <Value Name="D2OFFUP" Value="39"/>
+  <Value Name="D2ONLOW" Value="31"/>
+  <Value Name="D2ONUP" Value="39"/>
+  <Value Name="D2LEVEL" Value="800"/>
+  <Value Name="D2ACCUR" Value="16"/>
+  <Value Name="D2FREQ2" Value="0"/>
+  <Value Name="D2FREQ1" Value="450"/>
+  <Value Name="D2FREQNUM" Value="1"/>
+  <Value Name="D1OFFLOW" Value="21"/>
+  <Value Name="D1OFFUP" Value="29"/>
+  <Value Name="D1ONLOW" Value="21"/>
+  <Value Name="D1ONUP" Value="29"/>
+  <Value Name="D1LEVEL" Value="800"/>
+  <Value Name="D1ACCUR" Value="16"/>
+  <Value Name="D1FREQ2" Value="620"/>
+  <Value Name="D1FREQ1" Value="480"/>
+  <Value Name="D1FREQNUM" Value="2"/>
+  <Value Name="DISTONE_NUM" Value="1"/>
+  <Value Name="TONE_OF_CUSTOMIZE" Value="0"/>
+  <Value Name="TONE_OF_CUSTWAITING" Value="3"/>
+  <Value Name="TONE_OF_CUSTBUSY" Value="2"/>
+  <Value Name="TONE_OF_CUSTRING" Value="1"/>
+  <Value Name="TONE_OF_CUSTDIAL" Value="0"/>
+  <Value Name="TONE_OF_COUNTRY" Value="15"/>
+  <Value Name="RFC_FLAGS" Value="0"/>
+  <Value Name="MIB_VERSION" Value="0"/>
+  <Value Name="EXTEND_FEATURE" Value="-1073741808"/>
+  <Value Name="FEATURE" Value="-2143944081"/>
+  <Value Name="VERSION" Value="63"/>
+  <Value Name="SIGNATURE" Value="1987012976"/>
+  <Dir Name="PORT"> <!--index=0-->
+   <Value Name="OMC_IF_INDEX" Value="-1"/>
+   <Value Name="PSTN_ROUTING_PREFIX" Value=""/>
+   <Value Name="ALARM_TIME_MM" Value="0"/>
+   <Value Name="ALARM_TIME_HH" Value="0"/>
+   <Value Name="ALARM_ENABLE" Value="0"/>
+   <Value Name="OFFHOOK_PASSWD" Value=""/>
+   <Value Name="SECURITY_KEY_EXCHANGE_MODE" Value="0"/>
+   <Value Name="SECURITY_ENABLE" Value="0"/>
+   <Value Name="FLASH_HOOK_TIME_MIN" Value="80"/>
+   <Value Name="FLASH_HOOK_TIME" Value="500"/>
+   <Value Name="DND_TO_MIN" Value="0"/>
+   <Value Name="DND_TO_HOUR" Value="0"/>
+   <Value Name="DND_FROM_MIN" Value="0"/>
+   <Value Name="DND_FROM_HOUR" Value="0"/>
+   <Value Name="DND_MODE" Value="0"/>
+   <Value Name="HOTLINE_ACTIVATE" Value=""/>
+   <Value Name="HOTLINE_MODE" Value="0"/>
+   <Value Name="HOTLINE_NUMBER" Value=""/>
+   <Value Name="HOTLINE_ENABLE" Value="0"/>
+   <Value Name="V152_CODEC_TYPE" Value="0"/>
+   <Value Name="V152_PAYLOAD_TYPE" Value="102"/>
+   <Value Name="V152_ENABLE" Value="0"/>
+   <Value Name="T38_DUPLICATE_NUM" Value="0"/>
+   <Value Name="T38_ENABLE_SPOOF" Value="1"/>
+   <Value Name="T38_ECC_DATA" Value="2"/>
+   <Value Name="T38_ECC_SIGNAL" Value="5"/>
+   <Value Name="T38_ENABLE_ECM" Value="1"/>
+   <Value Name="T38_MAX_RATE" Value="5"/>
+   <Value Name="FAX_RATE_MGT" Value="2"/>
+   <Value Name="T38_MAX_BUFFER" Value="500"/>
+   <Value Name="T38_PARAM_ENABLE" Value="0"/>
+   <Value Name="FAX_MODEM_DET" Value="3"/>
+   <Value Name="T38_PORT" Value="9000"/>
+   <Value Name="T38_ENABLE" Value="0"/>
+   <Value Name="VOICE_QOS" Value="8"/>
+   <Value Name="FAX_MODEM_RFC2833" Value="0"/>
+   <Value Name="ANSTONE" Value="201234"/>
+   <Value Name="MIC_VOICE_GAIN" Value="0"/>
+   <Value Name="SPK_VOICE_GAIN" Value="0"/>
+   <Value Name="FSK_GEN_MODE" Value="1"/>
+   <Value Name="MIC_AGC_GD" Value="5"/>
+   <Value Name="MIC_AGC_GU" Value="5"/>
+   <Value Name="MIC_AGC_LVL" Value="0"/>
+   <Value Name="MICAGC" Value="0"/>
+   <Value Name="SPK_AGC_GD" Value="5"/>
+   <Value Name="SPK_AGC_GU" Value="5"/>
+   <Value Name="SPK_AGC_LVL" Value="0"/>
+   <Value Name="SPEAKERAGC" Value="0"/>
+   <Value Name="CID_DTMF_MODE" Value="8"/>
+   <Value Name="CALL_WAITING_CID" Value="1"/>
+   <Value Name="CALLER_ID_MODE" Value="1"/>
+   <Value Name="ECHO_TAIL" Value="2"/>
+   <Value Name="NLP" Value="1"/>
+   <Value Name="LEC" Value="1"/>
+   <Value Name="JITTER_FACTOR" Value="1"/>
+   <Value Name="MAX_DELAY" Value="20"/>
+   <Value Name="JITTER_DELAY" Value="4"/>
+   <Value Name="SLIC_RX_VOLUME" Value="6"/>
+   <Value Name="SLIC_TX_VOLUME" Value="6"/>
+   <Value Name="RTP_RED_CODEC" Value="-1"/>
+   <Value Name="RTP_RED_PAYLOAD_TYPE" Value="121"/>
+   <Value Name="G726_PACK" Value="2"/>
+   <Value Name="SPEEX_NB_RATE" Value="2"/>
+   <Value Name="ILBC_MODE" Value="0"/>
+   <Value Name="G7231_RATE" Value="0"/>
+   <Value Name="RTCPXR" Value="1"/>
+   <Value Name="RTCP_INTERVAL" Value="10"/>
+   <Value Name="PLC" Value="1"/>
+   <Value Name="SID_GAIN" Value="0"/>
+   <Value Name="SID_LEVEL" Value="70"/>
+   <Value Name="SID_MODE" Value="0"/>
+   <Value Name="CNG_THRESHOLD" Value="0"/>
+   <Value Name="CNG" Value="1"/>
+   <Value Name="VAD_THRESHOLD" Value="63"/>
+   <Value Name="VAD" Value="0"/>
+   <Value Name="PRECEDENCE" Value="0"/> <!--index=0-->
+   <Value Name="PRECEDENCE" Value="1"/> <!--index=1-->
+   <Value Name="PRECEDENCE" Value="2"/> <!--index=2-->
+   <Value Name="PRECEDENCE" Value="8"/> <!--index=3-->
+   <Value Name="PRECEDENCE" Value="4"/> <!--index=4-->
+   <Value Name="PRECEDENCE" Value="5"/> <!--index=5-->
+   <Value Name="PRECEDENCE" Value="6"/> <!--index=6-->
+   <Value Name="PRECEDENCE" Value="7"/> <!--index=7-->
+   <Value Name="PRECEDENCE" Value="3"/> <!--index=8-->
+   <Value Name="PRECEDENCE" Value="9"/> <!--index=9-->
+   <Value Name="PRECEDENCE" Value="10"/> <!--index=10-->
+   <Value Name="PRECEDENCE" Value="11"/> <!--index=11-->
+   <Value Name="PRECEDENCE" Value="12"/> <!--index=12-->
+   <Value Name="PRECEDENCE" Value="13"/> <!--index=13-->
+   <Value Name="FRAME_SIZE" Value="1"/> <!--index=0-->
+   <Value Name="FRAME_SIZE" Value="1"/> <!--index=1-->
+   <Value Name="FRAME_SIZE" Value="1"/> <!--index=2-->
+   <Value Name="FRAME_SIZE" Value="0"/> <!--index=3-->
+   <Value Name="FRAME_SIZE" Value="1"/> <!--index=4-->
+   <Value Name="FRAME_SIZE" Value="1"/> <!--index=5-->
+   <Value Name="FRAME_SIZE" Value="1"/> <!--index=6-->
+   <Value Name="FRAME_SIZE" Value="1"/> <!--index=7-->
+   <Value Name="FRAME_SIZE" Value="0"/> <!--index=8-->
+   <Value Name="FRAME_SIZE" Value="0"/> <!--index=9-->
+   <Value Name="FRAME_SIZE" Value="1"/> <!--index=10-->
+   <Value Name="FRAME_SIZE" Value="0"/> <!--index=11-->
+   <Value Name="FRAME_SIZE" Value="0"/> <!--index=12-->
+   <Value Name="FRAME_SIZE" Value="0"/> <!--index=13-->
+   <Value Name="FUNC_FLAGS" Value="0"/>
+   <Value Name="DIGITMAP_SPECIAL" Value=""/>
+   <Value Name="DIGITMAP_SPECIAL_ENABLE" Value="0"/>
+   <Value Name="PREFIX_UNSET_PLAN" Value=""/>
+   <Value Name="AUTO_PREFIX" Value=""/>
+   <Value Name="DIGITMAP_ENABLE" Value="1"/>
+   <Value Name="DIAL_PLAN" Value=""/>
+   <Value Name="REPLACE_RULE_TARGET" Value=""/>
+   <Value Name="REPLACE_RULE_SOURCE" Value=""/>
+   <Value Name="REPLACE_RULE_OPTION" Value="0"/>
+   <Value Name="NA_FORWARD_TIME" Value="0"/>
+   <Value Name="NA_FORWARD" Value=""/>
+   <Value Name="NA_FORWARD_ENABLE" Value="0"/>
+   <Value Name="BUSY_FORWARD" Value=""/>
+   <Value Name="BUSY_FORWARD_ENABLE" Value="0"/>
+   <Value Name="UC_FORWARD" Value=""/>
+   <Value Name="UC_FORWARD_ENABLE" Value="0"/>
+   <Value Name="FXSPORT_FLAG" Value="0"/>
+   <Value Name="CALL_WAITING_ENABLE" Value="1"/>
+   <Value Name="SIP_INFO_DURATION" Value="250"/>
+   <Value Name="FAXMODEM_RFC2833_PI" Value="10"/>
+   <Value Name="FAXMODEM_RFC2833_PT" Value="101"/>
+   <Value Name="FAXMODEM_RFC2833_PT_SAME_DTMF" Value="1"/>
+   <Value Name="DTMF_RFC2833_PI" Value="10"/>
+   <Value Name="DTMF_RFC2833_PAYLOAD_TYPE" Value="101"/>
+   <Value Name="DTMF_MODE" Value="0"/>
+   <Value Name="MEDIA_PORT_MAX" Value="9010"/>
+   <Value Name="MEDIA_PORT" Value="9000"/>
+   <Value Name="SIP_PORT" Value="5060"/>
+   <Value Name="STUN_PORT" Value="3478"/>
+   <Value Name="STUN_ADDR" Value=""/>
+   <Value Name="STUN_ENABLE" Value="0"/>
+   <Value Name="DEFAULT_PROXY" Value="0"/>
+   <Dir Name="ABBREVIATED_DIAL"> <!--index=0-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="ABBREVIATED_DIAL"> <!--index=1-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="ABBREVIATED_DIAL"> <!--index=2-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="ABBREVIATED_DIAL"> <!--index=3-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="ABBREVIATED_DIAL"> <!--index=4-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=0-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=1-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=2-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=3-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=4-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=5-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=6-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=7-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=8-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="SPEED_DIAL"> <!--index=9-->
+    <Value Name="URL" Value=""/>
+    <Value Name="NAME" Value=""/>
+   </Dir>
+   <Dir Name="PROXIES"> <!--index=0-->
+    <Value Name="REG_RETRY" Value="90"/>
+    <Value Name="SESSION_UPDATE_TIMER" Value="1800"/>
+    <Value Name="HEARTBEAT_COUNT" Value="3"/>
+    <Value Name="HEARTBEAT_CYCLE" Value="0"/>
+    <Value Name="SIPTLS_ENABLE" Value="0"/>
+    <Value Name="OUTBOUND_PORT" Value="5060"/>
+    <Value Name="OUTBOUND_ADDR" Value=""/>
+    <Value Name="OUTBOUND_ENABLE" Value="0"/>
+    <Value Name="REG_EXPIRE" Value="3600"/>
+    <Value Name="DOMAIN_NAME" Value=""/>
+    <Value Name="REGISTRARSERVER_PORT" Value="5060"/>
+    <Value Name="REGISTRARSERVER_ADDR" Value=""/>
+    <Value Name="PORT" Value="5060"/>
+    <Value Name="ADDR" Value=""/>
+    <Value Name="ENABLE" Value="0"/>
+    <Value Name="URI" Value=""/>
+    <Value Name="PASSWORD" Value=""/>
+    <Value Name="LOGIN_ID" Value=""/>
+    <Value Name="NUMBER" Value=""/>
+    <Value Name="DISPLAY_NAME" Value=""/>
+   </Dir>
+   <Dir Name="PROXIES"> <!--index=1-->
+    <Value Name="REG_RETRY" Value="90"/>
+    <Value Name="SESSION_UPDATE_TIMER" Value="1800"/>
+    <Value Name="HEARTBEAT_COUNT" Value="3"/>
+    <Value Name="HEARTBEAT_CYCLE" Value="0"/>
+    <Value Name="SIPTLS_ENABLE" Value="0"/>
+    <Value Name="OUTBOUND_PORT" Value="5060"/>
+    <Value Name="OUTBOUND_ADDR" Value=""/>
+    <Value Name="OUTBOUND_ENABLE" Value="0"/>
+    <Value Name="REG_EXPIRE" Value="3600"/>
+    <Value Name="DOMAIN_NAME" Value=""/>
+    <Value Name="REGISTRARSERVER_PORT" Value="5060"/>
+    <Value Name="REGISTRARSERVER_ADDR" Value=""/>
+    <Value Name="PORT" Value="5060"/>
+    <Value Name="ADDR" Value=""/>
+    <Value Name="ENABLE" Value="0"/>
+    <Value Name="URI" Value=""/>
+    <Value Name="PASSWORD" Value=""/>
+    <Value Name="LOGIN_ID" Value=""/>
+    <Value Name="NUMBER" Value=""/>
+    <Value Name="DISPLAY_NAME" Value=""/>
+   </Dir>
+  </Dir>
+  <Dir Name="CUST_TONE"> <!--index=0-->
+   <Value Name="CUST_TONE_GAIN3" Value="0"/>
+   <Value Name="CUST_TONE_GAIN2" Value="0"/>
+   <Value Name="CUST_TONE_GAIN1" Value="7"/>
+   <Value Name="CUST_TONE_FREQ3" Value="0"/>
+   <Value Name="CUST_TONE_FREQ2" Value="0"/>
+   <Value Name="CUST_TONE_FREQ1" Value="440"/>
+   <Value Name="CUST_TONE_FREQ0" Value="350"/>
+   <Value Name="CUST_TONE_NUM" Value="2"/>
+   <Value Name="CUST_TONE_PATTERN_OFF" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF1" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF0" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON1" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON0" Value="2000"/>
+   <Value Name="CUST_TONE_CAD_NUM" Value="1"/>
+   <Value Name="CUST_TONE_CYCLE" Value="0"/>
+   <Value Name="CUST_TONE_TYPE" Value="0"/>
+  </Dir>
+  <Dir Name="CUST_TONE"> <!--index=1-->
+   <Value Name="CUST_TONE_GAIN3" Value="0"/>
+   <Value Name="CUST_TONE_GAIN2" Value="0"/>
+   <Value Name="CUST_TONE_GAIN1" Value="7"/>
+   <Value Name="CUST_TONE_FREQ3" Value="0"/>
+   <Value Name="CUST_TONE_FREQ2" Value="0"/>
+   <Value Name="CUST_TONE_FREQ1" Value="480"/>
+   <Value Name="CUST_TONE_FREQ0" Value="440"/>
+   <Value Name="CUST_TONE_NUM" Value="2"/>
+   <Value Name="CUST_TONE_PATTERN_OFF" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF1" Value="4000"/>
+   <Value Name="CUST_TONE_CAD_OFF0" Value="4000"/>
+   <Value Name="CUST_TONE_CAD_ON3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON1" Value="2000"/>
+   <Value Name="CUST_TONE_CAD_ON0" Value="2000"/>
+   <Value Name="CUST_TONE_CAD_NUM" Value="2"/>
+   <Value Name="CUST_TONE_CYCLE" Value="0"/>
+   <Value Name="CUST_TONE_TYPE" Value="0"/>
+  </Dir>
+  <Dir Name="CUST_TONE"> <!--index=2-->
+   <Value Name="CUST_TONE_GAIN3" Value="0"/>
+   <Value Name="CUST_TONE_GAIN2" Value="0"/>
+   <Value Name="CUST_TONE_GAIN1" Value="7"/>
+   <Value Name="CUST_TONE_FREQ3" Value="0"/>
+   <Value Name="CUST_TONE_FREQ2" Value="0"/>
+   <Value Name="CUST_TONE_FREQ1" Value="620"/>
+   <Value Name="CUST_TONE_FREQ0" Value="480"/>
+   <Value Name="CUST_TONE_NUM" Value="2"/>
+   <Value Name="CUST_TONE_PATTERN_OFF" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF1" Value="500"/>
+   <Value Name="CUST_TONE_CAD_OFF0" Value="500"/>
+   <Value Name="CUST_TONE_CAD_ON3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON1" Value="500"/>
+   <Value Name="CUST_TONE_CAD_ON0" Value="500"/>
+   <Value Name="CUST_TONE_CAD_NUM" Value="2"/>
+   <Value Name="CUST_TONE_CYCLE" Value="0"/>
+   <Value Name="CUST_TONE_TYPE" Value="0"/>
+  </Dir>
+  <Dir Name="CUST_TONE"> <!--index=3-->
+   <Value Name="CUST_TONE_GAIN3" Value="0"/>
+   <Value Name="CUST_TONE_GAIN2" Value="0"/>
+   <Value Name="CUST_TONE_GAIN1" Value="0"/>
+   <Value Name="CUST_TONE_FREQ3" Value="0"/>
+   <Value Name="CUST_TONE_FREQ2" Value="0"/>
+   <Value Name="CUST_TONE_FREQ1" Value="0"/>
+   <Value Name="CUST_TONE_FREQ0" Value="440"/>
+   <Value Name="CUST_TONE_NUM" Value="1"/>
+   <Value Name="CUST_TONE_PATTERN_OFF" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF2" Value="8500"/>
+   <Value Name="CUST_TONE_CAD_OFF1" Value="500"/>
+   <Value Name="CUST_TONE_CAD_OFF0" Value="500"/>
+   <Value Name="CUST_TONE_CAD_ON3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON2" Value="500"/>
+   <Value Name="CUST_TONE_CAD_ON1" Value="500"/>
+   <Value Name="CUST_TONE_CAD_ON0" Value="500"/>
+   <Value Name="CUST_TONE_CAD_NUM" Value="3"/>
+   <Value Name="CUST_TONE_CYCLE" Value="0"/>
+   <Value Name="CUST_TONE_TYPE" Value="0"/>
+  </Dir>
+  <Dir Name="CUST_TONE"> <!--index=4-->
+   <Value Name="CUST_TONE_GAIN3" Value="0"/>
+   <Value Name="CUST_TONE_GAIN2" Value="0"/>
+   <Value Name="CUST_TONE_GAIN1" Value="7"/>
+   <Value Name="CUST_TONE_FREQ3" Value="0"/>
+   <Value Name="CUST_TONE_FREQ2" Value="0"/>
+   <Value Name="CUST_TONE_FREQ1" Value="440"/>
+   <Value Name="CUST_TONE_FREQ0" Value="350"/>
+   <Value Name="CUST_TONE_NUM" Value="2"/>
+   <Value Name="CUST_TONE_PATTERN_OFF" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF1" Value="100"/>
+   <Value Name="CUST_TONE_CAD_OFF0" Value="100"/>
+   <Value Name="CUST_TONE_CAD_ON3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON1" Value="100"/>
+   <Value Name="CUST_TONE_CAD_ON0" Value="100"/>
+   <Value Name="CUST_TONE_CAD_NUM" Value="2"/>
+   <Value Name="CUST_TONE_CYCLE" Value="0"/>
+   <Value Name="CUST_TONE_TYPE" Value="0"/>
+  </Dir>
+  <Dir Name="CUST_TONE"> <!--index=5-->
+   <Value Name="CUST_TONE_GAIN3" Value="0"/>
+   <Value Name="CUST_TONE_GAIN2" Value="0"/>
+   <Value Name="CUST_TONE_GAIN1" Value="7"/>
+   <Value Name="CUST_TONE_FREQ3" Value="0"/>
+   <Value Name="CUST_TONE_FREQ2" Value="0"/>
+   <Value Name="CUST_TONE_FREQ1" Value="440"/>
+   <Value Name="CUST_TONE_FREQ0" Value="350"/>
+   <Value Name="CUST_TONE_NUM" Value="2"/>
+   <Value Name="CUST_TONE_PATTERN_OFF" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF2" Value="100"/>
+   <Value Name="CUST_TONE_CAD_OFF1" Value="100"/>
+   <Value Name="CUST_TONE_CAD_OFF0" Value="100"/>
+   <Value Name="CUST_TONE_CAD_ON3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON2" Value="100"/>
+   <Value Name="CUST_TONE_CAD_ON1" Value="100"/>
+   <Value Name="CUST_TONE_CAD_ON0" Value="100"/>
+   <Value Name="CUST_TONE_CAD_NUM" Value="3"/>
+   <Value Name="CUST_TONE_CYCLE" Value="0"/>
+   <Value Name="CUST_TONE_TYPE" Value="0"/>
+  </Dir>
+  <Dir Name="CUST_TONE"> <!--index=6-->
+   <Value Name="CUST_TONE_GAIN3" Value="0"/>
+   <Value Name="CUST_TONE_GAIN2" Value="0"/>
+   <Value Name="CUST_TONE_GAIN1" Value="7"/>
+   <Value Name="CUST_TONE_FREQ3" Value="0"/>
+   <Value Name="CUST_TONE_FREQ2" Value="0"/>
+   <Value Name="CUST_TONE_FREQ1" Value="620"/>
+   <Value Name="CUST_TONE_FREQ0" Value="480"/>
+   <Value Name="CUST_TONE_NUM" Value="2"/>
+   <Value Name="CUST_TONE_PATTERN_OFF" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF1" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF0" Value="260"/>
+   <Value Name="CUST_TONE_CAD_ON3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON1" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON0" Value="240"/>
+   <Value Name="CUST_TONE_CAD_NUM" Value="1"/>
+   <Value Name="CUST_TONE_CYCLE" Value="0"/>
+   <Value Name="CUST_TONE_TYPE" Value="0"/>
+  </Dir>
+  <Dir Name="CUST_TONE"> <!--index=7-->
+   <Value Name="CUST_TONE_GAIN3" Value="0"/>
+   <Value Name="CUST_TONE_GAIN2" Value="0"/>
+   <Value Name="CUST_TONE_GAIN1" Value="7"/>
+   <Value Name="CUST_TONE_FREQ3" Value="0"/>
+   <Value Name="CUST_TONE_FREQ2" Value="0"/>
+   <Value Name="CUST_TONE_FREQ1" Value="2600"/>
+   <Value Name="CUST_TONE_FREQ0" Value="1400"/>
+   <Value Name="CUST_TONE_NUM" Value="2"/>
+   <Value Name="CUST_TONE_PATTERN_OFF" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_OFF1" Value="1000"/>
+   <Value Name="CUST_TONE_CAD_OFF0" Value="1000"/>
+   <Value Name="CUST_TONE_CAD_ON3" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON2" Value="0"/>
+   <Value Name="CUST_TONE_CAD_ON1" Value="1000"/>
+   <Value Name="CUST_TONE_CAD_ON0" Value="1000"/>
+   <Value Name="CUST_TONE_CAD_NUM" Value="2"/>
+   <Value Name="CUST_TONE_CYCLE" Value="0"/>
+   <Value Name="CUST_TONE_TYPE" Value="0"/>
+  </Dir>
+ </Dir>
+</Config>
